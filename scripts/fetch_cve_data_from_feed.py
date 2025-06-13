@@ -1,3 +1,7 @@
+#Author: Thabet Slimani
+#Affiliation: Taif University
+#Script: fetch_cve_data_from_feed.py
+#Description: Fetches CVE data from NVD feeds and samples them.
 import requests
 import gzip
 import json

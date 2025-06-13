@@ -1,3 +1,7 @@
+Author: Thabet Slimani
+Affiliation: Taif University
+Script: convert_ttl_to_owl.py
+Description: Converts RDF/Turtle format to OWL (RDF/XML) for Protégé.
 from rdflib import Graph
 import os
 

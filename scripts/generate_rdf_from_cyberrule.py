@@ -1,3 +1,8 @@
+#Author: Thabet Slimani
+#Affiliation: Taif University
+#Script: generate_rdf_from_cyberrule.py
+#Description: Converts CyberRule-enriched CVE data in JSON format into RDF triples using the Turtle syntax.
+#             This script builds class assertions, object properties, and axioms for semantic web integration.
 import json
 import os
 from rdflib import Graph, Namespace, URIRef, Literal, RDF

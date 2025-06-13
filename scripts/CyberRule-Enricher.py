@@ -1,7 +1,7 @@
-Author: Thabet Slimani
-Affiliation: Taif University
-Script: cyberrule_enricher.py
-Description: Pattern-based enrichment of CVE data using domain rules.
+#Author: Thabet Slimani
+#Affiliation: Taif University
+#Script: cyberrule_enricher.py
+#Description: Pattern-based enrichment of CVE data using domain rules.
 import json
 import os
 import re

@@ -2,6 +2,14 @@
 
 Generated: 2025-06-19 13:26:52.396677
 Author: Thabet Slimani <t.slimani@tu.edu.sa>
+============== PAN-OS VULNERABILITY ANALYSIS ===============
+Date: 2025-06-19 13:26
+Author: Thabet Slimani <t.slimani@tu.edu.sa>
+
+Dataset Overview:
+- Total records: 2000
+- Critical vulnerabilities: 785
+- Validation sample size: 314
 
 ## Key Metrics
 - Precision: 89.8%

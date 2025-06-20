@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "generated": "2025-06-19T13:26:52.341709",
+    "author": "Thabet Slimani <t.slimani@tu.edu.sa>",
+    "system": "PAN-OS Vulnerability Analyzer"
+  },
+  "statistics": {
+    "total_records": 2000,
+    "critical_vulnerabilities": 785,
+    "validation_sample_size": 314
+  },
+  "metrics": {
+    "overall": {
+      "precision": 0.8980891719745223,
+      "recall": 0.9038461538461539,
+      "f1": 0.9009584664536742,
+      "validation_size": 314,
+      "critical_count": 156
+    },
+    "discrepancies": {
+      "false_positives": 16,
+      "false_negatives": 15,
+      "total_discrepancies": 31,
+      "fp_examples": [
+        {
+          "id": "CVE-2023-0202",
+          "description": "nvidia dgx a100 sbios contains a vulnerability where an attacker may modify arbitrary memory of smram by exploiting the genericsio and legacysmmsredir smm apis. a successful exploit of this vulnerability may lead to denial of service, escalation of privileges, and information disclosure.",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia dgx a100 sbios contains a vulnerability where an attacker may modify arbitrary memory of smram by exploiting the genericsio and legacysmmsredir smm apis. a successful exploit of this vulnerability may lead to denial of service, escalation of privileges, and information disclosure.",
+          "is_critical": true,
+          "criticality_score": 4,
+          "validation_status": "reviewed",
+          "corrected_label": false
+        },
+        {
+          "id": "CVE-2023-0504",
+          "description": "the ht politic wordpress plugin before 2.3.8 does not have csrf check when activating plugins, which could allow attackers to make logged in admins activate arbitrary plugins present on the blog via a csrf attack",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe ht politic wordpress plugin before 2.3.8 does not have csrf check when activating plugins, which could allow attackers to make logged in admins activate arbitrary plugins present on the blog via a csrf attack",
+          "is_critical": true,
+          "criticality_score": 4,
+          "validation_status": "reviewed",
+          "corrected_label": false
+        },
+        {
+          "id": "CVE-2023-0622",
+          "description": "cscape envision rv version 4.60 is vulnerable to an out-of-bounds write vulnerability when parsing project (i.e. hmi) files. the product lacks proper validation of user-supplied data, which could result in writes past the end of allocated data structures. an attacker could leverage these vulnerabilities to execute arbitrary code in the context of the current process.",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ncscape envision rv version 4.60 is vulnerable to an out-of-bounds write vulnerability when parsing project (i.e. hmi) files. the product lacks proper validation of user-supplied data, which could result in writes past the end of allocated data structures. an attacker could leverage these vulnerabilities to execute arbitrary code in the context of the current process.",
+          "is_critical": true,
+          "criticality_score": 4,
+          "validation_status": "reviewed",
+          "corrected_label": false
+        }
+      ],
+      "fn_examples": [
+        {
+          "id": "CVE-2023-0100",
+          "description": "in eclipse birt, starting from version 2.6.2, the default configuration allowed to retrieve a report from the same host using an absolute http path for the report parameter (e.g. __report=http://xyz.com/report.rptdesign). if the host indicated in the __report parameter matched the http host header value, the report would be retrieved. however, the host header can be tampered with on some configurations where no virtual hosts are put in place (e.g. in the default configuration of apache tomcat) or when the default host points to the birt server. this vulnerability was patched on eclipse birt 4.13.",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nin eclipse birt, starting from version 2.6.2, the default configuration allowed to retrieve a report from the same host using an absolute http path for the report parameter (e.g. __report=http://xyz.com/report.rptdesign). if the host indicated in the __report parameter matched the http host header value, the report would be retrieved. however, the host header can be tampered with on some configurations where no virtual hosts are put in place (e.g. in the default configuration of apache tomcat) or when the default host points to the birt server. this vulnerability was patched on eclipse birt 4.13.",
+          "is_critical": false,
+          "criticality_score": 0,
+          "validation_status": "reviewed",
+          "corrected_label": true
+        },
+        {
+          "id": "CVE-2023-0153",
+          "description": "the vimeo video autoplay automute wordpress plugin through 1.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe vimeo video autoplay automute wordpress plugin through 1.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+          "is_critical": false,
+          "criticality_score": 0,
+          "validation_status": "reviewed",
+          "corrected_label": true
+        },
+        {
+          "id": "CVE-2023-0267",
+          "description": "the ultimate carousel for wpbakery page builder wordpress plugin through 2.6 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+          "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe ultimate carousel for wpbakery page builder wordpress plugin through 2.6 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+          "is_critical": false,
+          "criticality_score": 0,
+          "validation_status": "reviewed",
+          "corrected_label": true
+        }
+      ]
+    }
+  },
+  "configuration": {
+    "criticality_indicators": {
+      "privilege": [
+        "admin",
+        "root",
+        "privilege",
+        "elevation"
+      ],
+      "access": [
+        "remote",
+        "unauthenticated",
+        "bypass"
+      ],
+      "impact": [
+        "execute",
+        "arbitrary",
+        "critical",
+        "high"
+      ],
+      "pan_specific": [
+        "cortex",
+        "xdr",
+        "pan-os",
+        "paloalto"
+      ]
+    },
+    "criticality_threshold": 3
+  }
+}

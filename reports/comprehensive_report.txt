@@ -1,0 +1,27 @@
+PAN-OS 2023 VULNERABILITY ANALYSIS REPORT
+Generated: 2025-06-20 14:27
+
+OVERVIEW
+Total vulnerabilities analyzed: 2000
+Year: 2023 (all vulnerabilities)
+Critical vulnerabilities: 785 (39.2%)
+
+MONTHLY DISTRIBUTION (approximate)
+January: 197 total, 47 critical (avg score: 2.2)
+February: 95 total, 30 critical (avg score: 2.5)
+March: 97 total, 11 critical (avg score: 1.6)
+April: 94 total, 27 critical (avg score: 2.2)
+May: 95 total, 42 critical (avg score: 3.0)
+June: 96 total, 39 critical (avg score: 2.7)
+July: 98 total, 42 critical (avg score: 2.7)
+August: 95 total, 36 critical (avg score: 2.5)
+September: 95 total, 52 critical (avg score: 3.2)
+October: 96 total, 39 critical (avg score: 2.8)
+November: 95 total, 29 critical (avg score: 2.4)
+December: 847 total, 391 critical (avg score: 3.1)
+
+SEVERITY DISTRIBUTION
+Low (1-3): 1215 vulnerabilities
+Medium (4-7): 720 vulnerabilities
+High (8-9): 46 vulnerabilities
+Critical (10): 0 vulnerabilities

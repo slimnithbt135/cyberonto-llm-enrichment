@@ -1,0 +1,16 @@
+# cd the working directory
+cd ....\cyberonto-llm-enrichment
+# Test mode (no input file)
+python run_extractor.py --test
+
+# With your actual data
+python run_extractor.py --input data/cve_2023_preprocessed.json --output output/results.json
+
+# Limit to 100 CVEs for quick test
+python run_extractor.py --input data/cve_2023_preprocessed.json --max 100 --output output/test_100.json
+
+#sample distribution
+python tools/sample_ground_truth.py data/cve_2023_preprocessed.json -o annotations -n 314 --stats
+
+set GROQ_API_KEY="your GROQ key"
+python evaluation/evaluate_groq_standalone.py --max 100

@@ -1,0 +1,28 @@
+.PHONY: all install test run analyze convert clean
+
+AUTHOR = Thabet Slimani
+EMAIL = thabet.slimani@gmail.com
+
+all: install test
+
+install:
+	pip install -e .
+
+test:
+	python run_extractor.py --test
+
+run:
+	python run_extractor.py --input data/cve_2023_preprocessed.json --output output/results.json
+
+analyze:
+	python evaluation/analyze_output.py --input output/results.json
+
+convert:
+	python convert_to_owl.py --input output/results.json --output output/cyberrule.ttl
+
+full: run analyze convert
+	@echo "Pipeline complete!"
+
+clean:
+	rm -rf output/*.json output/*.ttl output/*.owl
+	find . -type d -name __pycache__ -exec rm -rf {} +

@@ -1,0 +1,2034 @@
+[
+  {
+    "cve_id": "CVE-2023-0326",
+    "description": "an issue has been discovered in gitlab dast api scanner affecting all versions starting from 1.6.50 before 2.11.0, where authorization headers was leaked in vulnerability report evidence.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "NVD-CWE-noinfo"
+    ],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0074",
+    "description": "the wp social widget wordpress plugin before 2.2.4 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0842",
+    "description": "xml2js version 0.4.23 allows an external attacker to edit or add new properties to an object. this is possible because the application does not properly validate incoming json keys, thus allowing the __proto__ property to be edited.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-1321",
+      "CWE-1321"
+    ],
+    "official_cwe_names": [
+      "Cwe1321",
+      "Cwe1321"
+    ],
+    "ground_truth_classes": [
+      "Cwe1321",
+      "Cwe1321"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0726",
+    "description": "the wicked folders plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 2.18.16. this is due to missing or incorrect nonce validation on the ajax_edit_folder function. this makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0665",
+    "description": "hashicorp vault's pki mount issuer endpoints did not correctly authorize access to remove an issuer or modify issuer metadata, potentially resulting in denial of service of the pki mount. this bug did not affect public or private key material, trust chains or certificate issuance. fixed in vault 1.13.1, 1.12.5, and 1.11.9.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-285",
+      "NVD-CWE-Other"
+    ],
+    "official_cwe_names": [
+      "Cwe285"
+    ],
+    "ground_truth_classes": [
+      "Cwe285"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0398",
+    "description": "cross-site request forgery (csrf) in github repository modoboa/modoboa prior to 2.0.4.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-352"
+    ],
+    "official_cwe_names": [
+      "CrossSiteRequestForgery"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteRequestForgery"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0287",
+    "description": "a vulnerability was found in ityouknow favorites-web. it has been rated as problematic. affected by this issue is some unknown functionality of the component comment handler. the manipulation leads to cross site scripting. the attack may be launched remotely. the exploit has been disclosed to the public and may be used. vdb-218294 is the identifier assigned to this vulnerability.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1898",
+    "description": "atlas copco power focus 6000 web server uses a small amount of session id numbers. an attacker could enter a session id number to retrieve data for an active user\u2019s session.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-330"
+    ],
+    "official_cwe_names": [
+      "Cwe330"
+    ],
+    "ground_truth_classes": [
+      "Cwe330"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0235",
+    "description": "rejected reason: do not use this candidate number. consultids: none. reason: this candidate is unused by its cna. notes: none.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-20040",
+    "description": "a vulnerability in the netconf service of cisco network services orchestrator (nso) could allow an authenticated, remote attacker to cause a denial of service (dos) on an affected system that is running as the root user. to exploit this vulnerability, the attacker must be a member of the admin group. this vulnerability exists because user-supplied input is not properly validated when netconf is used to upload packages to an affected device. an attacker could exploit this vulnerability by uploading a specially crafted package file. a successful exploit could allow the attacker to write crafted files to arbitrary locations on the filesystem or delete arbitrary files from the filesystem of an affected device, resulting in a dos condition. note: by default, during install, cisco nso will be set up to run as the root user unless the --run-as-user option is used.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-23",
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "Cwe23",
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "Cwe23",
+      "UnrestrictedFileUpload",
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1417",
+    "description": "an issue has been discovered in gitlab affecting all versions starting from 15.9 before 15.9.4, all versions starting from 15.10 before 15.10.1. it was possible for an unauthorised user to add child epics linked to victim's epic in an unrelated group.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-863",
+      "CWE-639"
+    ],
+    "official_cwe_names": [
+      "IncorrectAuthorization",
+      "Cwe639"
+    ],
+    "ground_truth_classes": [
+      "IncorrectAuthorization",
+      "Cwe639"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0091",
+    "description": "a flaw was found in keycloak, where it did not properly check client tokens for possible revocation in its client credential flow. this flaw allows an attacker to access or modify potentially sensitive information.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-863",
+      "CWE-863"
+    ],
+    "official_cwe_names": [
+      "IncorrectAuthorization",
+      "IncorrectAuthorization"
+    ],
+    "ground_truth_classes": [
+      "IncorrectAuthorization",
+      "IncorrectAuthorization"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0087",
+    "description": "the swifty page manager plugin for wordpress is vulnerable to stored cross-site scripting via the \u2018spm_plugin_options_page_tree_max_width\u2019 parameter in versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping. this makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. this only affects multi-site installations and installations where unfiltered_html has been disabled.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0264",
+    "description": "a flaw was found in keycloaks openid connect user authentication, which may incorrectly authenticate requests. an authenticated attacker who could obtain information from a user request within the same realm could use that data to impersonate the victim and generate new session tokens. this issue could impact confidentiality, integrity, and availability.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-287"
+    ],
+    "official_cwe_names": [
+      "AuthenticationBypass"
+    ],
+    "ground_truth_classes": [
+      "AuthenticationBypass"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0643",
+    "description": "improper handling of additional special element in github repository squidex/squidex prior to 7.4.0.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-167"
+    ],
+    "official_cwe_names": [
+      "Cwe167"
+    ],
+    "ground_truth_classes": [
+      "Cwe167"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0697",
+    "description": "inappropriate implementation in full screen mode in google chrome on android prior to 110.0.5481.77 allowed a remote attacker to spoof the contents of the security ui via a crafted html page. (chromium security severity: high)",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "NVD-CWE-Other"
+    ],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1754",
+    "description": "improper neutralization of input during web page generation in github repository thorsten/phpmyfaq prior to 3.1.12.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-2007",
+    "description": "the specific flaw exists within the dpt i2o controller driver. the issue results from the lack of proper locking when performing operations on an object. an attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-367",
+      "CWE-667"
+    ],
+    "official_cwe_names": [
+      "Cwe367",
+      "Cwe667"
+    ],
+    "ground_truth_classes": [
+      "Cwe367",
+      "Cwe667"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0077",
+    "description": "integer overflow or wraparound vulnerability in cgi component in synology router manager (srm) before 1.2.5-8227-6 and 1.3.1-9346-3 allows remote attackers to overflow buffers via unspecified vectors.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1944",
+    "description": "this vulnerability enables ssh access to minikube container using a default password.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-259",
+      "CWE-798"
+    ],
+    "official_cwe_names": [
+      "Cwe259",
+      "UseOfHardcodedCredentials"
+    ],
+    "ground_truth_classes": [
+      "Cwe259",
+      "UseOfHardcodedCredentials"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0569",
+    "description": "weak password requirements in github repository publify/publify prior to 9.2.10.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-521"
+    ],
+    "official_cwe_names": [
+      "Cwe521"
+    ],
+    "ground_truth_classes": [
+      "Cwe521"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1404",
+    "description": "the weaver show posts plugin for wordpress is vulnerable to stored cross-site scripting due to insufficient escaping of the profile display name in versions up to, and including, 1.6. this makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0652",
+    "description": "due to a hardlink created in the programdata folder during the repair process of the software, the installer (msi) of warp client for windows (<= 2022.12.582.0) allowed a malicious attacker to forge the destination of the hardlink and escalate privileges, overwriting system protected files. as cloudflare warp client for windows (up to version 2022.5.309.0) allowed creation of mount points from its programdata folder, during installation of the warp client, it was possible to escalate privileges and overwrite system protected files.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-59",
+      "CWE-59"
+    ],
+    "official_cwe_names": [
+      "Cwe59",
+      "Cwe59"
+    ],
+    "ground_truth_classes": [
+      "Cwe59",
+      "Cwe59",
+      "Windows"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1546",
+    "description": "the mycryptocheckout wordpress plugin before 2.124 does not escape some urls before outputting them in attributes, leading to reflected cross-site scripting",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20038",
+    "description": "a vulnerability in the monitoring application of cisco industrial network director could allow an authenticated, local attacker to access a static secret key used to store both local data and credentials for accessing remote systems. this vulnerability is due to a static key value stored in the application used to encrypt application data and remote credentials. an attacker could exploit this vulnerability by gaining local access to the server cisco industrial network director is installed on. a successful exploit could allow the attacker to decrypt data allowing the attacker to access remote systems monitored by cisco industrial network director.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-321",
+      "CWE-798"
+    ],
+    "official_cwe_names": [
+      "Cwe321",
+      "UseOfHardcodedCredentials"
+    ],
+    "ground_truth_classes": [
+      "Cwe321",
+      "UseOfHardcodedCredentials",
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0857",
+    "description": "unintentional change of settings during initial registration of system administrators which uses control protocols. the affected office / small office multifunction printers and laser printers(*) may allow an attacker on the network segment to trigger unauthorized access to the product. *:satera lbp660c series/lbp620c series/mf740c series/mf640c series firmware ver.11.04 and earlier sold in japan. color imageclass lbp660c series/lbp 620c series/x lbp1127c/mf740c series/mf640c series/x mf1127c firmware ver.11.04 and earlier sold in us. i-sensys lbp660c series/lbp620c series/mf740c series/mf640c series, c1127p, c1127if, c1127i firmware ver.11.04 and earlier sold in europe.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-286",
+      "NVD-CWE-Other"
+    ],
+    "official_cwe_names": [
+      "Cwe286"
+    ],
+    "ground_truth_classes": [
+      "Cwe286"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0021",
+    "description": "due to insufficient encoding of user input, sap netweaver - versions 700, 701, 702, 731, 740, 750, allows an unauthenticated attacker to inject code that may expose sensitive data like user id and password, which could lead to reflected cross-site scripting. these endpoints are normally exposed over the network and successful exploitation can partially impact confidentiality of the application.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0451",
+    "description": "econolite eos versions prior to 3.2.23 lack a password requirement for gaining \u201creadonly\u201d access to log files and certain database and configuration files. one such file contains tables with md5 hashes and usernames for all defined users in the control software, including administrators and technicians.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-284",
+      "NVD-CWE-Other"
+    ],
+    "official_cwe_names": [
+      "Cwe284"
+    ],
+    "ground_truth_classes": [
+      "Cwe284"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1419",
+    "description": "a script injection vulnerability was found in the debezium database connector, where it does not properly sanitize some parameters. this flaw allows an attacker to send a malicious request to inject a parameter that may allow the viewing of unauthorized data.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-233"
+    ],
+    "official_cwe_names": [
+      "Cwe233"
+    ],
+    "ground_truth_classes": [
+      "Cwe233"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1097",
+    "description": "baicells eg7035-m11 devices with firmware through bce-odu-1.0.8 are vulnerable to improper code exploitation via http get command injections. commands are executed using pre-login execution and executed with root permissions. the following methods have been tested and validated by a 3rd party analyst and have been confirmed exploitable special thanks to lionel musonza for the discovery.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-94",
+      "CWE-77"
+    ],
+    "official_cwe_names": [
+      "CodeInjection",
+      "Cwe77"
+    ],
+    "ground_truth_classes": [
+      "CodeInjection",
+      "Cwe77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0441",
+    "description": "the gallery blocks with lightbox wordpress plugin before 3.0.8 has an ajax endpoint that can be accessed by any authenticated users, such as subscriber. the callback function allows numerous actions, the most serious one being reading and updating the wordpress options which could be used to enable registration with a default administrator user role.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0631",
+    "description": "the paid memberships pro wordpress plugin before 2.9.12 does not prevent subscribers from rendering shortcodes that concatenate attributes directly into an sql query.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1089",
+    "description": "the coupon zen wordpress plugin before 1.0.6 does not have csrf check when activating plugins, which could allow attackers to make logged in admins activate arbitrary plugins present on the blog via a csrf attack",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-352",
+      "CWE-352"
+    ],
+    "official_cwe_names": [
+      "CrossSiteRequestForgery",
+      "CrossSiteRequestForgery"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteRequestForgery",
+      "CrossSiteRequestForgery",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0253",
+    "description": "rejected reason: **reject** accidental cve assignment. please use cve-2023-0285.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1247",
+    "description": "rejected reason: do not use this candidate number. consultids: none. reason: this candidate was withdrawn by its cna. further investigation showed that it was not a security issue. notes: none.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0271",
+    "description": "the wp font awesome wordpress plugin before 1.7.9 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embedded, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1175",
+    "description": "incorrect calculation of buffer size in github repository vim/vim prior to 9.0.1378.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-131"
+    ],
+    "official_cwe_names": [
+      "Cwe131"
+    ],
+    "ground_truth_classes": [
+      "Cwe131"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1111",
+    "description": "a vulnerability was found in fastcms up to 0.1.5 and classified as problematic. affected by this issue is some unknown functionality of the component new article tab. the manipulation of the argument title leads to cross site scripting. the attack may be launched remotely. the exploit has been disclosed to the public and may be used. vdb-266126 is the identifier assigned to this vulnerability.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20075",
+    "description": "vulnerability in the cli of cisco secure email gateway could allow an authenticated, remote attacker to execute arbitrary commands. these vulnerability is due to improper input validation in the cli. an attacker could exploit this vulnerability by injecting operating system commands into a legitimate command. a successful exploit could allow the attacker to escape the restricted command prompt and execute arbitrary commands on the underlying operating system. to successfully exploit this vulnerability, an attacker would need valid administrator credentials.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-77",
+      "CWE-78"
+    ],
+    "official_cwe_names": [
+      "Cwe77",
+      "Cwe78"
+    ],
+    "ground_truth_classes": [
+      "Cwe77",
+      "Cwe78",
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0805",
+    "description": "an issue has been discovered in gitlab ee affecting all versions starting from 15.2 before 15.9.6, all versions starting from 15.10 before 15.10.5, all versions starting from 15.11 before 15.11.1. a malicious group member may continue to have access to the public projects of a public group even after being banned from the public group by the owner.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "NVD-CWE-noinfo",
+      "CWE-862"
+    ],
+    "official_cwe_names": [
+      "MissingAuthorization"
+    ],
+    "ground_truth_classes": [
+      "MissingAuthorization"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0126",
+    "description": "pre-authentication path traversal vulnerability in sma1000 firmware version 12.4.2, which allows an unauthenticated attacker to access arbitrary files and directories stored outside the web root directory.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-22",
+      "CWE-22"
+    ],
+    "official_cwe_names": [
+      "PathTraversal",
+      "PathTraversal"
+    ],
+    "ground_truth_classes": [
+      "PathTraversal",
+      "PathTraversal"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1596",
+    "description": "the tagdiv composer wordpress plugin before 4.0 does not sanitise and escape a parameter before outputting it back in the page, leading to a reflected cross-site scripting which could be used against high privilege users such as admin",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1867",
+    "description": "the yourchannel plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 1.2.3. this is due to missing or incorrect nonce validation on the save function. this makes it possible for unauthenticated attackers to change the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0362",
+    "description": "themify portfolio post wordpress plugin before 1.2.2 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1234",
+    "description": "inappropriate implementation in intents in google chrome on android prior to 111.0.5563.64 allowed a remote attacker to perform domain spoofing via a crafted html page. (chromium security severity: low)",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "NVD-CWE-noinfo"
+    ],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0207",
+    "description": "nvidia dgx-2 sbios contains a vulnerability where an attacker may modify the serversetup nvram variable at runtime by executing privileged code. a successful exploit of this vulnerability may lead to denial of service.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-732",
+      "CWE-732"
+    ],
+    "official_cwe_names": [
+      "Cwe732",
+      "Cwe732"
+    ],
+    "ground_truth_classes": [
+      "Cwe732",
+      "Cwe732"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1918",
+    "description": "the wp fastest cache plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 1.1.2. this is due to missing or incorrect nonce validation on the wpfc_preload_single_callback function. this makes it possible for unauthenticated attackers to invoke a cache building action via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "severity": "MEDIUM",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0898",
+    "description": "general electric micom s1 agile is vulnerable to an attacker achieving code execution by placing malicious dll files in the directory of the application.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-427",
+      "CWE-427"
+    ],
+    "official_cwe_names": [
+      "Cwe427",
+      "Cwe427"
+    ],
+    "ground_truth_classes": [
+      "Cwe427",
+      "Cwe427"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1185",
+    "description": "a vulnerability, which was classified as problematic, was found in ecshop up to 4.1.8. this affects an unknown part of the component new product handler. the manipulation leads to unrestricted upload. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-222357 was assigned to this vulnerability.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "UnrestrictedFileUpload"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-2001",
+    "description": "an issue has been discovered in gitlab ce/ee affecting all versions before 15.10.8, all versions starting from 15.11 before 15.11.7, all versions starting from 16.0 before 16.0.2. an attacker was able to spoof protected tags, which could potentially lead a victim to download malicious code.",
+    "severity": "MEDIUM",
+    "official_cwes": [
+      "NVD-CWE-noinfo",
+      "CWE-290"
+    ],
+    "official_cwe_names": [
+      "Cwe290"
+    ],
+    "ground_truth_classes": [
+      "Cwe290"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0736",
+    "description": "cross-site scripting (xss) - stored in github repository wallabag/wallabag prior to 2.5.4.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0260",
+    "description": "the wp review slider wordpress plugin before 12.2 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by users with a role as low as subscriber.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0129",
+    "description": "heap buffer overflow in network service in google chrome prior to 109.0.5414.74 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted html page and specific interactions. (chromium security severity: high)",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-787",
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "Cwe787",
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "Cwe787",
+      "Cwe787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0824",
+    "description": "the user registration & user profile wordpress plugin through 2.0 does not have csrf check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged-in admin add stored xss payloads via a csrf attack.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-352"
+    ],
+    "official_cwe_names": [
+      "CrossSiteRequestForgery"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteRequestForgery",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1073",
+    "description": "a memory corruption flaw was found in the linux kernel\u2019s human interface device (hid) subsystem in how a user inserts a malicious usb device. this flaw allows a local user to crash or potentially escalate their privileges on the system.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-119",
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "BufferOverflow",
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "BufferOverflow",
+      "Cwe787",
+      "Linux"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0278",
+    "description": "the geodirectory wordpress plugin before 2.2.24 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by high privilege users such as admin.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0852",
+    "description": "buffer overflow in the address book of mobile device function of office / small office multifunction printers and laser printers(*) which may allow an attacker on the network segment to trigger the affected product being unresponsive or to execute arbitrary code. *:satera lbp660c series/lbp620c series/mf740c series/mf640c series firmware ver.11.04 and earlier sold in japan. color imageclass lbp660c series/lbp 620c series/x lbp1127c/mf740c series/mf640c series/x mf1127c firmware ver.11.04 and earlier sold in us. i-sensys lbp660c series/lbp620c series/mf740c series/mf640c series, c1127p, c1127if, c1127i firmware ver.11.04 and earlier sold in europe.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-121",
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "Cwe121",
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "Cwe121",
+      "Cwe787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0313",
+    "description": "cross-site scripting (xss) - stored in github repository thorsten/phpmyfaq prior to 3.1.10.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1286",
+    "description": "cross-site scripting (xss) - stored in github repository pimcore/pimcore prior to 10.5.19.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1020",
+    "description": "the steveas wp live chat shoutbox wordpress plugin through 1.4.2 does not sanitise and escape a parameter before using it in a sql statement via an ajax action available to unauthenticated users, leading to a sql injection.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1694",
+    "description": "the settings module has the file privilege escalation vulnerability.successful exploitation of this vulnerability may affect confidentiality.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-269"
+    ],
+    "official_cwe_names": [
+      "Cwe269"
+    ],
+    "ground_truth_classes": [
+      "Cwe269"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1242",
+    "description": "cross-site scripting (xss) - stored in github repository answerdev/answer prior to 1.0.6.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0602",
+    "description": "the twittee text tweet wordpress plugin through 1.0.8 does not properly escape post values which are printed back to the user inside one of the plugin's administrative page, which allows reflected xss attacks targeting administrators to happen.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1245",
+    "description": "cross-site scripting (xss) - stored in github repository answerdev/answer prior to 1.0.6.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1237",
+    "description": "cross-site scripting (xss) - stored in github repository answerdev/answer prior to 1.0.6.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0770",
+    "description": "stack-based buffer overflow in github repository gpac/gpac prior to 2.2.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-121",
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "Cwe121",
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "Cwe121",
+      "Cwe787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0979",
+    "description": "improper neutralization of special elements used in an sql command ('sql injection') vulnerability in meddata meddatapacs allows sql injection.this issue affects meddatapacs : before 2023-03-03.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89",
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection",
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0261",
+    "description": "the wp tripadvisor review slider wordpress plugin before 10.8 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by users with a role as low as subscriber.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0608",
+    "description": "cross-site scripting (xss) - dom in github repository microweber/microweber prior to 1.3.2.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1972",
+    "description": "a potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf.c. this may lead to loss of availability.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0875",
+    "description": "the wp meta seo wordpress plugin before 4.5.3 does not properly sanitize and escape inputs into sql queries, leading to a blind sql injection vulnerability that can be exploited by subscriber+ users.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1704",
+    "description": "cross-site scripting (xss) - stored in github repository pimcore/pimcore prior to 10.5.20.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0996",
+    "description": "there is a vulnerability in the strided image data parsing code in the emscripten wrapper for libheif. an attacker could exploit this through a crafted image file to cause a buffer overflow in linear memory during a memcpy call.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-120",
+      "CWE-120"
+    ],
+    "official_cwe_names": [
+      "Cwe120",
+      "Cwe120"
+    ],
+    "ground_truth_classes": [
+      "Cwe120",
+      "Cwe120"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20069",
+    "description": "a vulnerability in the web-based management interface of cisco prime infrastructure and cisco evolved programmable network (epn) manager could allow an authenticated, remote attacker to conduct a stored cross-site scripting (xss) attack against a user of the interface on an affected device. this vulnerability is due to insufficient validation of user-supplied input. an attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. a successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. to exploit this vulnerability, the attacker would need to have valid credentials to access the web-based management interface of the affected device.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting",
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0794",
+    "description": "cross-site scripting (xss) - stored in github repository thorsten/phpmyfaq prior to 3.1.11.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1152",
+    "description": "improper neutralization of special elements used in an sql command ('sql injection') vulnerability in utarit information technologies persolus allows sql injection. this issue affects persolus: before 2.03.93.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89",
+      "CWE-89",
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection",
+      "SqlInjection",
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "SqlInjection",
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0224",
+    "description": "the givewp wordpress plugin before 2.24.1 does not properly escape user input before it reaches sql queries, which could let unauthenticated attackers perform sql injection attacks",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0827",
+    "description": "cross-site scripting (xss) - stored in github repository pimcore/pimcore prior to 1.5.17.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0107",
+    "description": "cross-site scripting (xss) - stored in github repository usememos/memos prior to 0.10.0.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1142",
+    "description": "in delta electronics infrasuite device master versions prior to 1.0.5, an attacker could use url decoding to retrieve system files, credentials, and bypass authentication resulting in privilege escalation.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-22"
+    ],
+    "official_cwe_names": [
+      "PathTraversal"
+    ],
+    "ground_truth_classes": [
+      "PathTraversal"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1393",
+    "description": "a flaw was found in x.org server overlay window. a use-after-free may lead to local privilege escalation. if a client explicitly destroys the compositor overlay window (aka cow), the xserver would leave a dangling pointer to that window in the compscreen structure, which will trigger a use-after-free later.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0995",
+    "description": "cross-site scripting (xss) - stored in github repository unilogies/bumsys prior to v2.0.1.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0254",
+    "description": "the simple membership wp user import plugin for wordpress is vulnerable to sql injection via the \u2018orderby\u2019 parameter in versions up to, and including, 1.7 due to insufficient escaping on the user supplied parameter. this makes it possible for authenticated attackers with administrative privileges to append additional sql queries into already existing queries that can be used to extract sensitive information from the database.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0771",
+    "description": "sql injection in github repository ampache/ampache prior to 5.5.7,develop.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1841",
+    "description": "improper neutralization of input during web page generation ('cross-site scripting') vulnerability in honeywell mpa2 access panel (web server modules) allows xss using invalid characters.this issue affects mpa2 access panel all version prior to r1.00.08.05. honeywell released firmware update package mpa2 firmware r1.00.08.05 which addresses this vulnerability. this version and all later versions correct the reported vulnerability.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1320",
+    "description": "cross-site scripting (xss) - stored in github repository osticket/osticket prior to v1.16.6.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1702",
+    "description": "cross-site scripting (xss) - generic in github repository pimcore/pimcore prior to 10.5.20.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0487",
+    "description": "the my sticky elements wordpress plugin before 2.0.9 does not properly sanitise and escape a parameter before using it in a sql statement when deleting messages, leading to a sql injection exploitable by high privilege users such as admin",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0970",
+    "description": "multiple buffer overflow vulnerabilities in silabs z/ip gateway sdk version 7.18.01 and earlier allow an attacker with invasive physical access to a z-wave controller device to overwrite global memory and potentially execute arbitrary code.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-125",
+      "CWE-787",
+      "CWE-120"
+    ],
+    "official_cwe_names": [
+      "OutOfBoundsRead",
+      "Cwe787",
+      "Cwe120"
+    ],
+    "ground_truth_classes": [
+      "OutOfBoundsRead",
+      "Cwe787",
+      "Cwe120"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0470",
+    "description": "cross-site scripting (xss) - stored in github repository modoboa/modoboa prior to 2.0.4.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0878",
+    "description": "cross-site scripting (xss) - generic in github repository nuxt/framework prior to 3.2.1.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20005",
+    "description": "multiple vulnerabilities in the web-based management interface of cisco firepower management center (fmc) software could allow an unauthenticated, remote attacker to conduct a stored cross-site scripting (xss) attack against a user of the interface of an affected device. these vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. an attacker could exploit these vulnerabilities by inserting crafted input into various data fields in an affected interface. a successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information. in some cases, it is also possible to cause a temporary availability impact to portions of the fmc dashboard.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0955",
+    "description": "the wp statistics wordpress plugin before 14.0 does not escape a parameter, which could allow authenticated users to perform sql injection attacks. by default, the affected feature is available to users with the manage_options capability (admin+), however the plugin has a settings to allow low privilege users to access it as well.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1535",
+    "description": "cross-site scripting (xss) - stored in github repository answerdev/answer prior to 1.0.7.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1361",
+    "description": "sql injection in github repository unilogies/bumsys prior to v2.0.2.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1241",
+    "description": "cross-site scripting (xss) - stored in github repository answerdev/answer prior to 1.0.6.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0461",
+    "description": "there is a use-after-free vulnerability in the linux kernel which can be exploited to achieve local privilege escalation. to reach the vulnerability kernel configuration flag config_tls or config_xfrm_espintcp has to be configured, but the operation does not require any privilege. there is a use-after-free bug of icsk_ulp_data of a struct inet_connection_sock. when config_tls is enabled, user can install a tls context (struct tls_context) on a connected tcp socket. the context is not cleared if this socket is disconnected and reused as a listener. if a new socket is created from the listener, the context is inherited and vulnerable. the setsockopt tcp_ulp operation does not require any privilege. we recommend upgrading past commit 2c02d41d71f90a5168391b6a5f2954112ba2307c",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-416",
+      "CWE-416"
+    ],
+    "official_cwe_names": [
+      "Cwe416",
+      "Cwe416"
+    ],
+    "ground_truth_classes": [
+      "Cwe416",
+      "Cwe416",
+      "Linux"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1875",
+    "description": "cross-site scripting (xss) - stored in github repository thorsten/phpmyfaq prior to 3.1.12.",
+    "severity": "HIGH",
+    "official_cwes": [
+      "CWE-79",
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting",
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1767",
+    "description": "the snyk advisor website (https://snyk.io/advisor/) was vulnerable to a stored xss prior to 28th march 2023. a feature of snyk advisor is to display the contents of a scanned package's readme on its package health page. an attacker could create a package in npm with an associated markdown readme file containing xss-able html tags. upon snyk advisor importing the package, the xss would run each time an end user browsed to the package's page on snyk advisor.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0306",
+    "description": "cross-site scripting (xss) - stored in github repository thorsten/phpmyfaq prior to 3.1.10.",
+    "severity": "HIGH",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1705",
+    "description": "missing authorization vulnerability in forcepoint f|one smartedge agent on windows (bgautoinstaller service modules) allows privilege escalation, functionality bypass.this issue affects f|one smartedge agent: before 1.7.0.230330-554.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-862",
+      "CWE-862"
+    ],
+    "official_cwe_names": [
+      "MissingAuthorization",
+      "MissingAuthorization"
+    ],
+    "ground_truth_classes": [
+      "MissingAuthorization",
+      "MissingAuthorization",
+      "Windows"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0257",
+    "description": "a vulnerability was found in sourcecodester online food ordering system 2.0. it has been declared as critical. affected by this vulnerability is an unknown functionality of the file /fos/admin/index.php?page=menu of the component menu form. the manipulation of the argument image with the input <?php system($_get['c']); ?> leads to unrestricted upload. the attack can be launched remotely. the identifier vdb-218185 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-434",
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "UnrestrictedFileUpload",
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "UnrestrictedFileUpload",
+      "UnrestrictedFileUpload"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1947",
+    "description": "a vulnerability was found in taocms 3.0.2. it has been classified as critical. affected is an unknown function of the file /admin/admin.php. the manipulation leads to code injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-225330 is the identifier assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-94",
+      "CWE-94"
+    ],
+    "official_cwe_names": [
+      "CodeInjection",
+      "CodeInjection"
+    ],
+    "ground_truth_classes": [
+      "CodeInjection",
+      "CodeInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0532",
+    "description": "a vulnerability classified as critical was found in sourcecodester online tours & travels management system 1.0. affected by this vulnerability is an unknown functionality of the file admin/disapprove_user.php. the manipulation of the argument id leads to sql injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-219601 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0637",
+    "description": "a vulnerability, which was classified as critical, was found in trendnet tew-811dru 1.0.10.0. this affects an unknown part of the file wan.asp of the component web management interface. the manipulation leads to memory corruption. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-220017 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-119",
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "BufferOverflow",
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "BufferOverflow",
+      "Cwe787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1485",
+    "description": "a vulnerability classified as problematic has been found in sourcecodester young entrepreneur e-negosyo system 1.0. this affects an unknown part of the file /bsenordering/index.php of the component get parameter handler. the manipulation of the argument category with the input <script>alert(222)</script> leads to cross site scripting. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-223371.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0646",
+    "description": "a vulnerability classified as critical was found in dst-admin 1.5.0. affected by this vulnerability is an unknown functionality of the file /home/cavesconsole. the manipulation of the argument command leads to command injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-220033 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1790",
+    "description": "a vulnerability, which was classified as problematic, was found in sourcecodester simple task allocation system 1.0. affected is an unknown function of the file index.php. the manipulation of the argument page leads to information disclosure. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-224724.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1566",
+    "description": "a vulnerability was found in sourcecodester medical certificate generator app 1.0. it has been declared as critical. this vulnerability affects unknown code of the file action.php. the manipulation of the argument id leads to sql injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. vdb-223558 is the identifier assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1145",
+    "description": "delta electronics infrasuite device master versions prior to 1.0.5 are affected by a deserialization vulnerability targeting the device-datacollect service, which could allow deserialization of requests prior to authentication, resulting in remote code execution.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-502",
+      "CWE-502"
+    ],
+    "official_cwe_names": [
+      "DeserializationOfUntrustedData",
+      "DeserializationOfUntrustedData"
+    ],
+    "ground_truth_classes": [
+      "DeserializationOfUntrustedData",
+      "DeserializationOfUntrustedData"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1459",
+    "description": "a vulnerability was found in sourcecodester canteen management system 1.0 and classified as critical. affected by this issue is some unknown functionality of the file changeusername.php. the manipulation of the argument username leads to sql injection. the attack may be launched remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-223304.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0332",
+    "description": "a vulnerability was found in sourcecodester online food ordering system 2.0. it has been classified as critical. affected is an unknown function of the file admin/manage_user.php. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-218472.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1056",
+    "description": "a vulnerability was found in sourcecodester doctors appointment system 1.0. it has been declared as critical. affected by this vulnerability is an unknown functionality of the file /edoc/doctor/patient.php. the manipulation of the argument search12 leads to sql injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-221821 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1054",
+    "description": "a vulnerability was found in sourcecodester music gallery site 1.0. it has been classified as critical. affected is an unknown function of the file /admin/?page=user/manage. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the identifier of this vulnerability is vdb-221820.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1290",
+    "description": "a vulnerability, which was classified as critical, has been found in sourcecodester sales tracker management system 1.0. affected by this issue is some unknown functionality of the file admin/clients/view_client.php. the manipulation of the argument id leads to sql injection. the attack may be launched remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-222644.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1368",
+    "description": "a vulnerability was found in xhcms 1.0. it has been declared as critical. this vulnerability affects unknown code of the file login.php of the component post parameter handler. the manipulation of the argument user leads to sql injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. vdb-222874 is the identifier assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0847",
+    "description": "the sub-iot implementation of the dash 7 alliance protocol has a vulnerability that can lead to an out-of-bounds write prior to implementation version 0.5.0. if the protocol has been compiled using default settings, this will only grant the attacker access to allocated but unused memory. however, if it was configured using non-default settings, there is the possibility that exploiting this vulnerability could lead to system crashes and remote code execution.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-787"
+    ],
+    "official_cwe_names": [
+      "Cwe787"
+    ],
+    "ground_truth_classes": [
+      "Cwe787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1398",
+    "description": "a vulnerability classified as critical was found in xiaobingby teacms 2.0. affected by this vulnerability is an unknown functionality of the file /admin/upload. the manipulation leads to path traversal: '../filedir'. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-222985 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-24",
+      "CWE-22"
+    ],
+    "official_cwe_names": [
+      "Cwe24",
+      "PathTraversal"
+    ],
+    "ground_truth_classes": [
+      "Cwe24",
+      "PathTraversal"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0061",
+    "description": "the judge.me product reviews for woocommerce wordpress plugin before 1.3.21 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1629",
+    "description": "a vulnerability classified as critical was found in jiangmin antivirus 16.2.2022.418. affected by this vulnerability is the function 0x222010 in the library kvcore.sys of the component ioctl handler. the manipulation leads to memory corruption. an attack has to be approached locally. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-224011.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0534",
+    "description": "a vulnerability, which was classified as critical, was found in sourcecodester online tours & travels management system 1.0. this affects an unknown part of the file admin/expense_report.php. the manipulation of the argument to_date leads to sql injection. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-219603.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1567",
+    "description": "a vulnerability was found in sourcecodester student study center desk management system 1.0. it has been rated as problematic. this issue affects some unknown processing of the file /admin/assign/assign.php. the manipulation of the argument sid leads to cross site scripting. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-223559.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1961",
+    "description": "a vulnerability was found in sourcecodester online computer and laptop store 1.0. it has been classified as problematic. affected is an unknown function of the file /admin/?page=system_info. the manipulation of the argument system name leads to cross site scripting. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-225348.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1383",
+    "description": "an improper enforcement of behavioral workflow vulnerability in the exchangedeviceservices function on the amzn.dmgr service allowed an attacker to register services that are only locally accessible. this issue affects: amazon fire tv stick 3rd gen versions prior to 6.2.9.5. insignia tv with fireos versions prior to 7.6.3.3.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-841",
+      "NVD-CWE-Other"
+    ],
+    "official_cwe_names": [
+      "Cwe841"
+    ],
+    "ground_truth_classes": [
+      "Cwe841"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1690",
+    "description": "a vulnerability, which was classified as problematic, has been found in sourcecodester earnings and expense tracker app 1.0. this issue affects some unknown processing of the file loginregistration.php?a=register_user. the manipulation of the argument fullname leads to cross site scripting. the attack may be initiated remotely. the identifier vdb-224309 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0902",
+    "description": "a vulnerability was found in sourcecodester simple food ordering system 1.0. it has been classified as problematic. this affects an unknown part of the file process_order.php. the manipulation of the argument order leads to cross site scripting. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-221451.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-79"
+    ],
+    "official_cwe_names": [
+      "CrossSiteScripting"
+    ],
+    "ground_truth_classes": [
+      "CrossSiteScripting"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1739",
+    "description": "a vulnerability was found in sourcecodester simple and beautiful shopping cart system 1.0 and classified as critical. this issue affects some unknown processing of the file upload.php. the manipulation leads to unrestricted upload. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-224627.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-434",
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "UnrestrictedFileUpload",
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "UnrestrictedFileUpload",
+      "UnrestrictedFileUpload"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1497",
+    "description": "a vulnerability was found in sourcecodester simple and nice shopping cart script 1.0. it has been rated as critical. this issue affects some unknown processing of the file uploaderm.php. the manipulation of the argument submit leads to unrestricted upload. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-223397 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "UnrestrictedFileUpload"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1003",
+    "description": "a vulnerability, which was classified as critical, was found in typora up to 1.5.5 on windows. affected is an unknown function of the component wsh jscript handler. the manipulation leads to code injection. an attack has to be approached locally. the exploit has been disclosed to the public and may be used. upgrading to version 1.5.8 is able to address this issue. it is recommended to upgrade the affected component. the identifier of this vulnerability is vdb-221736.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-94",
+      "CWE-94"
+    ],
+    "official_cwe_names": [
+      "CodeInjection",
+      "CodeInjection"
+    ],
+    "ground_truth_classes": [
+      "CodeInjection",
+      "CodeInjection",
+      "Windows"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0533",
+    "description": "a vulnerability, which was classified as critical, has been found in sourcecodester online tours & travels management system 1.0. affected by this issue is some unknown functionality of the file admin/expense_report.php. the manipulation of the argument from_date leads to sql injection. the attack may be launched remotely. the exploit has been disclosed to the public and may be used. vdb-219602 is the identifier assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0938",
+    "description": "a vulnerability classified as critical has been found in sourcecodester music gallery site 1.0. this affects an unknown part of the file music_list.php of the component get request handler. the manipulation of the argument cid leads to sql injection. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-221553 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1164",
+    "description": "a vulnerability was found in kylinsoft kylin-activation on kylinos and classified as critical. affected by this issue is some unknown functionality of the component file import. the manipulation leads to improper authorization. the attack needs to be approached locally. the exploit has been disclosed to the public and may be used. upgrading to version 1.3.11-23 and 1.30.10-5.p23 is able to address this issue. it is recommended to upgrade the affected component. the identifier of this vulnerability is vdb-222260.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0640",
+    "description": "a vulnerability was found in trendnet tew-652brp 3.04b01. it has been classified as critical. affected is an unknown function of the file ping.ccp of the component web interface. the manipulation leads to command injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-220020.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-77"
+    ],
+    "official_cwe_names": [
+      "Cwe77"
+    ],
+    "ground_truth_classes": [
+      "Cwe77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1253",
+    "description": "a vulnerability, which was classified as critical, was found in sourcecodester health center patient record management system 1.0. this affects an unknown part of the file login.php. the manipulation of the argument username leads to sql injection. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-222483.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0025",
+    "description": "sap solution manager (bsp application) - version 720, allows an authenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information or craft a payload which may restrict access to the desired resources.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1956",
+    "description": "a vulnerability classified as critical was found in sourcecodester online computer and laptop store 1.0. affected by this vulnerability is an unknown functionality of the file /classes/master.php?f=delete_img of the component image handler. the manipulation of the argument path leads to path traversal. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-225343.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-22"
+    ],
+    "official_cwe_names": [
+      "PathTraversal"
+    ],
+    "ground_truth_classes": [
+      "PathTraversal"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1626",
+    "description": "a vulnerability was found in jianming antivirus 16.2.2022.418. it has been declared as critical. this vulnerability affects unknown code in the library kvcore.sys of the component iocontrolcode handler. the manipulation leads to memory corruption. attacking locally is a requirement. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-224008.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-0887",
+    "description": "a vulnerability was found in phjounin tftpd64-se 4.64 and classified as critical. this issue affects some unknown processing of the file tftpd64_svc.exe. the manipulation leads to unquoted search path. an attack has to be approached locally. the complexity of an attack is rather high. the exploitation is known to be difficult. the associated identifier of this vulnerability is vdb-221351.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1329",
+    "description": "a potential security vulnerability has been identified for certain hp multifunction printers (mfps). the vulnerability may lead to buffer overflow and/or remote code execution when running hp workpath solutions on potentially affected products.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "NVD-CWE-noinfo",
+      "CWE-120"
+    ],
+    "official_cwe_names": [
+      "Cwe120"
+    ],
+    "ground_truth_classes": [
+      "Cwe120"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1736",
+    "description": "a vulnerability, which was classified as critical, has been found in sourcecodester young entrepreneur e-negosyo system 1.0. affected by this issue is some unknown functionality of the file cart/controller.php?action=add. the manipulation of the argument proid leads to sql injection. the identifier of this vulnerability is vdb-224624.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89",
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection",
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0670",
+    "description": "ulearn version a5a7ca20de859051ea0470542844980a66dfc05d allows an attacker with administrator permissions to obtain remote code execution on the server through the image upload functionality. this occurs because the application does not validate that the uploaded image is actually an image.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1352",
+    "description": "a vulnerability, which was classified as critical, has been found in sourcecodester design and implementation of covid-19 directory on vaccination system 1.0. this issue affects some unknown processing of the file /admin/login.php. the manipulation of the argument txtusername/txtpassword leads to sql injection. the attack may be initiated remotely. the complexity of an attack is rather high. the exploitation is known to be difficult. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-222851.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-20033",
+    "description": "a vulnerability in cisco ios xe software for cisco catalyst 3650 and catalyst 3850 series switches could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (dos) condition. this vulnerability is due to improper resource management when processing traffic that is received on the management interface. an attacker could exploit this vulnerability by sending a high rate of traffic to the management interface. a successful exploit could allow the attacker to cause the device to reload, resulting in a dos condition.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-770",
+      "NVD-CWE-noinfo"
+    ],
+    "official_cwe_names": [
+      "Cwe770"
+    ],
+    "ground_truth_classes": [
+      "Cwe770",
+      "Cisco"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0530",
+    "description": "a vulnerability was found in sourcecodester online tours & travels management system 1.0. it has been rated as critical. this issue affects some unknown processing of the file admin/approve_user.php. the manipulation of the argument id leads to sql injection. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-219599.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1953",
+    "description": "a vulnerability was found in sourcecodester online computer and laptop store 1.0. it has been declared as critical. this vulnerability affects unknown code of the file /admin/sales/index.php. the manipulation of the argument date_start/date_end leads to sql injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-225340.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": []
+  },
+  {
+    "cve_id": "CVE-2023-1484",
+    "description": "a vulnerability was found in xzjie cms up to 1.0.3 and classified as critical. this issue affects some unknown processing of the file /api/upload. the manipulation of the argument uploadfile leads to unrestricted upload. the attack may be initiated remotely. the associated identifier of this vulnerability is vdb-223367.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-434"
+    ],
+    "official_cwe_names": [
+      "UnrestrictedFileUpload"
+    ],
+    "ground_truth_classes": [
+      "UnrestrictedFileUpload"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-0942",
+    "description": "the japanized for woocommerce plugin for wordpress is vulnerable to reflected cross-site scripting via the \u2018tab\u2019 parameter in versions up to, and including, 2.5.4 due to insufficient input sanitization and output escaping. this makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+    "severity": "CRITICAL",
+    "official_cwes": [],
+    "official_cwe_names": [],
+    "ground_truth_classes": [
+      "Wordpress"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1858",
+    "description": "a vulnerability was found in sourcecodester earnings and expense tracker app 1.0. it has been classified as problematic. this affects an unknown part of the file index.php. the manipulation of the argument page leads to information disclosure. it is possible to initiate the attack remotely. the identifier vdb-224997 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-200",
+      "NVD-CWE-noinfo"
+    ],
+    "official_cwe_names": [
+      "InformationDisclosure"
+    ],
+    "ground_truth_classes": [
+      "InformationDisclosure"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1495",
+    "description": "a vulnerability classified as critical was found in rebuild up to 3.2.3. affected by this vulnerability is the function querylistofconfig of the file /admin/robot/approval/list. the manipulation of the argument q leads to sql injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier of the patch is c9474f84e5f376dd2ade2078e3039961a9425da7. it is recommended to apply a patch to fix this issue. the identifier vdb-223381 was assigned to this vulnerability.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89",
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection",
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection",
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1468",
+    "description": "a vulnerability classified as critical was found in sourcecodester student study center desk management system 1.0. affected by this vulnerability is an unknown functionality of the file admin/?page=reports&date_from=2023-02-17&date_to=2023-03-17 of the component report handler. the manipulation of the argument date_from/date_to leads to sql injection. the attack can be launched remotely. the associated identifier of this vulnerability is vdb-223327.",
+    "severity": "CRITICAL",
+    "official_cwes": [
+      "CWE-89"
+    ],
+    "official_cwe_names": [
+      "SqlInjection"
+    ],
+    "ground_truth_classes": [
+      "SqlInjection"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-1625",
+    "description": "an information leak was discovered in openstack heat. this issue could allow a remote, authenticated attacker to use the 'stack show' command to reveal parameters which are supposed to remain hidden. this has a low impact to the confidentiality, integrity, and availability of the system.",
+    "severity": "LOW",
+    "official_cwes": [
+      "CWE-202",
+      "NVD-CWE-noinfo"
+    ],
+    "official_cwe_names": [
+      "Cwe202"
+    ],
+    "ground_truth_classes": [
+      "Cwe202"
+    ]
+  }
+]

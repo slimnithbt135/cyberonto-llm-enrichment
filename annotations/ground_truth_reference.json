@@ -1,0 +1,1040 @@
+{
+  "sampled_cves": [
+    {
+      "id": "CVE-2023-1362",
+      "description": "improper restriction of rendered ui layers or frames in github repository unilogies/bumsys prior to v2.0.2.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nimproper restriction of rendered ui layers or frames in github repository unilogies/bumsys prior to v2.0.2."
+    },
+    {
+      "id": "CVE-2023-0235",
+      "description": "rejected reason: do not use this candidate number. consultids: none. reason: this candidate is unused by its cna. notes: none.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nrejected reason: do not use this candidate number. consultids: none. reason: this candidate is unused by its cna. notes: none."
+    },
+    {
+      "id": "CVE-2023-0054",
+      "description": "out-of-bounds write in github repository vim/vim prior to 9.0.1145.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nout-of-bounds write in github repository vim/vim prior to 9.0.1145."
+    },
+    {
+      "id": "CVE-2023-1585",
+      "description": "avast and avg antivirus for windows were susceptible to a time-of-check/time-of-use (toctou) vulnerability in the quarantine process, leading to arbitrary file/directory deletion. the issue was fixed with avast and avg antivirus version 22.11 and virus definitions from 14 february 2023 or later.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\navast and avg antivirus for windows were susceptible to a time-of-check/time-of-use (toctou) vulnerability in the quarantine process, leading to arbitrary file/directory deletion. the issue was fixed with avast and avg antivirus version 22.11 and virus definitions from 14 february 2023 or later."
+    },
+    {
+      "id": "CVE-2023-0584",
+      "description": "the vk blocks plugin for wordpress is vulnerable to improper authorization via the rest 'update_options' function in versions up to, and including, 1.57.0.5. this allows authenticated attackers, with contributor-level permissions or above, to change the 'vk_font_awesome_version' option to an arbitrary value.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe vk blocks plugin for wordpress is vulnerable to improper authorization via the rest 'update_options' function in versions up to, and including, 1.57.0.5. this allows authenticated attackers, with contributor-level permissions or above, to change the 'vk_font_awesome_version' option to an arbitrary value."
+    },
+    {
+      "id": "CVE-2023-0520",
+      "description": "the rapidexpcart wordpress plugin through 1.0 does not sanitize and escape the url parameter in the rapidexpcart endpoint before storing it and outputting it back in the page, leading to a stored cross-site scripting vulnerability which could be used against high-privilege users such as admin, furthermore lack of csrf protection means an attacker can trick a logged in admin to perform the attack by submitting a hidden form.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe rapidexpcart wordpress plugin through 1.0 does not sanitize and escape the url parameter in the rapidexpcart endpoint before storing it and outputting it back in the page, leading to a stored cross-site scripting vulnerability which could be used against high-privilege users such as admin, furthermore lack of csrf protection means an attacker can trick a logged in admin to perform the attack by submitting a hidden form."
+    },
+    {
+      "id": "CVE-2023-0473",
+      "description": "type confusion in serviceworker api in google chrome prior to 109.0.5414.119 allowed a remote attacker to potentially exploit heap corruption via a crafted html page. (chromium security severity: medium)",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ntype confusion in serviceworker api in google chrome prior to 109.0.5414.119 allowed a remote attacker to potentially exploit heap corruption via a crafted html page. (chromium security severity: medium)"
+    },
+    {
+      "id": "CVE-2023-0293",
+      "description": "the mediamatic \u2013 media library folders plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on its ajax actions in versions up to, and including, 2.8.1. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to change image categories, which it uses to arrange them in folder views.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe mediamatic \u2013 media library folders plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on its ajax actions in versions up to, and including, 2.8.1. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to change image categories, which it uses to arrange them in folder views."
+    },
+    {
+      "id": "CVE-2023-1574",
+      "description": "information disclosure in the user creation feature of a mssql data source in devolutions remote desktop manager 2023.1.9 and below on windows allows an attacker with access to the user interface to obtain sensitive information via the error message dialog that displays the password in clear text.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ninformation disclosure in the user creation feature of a mssql data source in devolutions remote desktop manager 2023.1.9 and below on windows allows an attacker with access to the user interface to obtain sensitive information via the error message dialog that displays the password in clear text."
+    },
+    {
+      "id": "CVE-2023-0213",
+      "description": "elevation of privilege issue in m-files installer versions before 22.6 on windows allows user to gain system privileges via dll hijacking.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nelevation of privilege issue in m-files installer versions before 22.6 on windows allows user to gain system privileges via dll hijacking."
+    },
+    {
+      "id": "CVE-2023-1444",
+      "description": "a vulnerability was found in filseclab twister antivirus 8. it has been rated as critical. this issue affects the function 0x8011206b in the library fildds.sys of the component iocontrolcode handler. the manipulation leads to denial of service. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-223289 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in filseclab twister antivirus 8. it has been rated as critical. this issue affects the function 0x8011206b in the library fildds.sys of the component iocontrolcode handler. the manipulation leads to denial of service. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-223289 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-1583",
+      "description": "a null pointer dereference was found in io_file_bitmap_get in io_uring/filetable.c in the io_uring sub-component in the linux kernel. when fixed files are unregistered, some context information (file_alloc_{start,end} and alloc_hint) is not cleared. a subsequent request that has auto index selection enabled via ioring_file_index_alloc can cause a null pointer dereference. an unprivileged user can use the flaw to cause a system crash.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na null pointer dereference was found in io_file_bitmap_get in io_uring/filetable.c in the io_uring sub-component in the linux kernel. when fixed files are unregistered, some context information (file_alloc_{start,end} and alloc_hint) is not cleared. a subsequent request that has auto index selection enabled via ioring_file_index_alloc can cause a null pointer dereference. an unprivileged user can use the flaw to cause a system crash."
+    },
+    {
+      "id": "CVE-2023-1908",
+      "description": "a vulnerability was found in sourcecodester simple mobile comparison website 1.0. it has been classified as critical. affected is an unknown function of the file /admin/categories/view_category.php of the component get parameter handler. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-225150 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in sourcecodester simple mobile comparison website 1.0. it has been classified as critical. affected is an unknown function of the file /admin/categories/view_category.php of the component get parameter handler. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-225150 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-1161",
+      "description": "iso 15765 and iso 10681 dissector crash in wireshark 4.0.0 to 4.0.3 and 3.6.0 to 3.6.11 allows denial of service via packet injection or crafted capture file",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\niso 15765 and iso 10681 dissector crash in wireshark 4.0.0 to 4.0.3 and 3.6.0 to 3.6.11 allows denial of service via packet injection or crafted capture file"
+    },
+    {
+      "id": "CVE-2023-0181",
+      "description": "nvidia gpu display driver for windows and linux contains a vulnerability in a kernel mode layer handler, where memory permissions are not correctly checked, which may lead to denial of service and data tampering.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia gpu display driver for windows and linux contains a vulnerability in a kernel mode layer handler, where memory permissions are not correctly checked, which may lead to denial of service and data tampering."
+    },
+    {
+      "id": "CVE-2023-1256",
+      "description": "the listed versions of aveva plant scada and aveva telemetry server are vulnerable to an improper authorization exploit which could allow an unauthenticated user to remotely read data, cause denial of service, and tamper with alarm states.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe listed versions of aveva plant scada and aveva telemetry server are vulnerable to an improper authorization exploit which could allow an unauthenticated user to remotely read data, cause denial of service, and tamper with alarm states."
+    },
+    {
+      "id": "CVE-2023-0897",
+      "description": "sielco polyeco1000 is vulnerable to a session hijack vulnerability due to the cookie being vulnerable to a brute force attack, lack of ssl, and the session being visible in requests.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nsielco polyeco1000 is vulnerable to a session hijack vulnerability due to the cookie being vulnerable to a brute force attack, lack of ssl, and the session being visible in requests."
+    },
+    {
+      "id": "CVE-2023-0068",
+      "description": "the product gtin (ean, upc, isbn) for woocommerce wordpress plugin through 1.1.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe product gtin (ean, upc, isbn) for woocommerce wordpress plugin through 1.1.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks."
+    },
+    {
+      "id": "CVE-2023-0064",
+      "description": "the evision responsive column layout shortcodes wordpress plugin through 2.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe evision responsive column layout shortcodes wordpress plugin through 2.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks."
+    },
+    {
+      "id": "CVE-2023-0194",
+      "description": "nvidia gpu display driver for windows and linux contains a vulnerability in the kernel mode layer driver, where an invalid display configuration may lead to denial of service.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia gpu display driver for windows and linux contains a vulnerability in the kernel mode layer driver, where an invalid display configuration may lead to denial of service."
+    },
+    {
+      "id": "CVE-2023-0463",
+      "description": "the force offline mfa prompt setting is not respected when switching to offline mode in devolutions remote desktop manager 2022.3.29 to 2022.3.30 allows a user to save sensitive data on disk.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe force offline mfa prompt setting is not respected when switching to offline mode in devolutions remote desktop manager 2022.3.29 to 2022.3.30 allows a user to save sensitive data on disk."
+    },
+    {
+      "id": "CVE-2023-0493",
+      "description": "improper neutralization of equivalent special elements in github repository btcpayserver/btcpayserver prior to 1.7.5.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nimproper neutralization of equivalent special elements in github repository btcpayserver/btcpayserver prior to 1.7.5."
+    },
+    {
+      "id": "CVE-2023-1075",
+      "description": "a flaw was found in the linux kernel. the tls_is_tx_ready() incorrectly checks for list emptiness, potentially accessing a type confused entry to the list_head, leaking the last byte of the confused field that overlaps with rec->tx_ready.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na flaw was found in the linux kernel. the tls_is_tx_ready() incorrectly checks for list emptiness, potentially accessing a type confused entry to the list_head, leaking the last byte of the confused field that overlaps with rec->tx_ready."
+    },
+    {
+      "id": "CVE-2023-1282",
+      "description": "the drag and drop multiple file upload pro - contact form 7 standard wordpress plugin before 2.11.1 and drag and drop multiple file upload pro - contact form 7 with remote storage integrations wordpress plugin before 5.0.6.4 do not sanitise and escape a parameter before outputting it back in the page, leading to a reflected cross-site scripting which could be used against high-privilege users such as admins.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe drag and drop multiple file upload pro - contact form 7 standard wordpress plugin before 2.11.1 and drag and drop multiple file upload pro - contact form 7 with remote storage integrations wordpress plugin before 5.0.6.4 do not sanitise and escape a parameter before outputting it back in the page, leading to a reflected cross-site scripting which could be used against high-privilege users such as admins."
+    },
+    {
+      "id": "CVE-2023-0057",
+      "description": "improper restriction of rendered ui layers or frames in github repository pyload/pyload prior to 0.5.0b3.dev33.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nimproper restriction of rendered ui layers or frames in github repository pyload/pyload prior to 0.5.0b3.dev33."
+    },
+    {
+      "id": "CVE-2023-1195",
+      "description": "a use-after-free flaw was found in reconn_set_ipaddr_from_hostname in fs/cifs/connect.c in the linux kernel. the issue occurs when it forgets to set the free pointer server->hostname to null, leading to an invalid pointer request.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na use-after-free flaw was found in reconn_set_ipaddr_from_hostname in fs/cifs/connect.c in the linux kernel. the issue occurs when it forgets to set the free pointer server->hostname to null, leading to an invalid pointer request."
+    },
+    {
+      "id": "CVE-2023-0421",
+      "description": "the cloud manager wordpress plugin through 1.0 does not sanitise and escape the query param ricerca before outputting it in an admin panel, allowing unauthenticated attackers to trick a logged in admin to trigger a xss payload by clicking a link.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe cloud manager wordpress plugin through 1.0 does not sanitise and escape the query param ricerca before outputting it in an admin panel, allowing unauthenticated attackers to trick a logged in admin to trigger a xss payload by clicking a link."
+    },
+    {
+      "id": "CVE-2023-1530",
+      "description": "use after free in pdf in google chrome prior to 111.0.5563.110 allowed a remote attacker to potentially exploit heap corruption via a crafted html page. (chromium security severity: high)",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nuse after free in pdf in google chrome prior to 111.0.5563.110 allowed a remote attacker to potentially exploit heap corruption via a crafted html page. (chromium security severity: high)"
+    },
+    {
+      "id": "CVE-2023-1384",
+      "description": "the setmediasource function on the amzn.thin.pl service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run this issue affects: amazon fire tv stick 3rd gen versions prior to 6.2.9.5. insignia tv with fireos versions prior to 7.6.3.3.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe setmediasource function on the amzn.thin.pl service does not sanitize the \"source\" parameter allowing for arbitrary javascript code to be run this issue affects: amazon fire tv stick 3rd gen versions prior to 6.2.9.5. insignia tv with fireos versions prior to 7.6.3.3."
+    },
+    {
+      "id": "CVE-2023-1495",
+      "description": "a vulnerability classified as critical was found in rebuild up to 3.2.3. affected by this vulnerability is the function querylistofconfig of the file /admin/robot/approval/list. the manipulation of the argument q leads to sql injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier of the patch is c9474f84e5f376dd2ade2078e3039961a9425da7. it is recommended to apply a patch to fix this issue. the identifier vdb-223381 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability classified as critical was found in rebuild up to 3.2.3. affected by this vulnerability is the function querylistofconfig of the file /admin/robot/approval/list. the manipulation of the argument q leads to sql injection. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier of the patch is c9474f84e5f376dd2ade2078e3039961a9425da7. it is recommended to apply a patch to fix this issue. the identifier vdb-223381 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0892",
+      "description": "the bizlibrary wordpress plugin through 1.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform stored cross-site scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe bizlibrary wordpress plugin through 1.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform stored cross-site scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)"
+    },
+    {
+      "id": "CVE-2023-0467",
+      "description": "the wp dark mode wordpress plugin before 4.0.8 does not properly sanitize the style parameter in shortcodes before using it to load a php template. this leads to local file inclusion on servers where non-existent directories may be traversed, or when chained with another vulnerability allowing arbitrary directory creation.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wp dark mode wordpress plugin before 4.0.8 does not properly sanitize the style parameter in shortcodes before using it to load a php template. this leads to local file inclusion on servers where non-existent directories may be traversed, or when chained with another vulnerability allowing arbitrary directory creation."
+    },
+    {
+      "id": "CVE-2023-0953",
+      "description": "insufficient input sanitization in the documentation feature of devolutions server 2022.3.12 and earlier allows an authenticated attacker to perform an sql injection, potentially resulting in unauthorized access to system resources.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ninsufficient input sanitization in the documentation feature of devolutions server 2022.3.12 and earlier allows an authenticated attacker to perform an sql injection, potentially resulting in unauthorized access to system resources."
+    },
+    {
+      "id": "CVE-2023-1253",
+      "description": "a vulnerability, which was classified as critical, was found in sourcecodester health center patient record management system 1.0. this affects an unknown part of the file login.php. the manipulation of the argument username leads to sql injection. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-222483.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as critical, was found in sourcecodester health center patient record management system 1.0. this affects an unknown part of the file login.php. the manipulation of the argument username leads to sql injection. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-222483."
+    },
+    {
+      "id": "CVE-2023-0590",
+      "description": "a use-after-free flaw was found in qdisc_graft in net/sched/sch_api.c in the linux kernel due to a race problem. this flaw leads to a denial of service issue. if patch ebda44da44f6 (\"net: sched: fix race condition in qdisc_graft()\") not applied yet, then kernel could be affected.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na use-after-free flaw was found in qdisc_graft in net/sched/sch_api.c in the linux kernel due to a race problem. this flaw leads to a denial of service issue. if patch ebda44da44f6 (\"net: sched: fix race condition in qdisc_graft()\") not applied yet, then kernel could be affected."
+    },
+    {
+      "id": "CVE-2023-1732",
+      "description": "when sampling randomness for a shared secret, the implementation of kyber and frodokem, did not check whether crypto/rand.read() returns an error. in rare deployment cases (error thrown by the read() function), this could lead to a predictable shared secret. the tkn20 and blindrsa components did not check whether enough randomness was returned from the user provided randomness source. typically the user provides crypto/rand.reader, which in the vast majority of cases will always return the right number random bytes. in the cases where it does not, or the user provides a source that does not, the blinding for blindrsa is weak and integrity of the plaintext is not ensured in tkn20.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nwhen sampling randomness for a shared secret, the implementation of kyber and frodokem, did not check whether crypto/rand.read() returns an error. in rare deployment cases (error thrown by the read() function), this could lead to a predictable shared secret. the tkn20 and blindrsa components did not check whether enough randomness was returned from the user provided randomness source. typically the user provides crypto/rand.reader, which in the vast majority of cases will always return the right number random bytes. in the cases where it does not, or the user provides a source that does not, the blinding for blindrsa is weak and integrity of the plaintext is not ensured in tkn20."
+    },
+    {
+      "id": "CVE-2023-1860",
+      "description": "a vulnerability was found in keysight ixia hawkeye 3.3.16.28. it has been declared as problematic. this vulnerability affects unknown code of the file /licenses. the manipulation of the argument view with the input teste\"><script>alert(%27c4ng4c3ir0%27)</script> leads to cross site scripting. the attack can be initiated remotely. vdb-224998 is the identifier assigned to this vulnerability. note: vendor did not respond if and how they may handle this issue.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in keysight ixia hawkeye 3.3.16.28. it has been declared as problematic. this vulnerability affects unknown code of the file /licenses. the manipulation of the argument view with the input teste\"><script>alert(%27c4ng4c3ir0%27)</script> leads to cross site scripting. the attack can be initiated remotely. vdb-224998 is the identifier assigned to this vulnerability. note: vendor did not respond if and how they may handle this issue."
+    },
+    {
+      "id": "CVE-2023-0014",
+      "description": "sap netweaver abap server and abap platform - versions sap_basis 700, 701, 702, 710, 711, 730, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, kernel 7.22, 7.53, 7.77, 7.81, 7.85, 7.89, krnl64uc 7.22, 7.22ext, 7.53, krnl64nuc 7.22, 7.22ext, creates information about system identity in an ambiguous format. this could lead to capture-replay vulnerability and may be exploited by malicious users to obtain illegitimate access to the system.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nsap netweaver abap server and abap platform - versions sap_basis 700, 701, 702, 710, 711, 730, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, kernel 7.22, 7.53, 7.77, 7.81, 7.85, 7.89, krnl64uc 7.22, 7.22ext, 7.53, krnl64nuc 7.22, 7.22ext, creates information about system identity in an ambiguous format. this could lead to capture-replay vulnerability and may be exploited by malicious users to obtain illegitimate access to the system."
+    },
+    {
+      "id": "CVE-2023-1623",
+      "description": "the custom post type ui wordpress plugin before 1.13.5 does not properly check for csrf when sending the debug information to a user supplied email, which could allow attackers to make a logged in admin send such information to an arbitrary email address via a csrf attack.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe custom post type ui wordpress plugin before 1.13.5 does not properly check for csrf when sending the debug information to a user supplied email, which could allow attackers to make a logged in admin send such information to an arbitrary email address via a csrf attack."
+    },
+    {
+      "id": "CVE-2023-1724",
+      "description": "faveo helpdesk enterprise version 6.0.1 allows an attacker with agent permissions to perform privilege escalation on the application. this occurs because the application is vulnerable to stored xss.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nfaveo helpdesk enterprise version 6.0.1 allows an attacker with agent permissions to perform privilege escalation on the application. this occurs because the application is vulnerable to stored xss."
+    },
+    {
+      "id": "CVE-2023-0335",
+      "description": "the wp shamsi wordpress plugin through 4.3.3 has csrf and broken access control vulnerabilities which leads user with role as low as subscriber delete attachment.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wp shamsi wordpress plugin through 4.3.3 has csrf and broken access control vulnerabilities which leads user with role as low as subscriber delete attachment."
+    },
+    {
+      "id": "CVE-2023-1488",
+      "description": "a vulnerability, which was classified as problematic, was found in lespeed wisecleaner wise system monitor 1.5.3.54. affected is the function 0x9c40a0d8/0x9c40a0dc/0x9c40a0e0 in the library wisehdinfo64.dll of the component iocontrolcode handler. the manipulation leads to denial of service. it is possible to launch the attack on the local host. the exploit has been disclosed to the public and may be used. vdb-223374 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as problematic, was found in lespeed wisecleaner wise system monitor 1.5.3.54. affected is the function 0x9c40a0d8/0x9c40a0dc/0x9c40a0e0 in the library wisehdinfo64.dll of the component iocontrolcode handler. the manipulation leads to denial of service. it is possible to launch the attack on the local host. the exploit has been disclosed to the public and may be used. vdb-223374 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0898",
+      "description": "general electric micom s1 agile is vulnerable to an attacker achieving code execution by placing malicious dll files in the directory of the application.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ngeneral electric micom s1 agile is vulnerable to an attacker achieving code execution by placing malicious dll files in the directory of the application."
+    },
+    {
+      "id": "CVE-2023-0722",
+      "description": "the wicked folders plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 2.18.16. this is due to missing or incorrect nonce validation on the ajax_save_state function. this makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wicked folders plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 2.18.16. this is due to missing or incorrect nonce validation on the ajax_save_state function. this makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin."
+    },
+    {
+      "id": "CVE-2023-0327",
+      "description": "a vulnerability was found in saemorris theradsystem. it has been classified as problematic. affected is an unknown function of the file users.php. the manipulation of the argument q leads to cross site scripting. it is possible to launch the attack remotely. vdb-218454 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in saemorris theradsystem. it has been classified as problematic. affected is an unknown function of the file users.php. the manipulation of the argument q leads to cross site scripting. it is possible to launch the attack remotely. vdb-218454 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0456",
+      "description": "a flaw was found in apicast, when 3scale's oidc module does not properly evaluate the response to a mismatched token from a separate realm. this could allow a separate realm to be accessible to an attacker, permitting access to unauthorized information.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na flaw was found in apicast, when 3scale's oidc module does not properly evaluate the response to a mismatched token from a separate realm. this could allow a separate realm to be accessible to an attacker, permitting access to unauthorized information."
+    },
+    {
+      "id": "CVE-2023-20041",
+      "description": "multiple vulnerabilities in the web-based management interface of cisco firepower management center (fmc) software could allow an unauthenticated, remote attacker to conduct a stored cross-site scripting (xss) attack against a user of the interface of an affected device. these vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. an attacker could exploit these vulnerabilities by inserting crafted input into various data fields in an affected interface. a successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information. in some cases, it is also possible to cause a temporary availability impact to portions of the fmc dashboard.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nmultiple vulnerabilities in the web-based management interface of cisco firepower management center (fmc) software could allow an unauthenticated, remote attacker to conduct a stored cross-site scripting (xss) attack against a user of the interface of an affected device. these vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. an attacker could exploit these vulnerabilities by inserting crafted input into various data fields in an affected interface. a successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information. in some cases, it is also possible to cause a temporary availability impact to portions of the fmc dashboard."
+    },
+    {
+      "id": "CVE-2023-1632",
+      "description": "rejected reason: ** reject ** do not use this candidate number. consultids: none. reason: this candidate was withdrawn by its cna. further investigation showed that it was not a security issue. notes: vendor identified that the vulnerability does not exist within the product, but merely with this particular on premise customer's implementation.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nrejected reason: ** reject ** do not use this candidate number. consultids: none. reason: this candidate was withdrawn by its cna. further investigation showed that it was not a security issue. notes: vendor identified that the vulnerability does not exist within the product, but merely with this particular on premise customer's implementation."
+    },
+    {
+      "id": "CVE-2023-0715",
+      "description": "the wicked folders plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on the ajax_clone_folder function in versions up to, and including, 2.18.16. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wicked folders plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on the ajax_clone_folder function in versions up to, and including, 2.18.16. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin."
+    },
+    {
+      "id": "CVE-2023-0192",
+      "description": "nvidia gpu display driver for windows contains a vulnerability in the kernel mode layer handler, where improper privilege management can lead to escalation of privileges and information disclosure.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia gpu display driver for windows contains a vulnerability in the kernel mode layer handler, where improper privilege management can lead to escalation of privileges and information disclosure."
+    },
+    {
+      "id": "CVE-2023-0808",
+      "description": "a vulnerability was found in deye/revolt/bosswerk inverter mw3_15u_5406_1.47/mw3_15u_5406_1.471. it has been rated as problematic. this issue affects some unknown processing of the component access point setting handler. the manipulation with the input 12345678 leads to use of hard-coded password. it is possible to launch the attack on the physical device. the complexity of an attack is rather high. the exploitation is known to be difficult. the exploit has been disclosed to the public and may be used. upgrading to version mw3_16u_5406_1.53 is able to address this issue. it is recommended to upgrade the affected component. the identifier vdb-220769 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in deye/revolt/bosswerk inverter mw3_15u_5406_1.47/mw3_15u_5406_1.471. it has been rated as problematic. this issue affects some unknown processing of the component access point setting handler. the manipulation with the input 12345678 leads to use of hard-coded password. it is possible to launch the attack on the physical device. the complexity of an attack is rather high. the exploitation is known to be difficult. the exploit has been disclosed to the public and may be used. upgrading to version mw3_16u_5406_1.53 is able to address this issue. it is recommended to upgrade the affected component. the identifier vdb-220769 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0201",
+      "description": "nvidia dgx-2 sbios contains a vulnerability in bds, where a user with high privileges can cause a write beyond the bounds of an indexable resource, which may lead to code execution, denial of service, compromised integrity, and information disclosure.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia dgx-2 sbios contains a vulnerability in bds, where a user with high privileges can cause a write beyond the bounds of an indexable resource, which may lead to code execution, denial of service, compromised integrity, and information disclosure."
+    },
+    {
+      "id": "CVE-2023-0763",
+      "description": "the clock in portal- staff & attendance management wordpress plugin through 2.1 does not have csrf check when deleting holidays, which could allow attackers to make logged in admins delete arbitrary holidays via a csrf attack",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe clock in portal- staff & attendance management wordpress plugin through 2.1 does not have csrf check when deleting holidays, which could allow attackers to make logged in admins delete arbitrary holidays via a csrf attack"
+    },
+    {
+      "id": "CVE-2023-1812",
+      "description": "out of bounds memory access in dom bindings in google chrome prior to 112.0.5615.49 allowed a remote attacker to perform out of bounds memory access via a crafted html page. (chromium security severity: medium)",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nout of bounds memory access in dom bindings in google chrome prior to 112.0.5615.49 allowed a remote attacker to perform out of bounds memory access via a crafted html page. (chromium security severity: medium)"
+    },
+    {
+      "id": "CVE-2023-0730",
+      "description": "the wicked folders plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 2.18.16. this is due to missing or incorrect nonce validation on the ajax_save_folder_order function. this makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wicked folders plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 2.18.16. this is due to missing or incorrect nonce validation on the ajax_save_folder_order function. this makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin."
+    },
+    {
+      "id": "CVE-2023-1287",
+      "description": "an xsl template vulnerability in enovia live collaboration v6r2013xe allows remote code execution.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nan xsl template vulnerability in enovia live collaboration v6r2013xe allows remote code execution."
+    },
+    {
+      "id": "CVE-2023-0561",
+      "description": "a vulnerability, which was classified as critical, was found in sourcecodester online tours & travels management system 1.0. affected is an unknown function of the file /user/s.php. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-219702 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as critical, was found in sourcecodester online tours & travels management system 1.0. affected is an unknown function of the file /user/s.php. the manipulation of the argument id leads to sql injection. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-219702 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-1726",
+      "description": "improper neutralization of input during web page generation ('cross-site scripting') vulnerability in proliz obs allows stored xss for an authenticated user.this issue affects obs: before 23.04.01.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nimproper neutralization of input during web page generation ('cross-site scripting') vulnerability in proliz obs allows stored xss for an authenticated user.this issue affects obs: before 23.04.01."
+    },
+    {
+      "id": "CVE-2023-0091",
+      "description": "a flaw was found in keycloak, where it did not properly check client tokens for possible revocation in its client credential flow. this flaw allows an attacker to access or modify potentially sensitive information.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na flaw was found in keycloak, where it did not properly check client tokens for possible revocation in its client credential flow. this flaw allows an attacker to access or modify potentially sensitive information."
+    },
+    {
+      "id": "CVE-2023-1560",
+      "description": "a vulnerability, which was classified as problematic, has been found in tinytiff 3.0.0.0. this issue affects some unknown processing of the file tinytiffreader.c of the component file handler. the manipulation leads to buffer overflow. attacking locally is a requirement. the exploit has been disclosed to the public and may be used. the identifier vdb-223553 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as problematic, has been found in tinytiff 3.0.0.0. this issue affects some unknown processing of the file tinytiffreader.c of the component file handler. the manipulation leads to buffer overflow. attacking locally is a requirement. the exploit has been disclosed to the public and may be used. the identifier vdb-223553 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0975",
+      "description": "a vulnerability exists in trellix agent for windows version 5.7.8 and earlier, that allows local users, during install/upgrade workflow, to replace one of the agent\u2019s executables before it can be executed. this allows the user to elevate their permissions.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability exists in trellix agent for windows version 5.7.8 and earlier, that allows local users, during install/upgrade workflow, to replace one of the agent\u2019s executables before it can be executed. this allows the user to elevate their permissions."
+    },
+    {
+      "id": "CVE-2023-1143",
+      "description": "in delta electronics infrasuite device master versions prior to 1.0.5, an attacker could use lua scripts, which could allow an attacker to remotely execute arbitrary code.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nin delta electronics infrasuite device master versions prior to 1.0.5, an attacker could use lua scripts, which could allow an attacker to remotely execute arbitrary code."
+    },
+    {
+      "id": "CVE-2023-0263",
+      "description": "the wp yelp review slider wordpress plugin before 7.1 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by users with a role as low as subscriber.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe wp yelp review slider wordpress plugin before 7.1 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by users with a role as low as subscriber."
+    },
+    {
+      "id": "CVE-2023-20071",
+      "description": "multiple cisco products are affected by a vulnerability in the snort detection engine that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system. this vulnerability is due to a flaw in the ftp module of the snort detection engine. an attacker could exploit this vulnerability by sending crafted ftp traffic through an affected device. a successful exploit could allow the attacker to bypass ftp inspection and deliver a malicious payload.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nmultiple cisco products are affected by a vulnerability in the snort detection engine that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system. this vulnerability is due to a flaw in the ftp module of the snort detection engine. an attacker could exploit this vulnerability by sending crafted ftp traffic through an affected device. a successful exploit could allow the attacker to bypass ftp inspection and deliver a malicious payload."
+    },
+    {
+      "id": "CVE-2023-1971",
+      "description": "** unsupported when assigned ** a vulnerability, which was classified as critical, was found in yuan1994 tpadmin 1.3.12. affected is the function remote of the file application\\admin\\controller\\upload.php. the manipulation of the argument url leads to server-side request forgery. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-225408. note: this vulnerability only affects products that are no longer supported by the maintainer.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\n** unsupported when assigned ** a vulnerability, which was classified as critical, was found in yuan1994 tpadmin 1.3.12. affected is the function remote of the file application\\admin\\controller\\upload.php. the manipulation of the argument url leads to server-side request forgery. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-225408. note: this vulnerability only affects products that are no longer supported by the maintainer."
+    },
+    {
+      "id": "CVE-2023-0803",
+      "description": "libtiff 4.4.0 has an out-of-bounds write in tiffcrop in tools/tiffcrop.c:3516, allowing attackers to cause a denial-of-service via a crafted tiff file. for users that compile libtiff from sources, the fix is available with commit 33aee127.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nlibtiff 4.4.0 has an out-of-bounds write in tiffcrop in tools/tiffcrop.c:3516, allowing attackers to cause a denial-of-service via a crafted tiff file. for users that compile libtiff from sources, the fix is available with commit 33aee127."
+    },
+    {
+      "id": "CVE-2023-0164",
+      "description": "orangescrum version 2.0.11 allows an authenticated external attacker to execute arbitrary commands on the server. this is possible because the application injects an attacker-controlled parameter into a system function.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\norangescrum version 2.0.11 allows an authenticated external attacker to execute arbitrary commands on the server. this is possible because the application injects an attacker-controlled parameter into a system function."
+    },
+    {
+      "id": "CVE-2023-1175",
+      "description": "incorrect calculation of buffer size in github repository vim/vim prior to 9.0.1378.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nincorrect calculation of buffer size in github repository vim/vim prior to 9.0.1378."
+    },
+    {
+      "id": "CVE-2023-0623",
+      "description": "cscape envision rv version 4.60 is vulnerable to an out-of-bounds write vulnerability when parsing project (i.e. hmi) files. the product lacks proper validation of user-supplied data, which could result in writes past the end of allocated data structures. an attacker could leverage these vulnerabilities to execute arbitrary code in the context of the current process.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ncscape envision rv version 4.60 is vulnerable to an out-of-bounds write vulnerability when parsing project (i.e. hmi) files. the product lacks proper validation of user-supplied data, which could result in writes past the end of allocated data structures. an attacker could leverage these vulnerabilities to execute arbitrary code in the context of the current process."
+    },
+    {
+      "id": "CVE-2023-1773",
+      "description": "a vulnerability was found in rockoa 2.3.2. it has been declared as critical. this vulnerability affects unknown code of the file webmainconfig.php of the component configuration file handler. the manipulation leads to code injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. vdb-224674 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in rockoa 2.3.2. it has been declared as critical. this vulnerability affects unknown code of the file webmainconfig.php of the component configuration file handler. the manipulation leads to code injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. vdb-224674 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-1339",
+      "description": "the rapidload power-up for autoptimize plugin for wordpress is vulnerable to unauthorized settings update due to a missing capability check on the uucss_update_rule function in versions up to, and including, 1.7.1. this makes it possible for authenticated attackers with subscriber-level access to update caching rules.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe rapidload power-up for autoptimize plugin for wordpress is vulnerable to unauthorized settings update due to a missing capability check on the uucss_update_rule function in versions up to, and including, 1.7.1. this makes it possible for authenticated attackers with subscriber-level access to update caching rules."
+    },
+    {
+      "id": "CVE-2023-1317",
+      "description": "cross-site scripting (xss) - reflected in github repository osticket/osticket prior to v1.16.6.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ncross-site scripting (xss) - reflected in github repository osticket/osticket prior to v1.16.6."
+    },
+    {
+      "id": "CVE-2023-1893",
+      "description": "the login configurator wordpress plugin through 2.1 does not properly escape a url parameter before outputting it to the page, leading to a reflected cross-site scripting vulnerability targeting site administrators.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe login configurator wordpress plugin through 2.1 does not properly escape a url parameter before outputting it to the page, leading to a reflected cross-site scripting vulnerability targeting site administrators."
+    },
+    {
+      "id": "CVE-2023-1844",
+      "description": "the subscribe2 plugin for wordpress is vulnerable to unauthorized access to email functionality due to a missing capability check when sending test emails in versions up to, and including, 10.40. this makes it possible for author-level attackers to send emails with arbitrary content and attachments to site users.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe subscribe2 plugin for wordpress is vulnerable to unauthorized access to email functionality due to a missing capability check when sending test emails in versions up to, and including, 10.40. this makes it possible for author-level attackers to send emails with arbitrary content and attachments to site users."
+    },
+    {
+      "id": "CVE-2023-0768",
+      "description": "the avirato hotels online booking engine wordpress plugin through 5.0.5 does not validate and escape some of its shortcode attributes before using them in sql statement/s, which could allow any authenticated users, such as subscriber to perform sql injection attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe avirato hotels online booking engine wordpress plugin through 5.0.5 does not validate and escape some of its shortcode attributes before using them in sql statement/s, which could allow any authenticated users, such as subscriber to perform sql injection attacks."
+    },
+    {
+      "id": "CVE-2023-1229",
+      "description": "inappropriate implementation in permission prompts in google chrome prior to 111.0.5563.64 allowed a remote attacker to bypass navigation restrictions via a crafted html page. (chromium security severity: medium)",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ninappropriate implementation in permission prompts in google chrome prior to 111.0.5563.64 allowed a remote attacker to bypass navigation restrictions via a crafted html page. (chromium security severity: medium)"
+    },
+    {
+      "id": "CVE-2023-0404",
+      "description": "the events made easy plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on several functions related to ajax actions in versions up to, and including, 2.3.16. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke those functions intended for administrator use. while the plugin is still pending review from the wordpress repository, site owners can download a copy of the patched version directly from the developer's github at https://github.com/liedekef/events-made-easy",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe events made easy plugin for wordpress is vulnerable to authorization bypass due to a missing capability check on several functions related to ajax actions in versions up to, and including, 2.3.16. this makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke those functions intended for administrator use. while the plugin is still pending review from the wordpress repository, site owners can download a copy of the patched version directly from the developer's github at https://github.com/liedekef/events-made-easy"
+    },
+    {
+      "id": "CVE-2023-1501",
+      "description": "a vulnerability, which was classified as critical, was found in rockoa 2.3.2. this affects the function runaction of the file acloudcosaction.php.sql. the manipulation of the argument fileid leads to unrestricted upload. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-223401 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as critical, was found in rockoa 2.3.2. this affects the function runaction of the file acloudcosaction.php.sql. the manipulation of the argument fileid leads to unrestricted upload. it is possible to initiate the attack remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-223401 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0145",
+      "description": "the saan world clock wordpress plugin through 1.8 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe saan world clock wordpress plugin through 1.8 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks."
+    },
+    {
+      "id": "CVE-2023-0096",
+      "description": "the happyforms wordpress plugin before 1.22.0 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe happyforms wordpress plugin before 1.22.0 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks."
+    },
+    {
+      "id": "CVE-2023-1408",
+      "description": "the video list manager wordpress plugin through 1.7 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by high privilege users such as admin",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe video list manager wordpress plugin through 1.7 does not properly sanitise and escape a parameter before using it in a sql statement, leading to a sql injection exploitable by high privilege users such as admin"
+    },
+    {
+      "id": "CVE-2023-0483",
+      "description": "an issue has been discovered in gitlab affecting all versions starting from 12.1 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. it was possible for a project maintainer to extract a datadog integration api key by modifying the site.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nan issue has been discovered in gitlab affecting all versions starting from 12.1 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. it was possible for a project maintainer to extract a datadog integration api key by modifying the site."
+    },
+    {
+      "id": "CVE-2023-1652",
+      "description": "a use-after-free flaw was found in nfsd4_ssc_setup_dul in fs/nfsd/nfs4proc.c in the nfs filesystem in the linux kernel. this issue could allow a local attacker to crash the system or it may lead to a kernel information leak problem.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na use-after-free flaw was found in nfsd4_ssc_setup_dul in fs/nfsd/nfs4proc.c in the nfs filesystem in the linux kernel. this issue could allow a local attacker to crash the system or it may lead to a kernel information leak problem."
+    },
+    {
+      "id": "CVE-2023-0615",
+      "description": "a memory leak flaw and potential divide by zero and integer overflow was found in the linux kernel v4l2 and vivid test code functionality. this issue occurs when a user triggers ioctls, such as vidioc_s_dv_timings ioctl. this could allow a local user to crash the system if vivid test code enabled.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na memory leak flaw and potential divide by zero and integer overflow was found in the linux kernel v4l2 and vivid test code functionality. this issue occurs when a user triggers ioctls, such as vidioc_s_dv_timings ioctl. this could allow a local user to crash the system if vivid test code enabled."
+    },
+    {
+      "id": "CVE-2023-0166",
+      "description": "the product slider for woocommerce by pickplugins wordpress plugin before 1.13.42 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nthe product slider for woocommerce by pickplugins wordpress plugin before 1.13.42 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks."
+    },
+    {
+      "id": "CVE-2023-1831",
+      "description": "mattermost fails to redact from audit logs the user password during user creation and the user password hash in other operations if the experimental audit logging configuration was enabled (experimentalauditsettings section in config).",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nmattermost fails to redact from audit logs the user password during user creation and the user password hash in other operations if the experimental audit logging configuration was enabled (experimentalauditsettings section in config)."
+    },
+    {
+      "id": "CVE-2023-1854",
+      "description": "a vulnerability, which was classified as problematic, was found in sourcecodester online graduate tracer system 1.0. affected is an unknown function of the file admin/. the manipulation leads to session expiration. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-224994 is the identifier assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability, which was classified as problematic, was found in sourcecodester online graduate tracer system 1.0. affected is an unknown function of the file admin/. the manipulation leads to session expiration. it is possible to launch the attack remotely. the exploit has been disclosed to the public and may be used. vdb-224994 is the identifier assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-0209",
+      "description": "nvidia dgx-1 sbios contains a vulnerability in the uncore pei module, where authentication of the code executed by ssa is missing, which may lead to arbitrary code execution, denial of service, escalation of privileges assisted by a firmware implant, information disclosure assisted by a firmware implant, data tampering, and secureboot bypass.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nnvidia dgx-1 sbios contains a vulnerability in the uncore pei module, where authentication of the code executed by ssa is missing, which may lead to arbitrary code execution, denial of service, escalation of privileges assisted by a firmware implant, information disclosure assisted by a firmware implant, data tampering, and secureboot bypass."
+    },
+    {
+      "id": "CVE-2023-0962",
+      "description": "a vulnerability was found in sourcecodester music gallery site 1.0. it has been declared as critical. this vulnerability affects unknown code of the file master.php of the component get request handler. the manipulation of the argument id leads to sql injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-221632.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in sourcecodester music gallery site 1.0. it has been declared as critical. this vulnerability affects unknown code of the file master.php of the component get request handler. the manipulation of the argument id leads to sql injection. the attack can be initiated remotely. the exploit has been disclosed to the public and may be used. the identifier of this vulnerability is vdb-221632."
+    },
+    {
+      "id": "CVE-2023-1354",
+      "description": "a vulnerability has been found in sourcecodester design and implementation of covid-19 directory on vaccination system 1.0 and classified as problematic. affected by this vulnerability is an unknown functionality of the file register.php. the manipulation of the argument txtfullname/txtage/txtaddress/txtphone leads to cross site scripting. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-222853 was assigned to this vulnerability.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability has been found in sourcecodester design and implementation of covid-19 directory on vaccination system 1.0 and classified as problematic. affected by this vulnerability is an unknown functionality of the file register.php. the manipulation of the argument txtfullname/txtage/txtaddress/txtphone leads to cross site scripting. the attack can be launched remotely. the exploit has been disclosed to the public and may be used. the identifier vdb-222853 was assigned to this vulnerability."
+    },
+    {
+      "id": "CVE-2023-1784",
+      "description": "a vulnerability was found in jeecg-boot 3.5.0 and classified as critical. this issue affects some unknown processing of the component api documentation. the manipulation leads to improper authentication. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-224699.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\na vulnerability was found in jeecg-boot 3.5.0 and classified as critical. this issue affects some unknown processing of the component api documentation. the manipulation leads to improper authentication. the attack may be initiated remotely. the exploit has been disclosed to the public and may be used. the associated identifier of this vulnerability is vdb-224699."
+    },
+    {
+      "id": "CVE-2023-0775",
+      "description": "an invalid \u2018prepare write request\u2019 command can cause the bluetooth le stack to run out of memory and fail to be able to handle subsequent connection requests, resulting in a denial-of-service.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nan invalid \u2018prepare write request\u2019 command can cause the bluetooth le stack to run out of memory and fail to be able to handle subsequent connection requests, resulting in a denial-of-service."
+    },
+    {
+      "id": "CVE-2023-0342",
+      "description": "mongodb ops manager diagnostics archive may not redact sensitive pem key file password app settings. archives do not include the pem files themselves. this issue affects mongodb ops manager v5.0 prior to 5.0.21 and mongodb ops manager v6.0 prior to 6.0.12",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\nmongodb ops manager diagnostics archive may not redact sensitive pem key file password app settings. archives do not include the pem files themselves. this issue affects mongodb ops manager v5.0 prior to 5.0.21 and mongodb ops manager v6.0 prior to 6.0.12"
+    },
+    {
+      "id": "CVE-2023-0786",
+      "description": "cross-site scripting (xss) - generic in github repository thorsten/phpmyfaq prior to 3.1.11.",
+      "prompt_input": "Extract cybersecurity concepts and relationships from the following description:\n\ncross-site scripting (xss) - generic in github repository thorsten/phpmyfaq prior to 3.1.11."
+    }
+  ],
+  "manifest": [
+    {
+      "cve_id": "CVE-2023-1362",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0235",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0054",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1585",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0584",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0520",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0473",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0293",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1574",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0213",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1444",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1583",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1908",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1161",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0181",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1256",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0897",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0068",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0064",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0194",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0463",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0493",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1075",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1282",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0057",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1195",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0421",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1530",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1384",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1495",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0892",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0467",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0953",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1253",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0590",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1732",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1860",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0014",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1623",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1724",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0335",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1488",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0898",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0722",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0327",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0456",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-20041",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1632",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0715",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0192",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0808",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0201",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0763",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1812",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0730",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1287",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0561",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1726",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0091",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1560",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0975",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1143",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0263",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-20071",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1971",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0803",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0164",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1175",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0623",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1773",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1339",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1317",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1893",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1844",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0768",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1229",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0404",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1501",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0145",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0096",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1408",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0483",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1652",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0615",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0166",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1831",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1854",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0209",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0962",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1354",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-1784",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0775",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0342",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    },
+    {
+      "cve_id": "CVE-2023-0786",
+      "severity": "MEDIUM",
+      "sampled_date": "2026-02-24T22:36:04.713726",
+      "random_seed": 42
+    }
+  ]
+}

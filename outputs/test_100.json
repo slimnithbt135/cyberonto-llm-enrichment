@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "CVE-2023-0001",
+    "prompt_input": "an information exposure vulnerability in the palo alto networks cortex xdr agent on windows devices allows a local system administrator to disclose the admin password for the agent in cleartext, which bad actors can then use to execute privileged cytool commands that disable or uninstall the agent.",
+    "llm_output": {
+      "classes": [
+        "Admin",
+        "Administrator",
+        "Paloaltonetworks",
+        "Privileged",
+        "System",
+        "Windows"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0002",
+    "prompt_input": "a problem with a protection mechanism in the palo alto networks cortex xdr agent on windows devices allows a local user to execute privileged cytool commands that disable or uninstall the agent.",
+    "llm_output": {
+      "classes": [
+        "Localuser",
+        "Paloaltonetworks",
+        "Privileged",
+        "Windows"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0003",
+    "prompt_input": "a file disclosure vulnerability in the palo alto networks cortex xsoar server software enables an authenticated user with access to the web interface to read local files from the server.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Paloaltonetworks",
+        "Server",
+        "Webinterface"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0004",
+    "prompt_input": "a local file deletion vulnerability in palo alto networks pan-os software enables an authenticated administrator to delete files from the local file system with elevated privileges. these files can include logs and system components that impact the integrity and availability of pan-os software.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "Authenticated",
+        "Paloaltonetworks",
+        "Pan-Os",
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0005",
+    "prompt_input": "a vulnerability in palo alto networks pan-os software enables an authenticated administrator to expose the plaintext values of secrets stored in the device configuration and encrypted api keys.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "Api",
+        "Authenticated",
+        "Paloaltonetworks",
+        "Pan-Os"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0006",
+    "prompt_input": "a local file deletion vulnerability in the palo alto networks globalprotect app on windows devices enables a user to delete system files from the endpoint with elevated privileges through a race condition.",
+    "llm_output": {
+      "classes": [
+        "Endpoint",
+        "Paloaltonetworks",
+        "System",
+        "Windows"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0007",
+    "prompt_input": "a cross-site scripting (xss) vulnerability in palo alto networks pan-os software on panorama appliances enables an authenticated read-write administrator to store a javascript payload in the web interface that will execute in the context of another administrator’s browser when viewed.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "Authenticated",
+        "Browser",
+        "CrossSitescripting",
+        "Paloaltonetworks",
+        "Pan-Os",
+        "Panoramaappliances",
+        "Read-Write",
+        "Webinterface",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Panoramaappliances"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Webinterface"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Browser"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Read-Write"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Paloaltonetworks"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Pan-Os"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Panoramaappliances"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Webinterface"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Browser"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Read-Write"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Paloaltonetworks"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Pan-Os"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0008",
+    "prompt_input": "a file disclosure vulnerability in palo alto networks pan-os software enables an authenticated read-write administrator with access to the web interface to export local files from the firewall through a race condition.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "Authenticated",
+        "Firewall",
+        "Paloaltonetworks",
+        "Pan-Os",
+        "Read-Write",
+        "Webinterface"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0009",
+    "prompt_input": "a local privilege escalation (pe) vulnerability in the palo alto networks globalprotect app on windows enables a local user to execute programs with elevated privileges.",
+    "llm_output": {
+      "classes": [
+        "Localuser",
+        "Paloaltonetworks",
+        "Privilegeescalation",
+        "Windows"
+      ],
+      "relations": [
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "requires",
+          "object": "Localuser"
+        },
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "inProduct",
+          "object": "Paloaltonetworks"
+        },
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "inProduct",
+          "object": "Windows"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0010",
+    "prompt_input": "a reflected cross-site scripting (xss) vulnerability in the captive portal feature of palo alto networks pan-os software can allow a javascript payload to be executed in the context of an authenticated captive portal user’s browser when they click on a specifically crafted link.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Browser",
+        "CrossSitescripting",
+        "Paloaltonetworks",
+        "Pan-Os",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Browser"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Paloaltonetworks"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Pan-Os"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Browser"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Paloaltonetworks"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Pan-Os"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0011",
+    "prompt_input": "a flaw in the input validation in toby-l2 allows a user to execute arbitrary operating system commands using specifically crafted at commands. this vulnerability requires physical access to the serial interface of the module or the ability to modify the system or software which uses its serial interface to send malicious at commands. exploitation of the vulnerability gives full administrative (root) privileges to the attacker to execute any operating system command on toby-l2 which can lead to modification of the behavior of the module itself as well as the components connected with it (depending on its rights on other connected systems). it can further provide the ability to read system level files and hamper the availability of the module as well.. this issue affects toby-l2 series: toby-l200, toby-l201, toby-l210, toby-l220, toby-l280.",
+    "llm_output": {
+      "classes": [
+        "Root",
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0012",
+    "prompt_input": "in sap host agent (windows) - versions 7.21, 7.22, an attacker who gains local membership to sap_localadmin could be able to replace executables with a malicious file that will be started under a privileged account. note that by default all user members of sap_locaadmin are denied the ability to logon locally by security policy so that this can only occur if the system has already been compromised.",
+    "llm_output": {
+      "classes": [
+        "Privileged",
+        "System",
+        "Windows",
+        "Windows_v7.21"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0013",
+    "prompt_input": "the abap keyword documentation of sap netweaver application server - versions 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, for abap and abap platform does not sufficiently encode user-controlled inputs, resulting in cross-site scripting (xss) vulnerability. on successful exploitation an attacker can cause limited impact on confidentiality and integrity of the application.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Server",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Server"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0014",
+    "prompt_input": "sap netweaver abap server and abap platform - versions sap_basis 700, 701, 702, 710, 711, 730, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, kernel 7.22, 7.53, 7.77, 7.81, 7.85, 7.89, krnl64uc 7.22, 7.22ext, 7.53, krnl64nuc 7.22, 7.22ext, creates information about system identity in an ambiguous format. this could lead to capture-replay vulnerability and may be exploited by malicious users to obtain illegitimate access to the system.",
+    "llm_output": {
+      "classes": [
+        "Server",
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0015",
+    "prompt_input": "in sap businessobjects business intelligence platform (web intelligence user interface) - version 420, some calls return json with wrong content type in the header of the response. as a result, a custom application that calls directly the jsp of web intelligence dhtml may be vulnerable to xss attacks. on successful exploitation an attacker can cause limited impact on confidentiality and integrity of the application.",
+    "llm_output": {
+      "classes": [
+        "Xss"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0016",
+    "prompt_input": "sap bpc ms 10.0 - version 810, allows an unauthorized attacker to execute crafted database queries. the exploitation of this issue could lead to sql injection vulnerability and could allow an attacker to access, modify, and/or delete data from the backend database.",
+    "llm_output": {
+      "classes": [
+        "Database",
+        "Sql"
+      ],
+      "relations": [
+        {
+          "subject": "Sql",
+          "predicate": "affects",
+          "object": "Database"
+        },
+        {
+          "subject": "Sql",
+          "predicate": "affects",
+          "object": "Database"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0017",
+    "prompt_input": "an unauthenticated attacker in sap netweaver as for java - version 7.50, due to improper access control, can attach to an open interface and make use of an open naming and directory api to access services which can be used to perform unauthorized operations affecting users and data on the current system. this could allow the attacker to have full read access to user data, make modifications to user data, and make services within the system unavailable.",
+    "llm_output": {
+      "classes": [
+        "Api",
+        "Java",
+        "Java_v7.50",
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0018",
+    "prompt_input": "due to improper input sanitization of user-controlled input in sap businessobjects business intelligence platform cmc application - versions 420, and 430, an attacker with basic user-level privileges can modify/upload crystal reports containing a malicious payload. once these reports are viewable, anyone who opens those reports would be susceptible to stored xss attacks. as a result of the attack, information maintained in the victim's web browser can be read, modified, and sent to the attacker.",
+    "llm_output": {
+      "classes": [
+        "Browser",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Browser"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0019",
+    "prompt_input": "in sap grc (process control) - versions grcfnd_a v1200, grcfnd_a v8100, grcpinw v1100_700, grcpinw v1100_731, grcpinw v1200_750, remote-enabled function module in the proprietary sap solution enables an authenticated attacker with minimal privileges to access all the confidential data stored in the database. successful exploitation of this vulnerability can expose user credentials from client-specific tables of the database, leading to high impact on confidentiality.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Client",
+        "Database"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0020",
+    "prompt_input": "sap businessobjects business intelligence platform - versions 420, 430, allows an authenticated attacker to access sensitive information which is otherwise restricted. on successful exploitation, there could be a high impact on confidentiality and limited impact on integrity of the application.",
+    "llm_output": {
+      "classes": [
+        "Authenticated"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0021",
+    "prompt_input": "due to insufficient encoding of user input, sap netweaver - versions 700, 701, 702, 731, 740, 750, allows an unauthenticated attacker to inject code that may expose sensitive data like user id and password, which could lead to reflected cross-site scripting. these endpoints are normally exposed over the network and successful exploitation can partially impact confidentiality of the application.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Network"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Network"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0022",
+    "prompt_input": "sap businessobjects business intelligence analysis edition for olap allows an authenticated attacker to inject malicious code that can be executed by the application over the network. on successful exploitation, an attacker can perform operations that may completely compromise the application causing a high impact on the confidentiality, integrity, and availability of the application.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Network"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0023",
+    "prompt_input": "in sap bank account management (manage banks) application, when a user clicks a smart link to navigate to another app, personal data is shown directly in the url. they might get captured in log files, bookmarks, and so on disclosing sensitive data of the application.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0024",
+    "prompt_input": "sap solution manager (bsp application) - version 720, allows an authenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information or craft a payload which may restrict access to the desired resources, resulting in cross-site scripting vulnerability.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "CrossSitescripting"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Authenticated"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0025",
+    "prompt_input": "sap solution manager (bsp application) - version 720, allows an authenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information or craft a payload which may restrict access to the desired resources.",
+    "llm_output": {
+      "classes": [
+        "Authenticated"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0026",
+    "prompt_input": "an improper input validation vulnerability in the routing protocol daemon (rpd) of juniper networks junos os and junos os evolved allows an unauthenticated, network-based attacker to cause a denial of service (dos). when a bgp update message is received over an established bgp session, and that message contains a specific, optional transitive attribute, this session will be torn down with an update message error. this issue cannot propagate beyond an affected system as the processing error occurs as soon as the update is received. this issue is exploitable remotely as the respective attribute can propagate through unaffected systems and intermediate as (if any). continuous receipt of a bgp update containing this attribute will create a sustained denial of service (dos) condition. some customers have experienced these bgp session flaps which prompted juniper sirt to release this advisory out of cycle before fixed releases are widely available as there is an effective workaround. this issue affects: juniper networks junos os 15.1r1 and later versions prior to 20.4r3-s8; 21.1 version 21.1r1 and later versions prior to 21.2r3-s6; 21.3 versions prior to 21.3r3-s5; 21.4 versions prior to 21.4r3-s4; 22.1 versions prior to 22.1r3-s4; 22.2 versions prior to 22.2r3-s2; 22.3 versions prior to 22.3r2-s2, 22.3r3-s1; 22.4 versions prior to 22.4r2-s1, 22.4r3; 23.1 versions prior to 23.1r1-s1, 23.1r2. juniper networks junos os evolved all versions prior to 20.4r3-s8-evo; 21.1 version 21.1r1-evo and later versions prior to 21.2r3-s6-evo; 21.3 versions prior to 21.3r3-s5-evo; 21.4 versions prior to 21.4r3-s4-evo; 22.1 versions prior to 22.1r3-s4-evo; 22.2 versions prior to 22.2r3-s2-evo; 22.3 versions prior to 22.3r2-s2-evo, 22.3r3-s1-evo; 22.4 versions prior to 22.4r2-s1-evo, 22.4r3-evo; 23.1 versions prior to 23.1r1-s1-evo, 23.1r2-evo.",
+    "llm_output": {
+      "classes": [
+        "Juniper",
+        "Juniper_v15.1",
+        "Junos",
+        "Junos_v15.1",
+        "Network",
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0027",
+    "prompt_input": "rockwell automation modbus tcp server aoi prior to 2.04.00 is vulnerable to an unauthorized user sending a malformed message that could cause the controller to respond with a copy of the most recent response to the last valid request. if exploited, an unauthorized user could read the connected device’s modbus tcp server aoi information.",
+    "llm_output": {
+      "classes": [
+        "Server"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0028",
+    "prompt_input": "cross-site scripting (xss) - stored in github repository linagora/twake prior to 2023.q1.1200+.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Xss"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0029",
+    "prompt_input": "a vulnerability was found in multilaser re708 re1200r4gc-2t2r-v3_v3411b_mul029b. it has been rated as problematic. this issue affects some unknown processing of the component telnet service. the manipulation leads to denial of service. the attack may be initiated remotely. the identifier vdb-217169 was assigned to this vulnerability.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0030",
+    "prompt_input": "a use-after-free flaw was found in the linux kernel’s nouveau driver in how a user triggers a memory overflow that causes the nvkm_vma_tail function to fail. this flaw allows a local user to crash or potentially escalate their privileges on the system.",
+    "llm_output": {
+      "classes": [
+        "Linuxkernel",
+        "Localuser",
+        "System",
+        "UseAfterFree"
+      ],
+      "relations": [
+        {
+          "subject": "UseAfterFree",
+          "predicate": "requires",
+          "object": "System"
+        },
+        {
+          "subject": "UseAfterFree",
+          "predicate": "requires",
+          "object": "Localuser"
+        },
+        {
+          "subject": "UseAfterFree",
+          "predicate": "inProduct",
+          "object": "Linuxkernel"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0033",
+    "prompt_input": "the pdf viewer wordpress plugin before 1.0.0 does not validate and escape one of its shortcode attributes, which could allow users with a role as low as contributor to perform stored cross-site scripting attack.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.0.0"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0034",
+    "prompt_input": "the jetwidgets for elementor wordpress plugin before 1.0.14 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.0.14"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0035",
+    "prompt_input": "softbus_client_stub in communication subsystem within openharmony-v3.0.5 and prior versions has an authentication bypass vulnerability which allows an \"sa relay attack\".local attackers can bypass authentication and attack other sas with high privilege.",
+    "llm_output": {
+      "classes": [
+        "Authenticationbypass"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0036",
+    "prompt_input": "platform_callback_stub in misc subsystem within openharmony-v3.0.5 and prior versions has an authentication bypass vulnerability which allows an \"sa relay attack\".local attackers can bypass authentication and attack other sas with high privilege.",
+    "llm_output": {
+      "classes": [
+        "Authenticationbypass"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0037",
+    "prompt_input": "the 10web map builder for google maps wordpress plugin before 1.0.73 does not properly sanitise and escape some parameters before using them in an sql statement via an ajax action available to unauthenticated users, leading to a sql injection",
+    "llm_output": {
+      "classes": [
+        "Sql",
+        "Wordpress",
+        "Wordpress_v1.0.73"
+      ],
+      "relations": [
+        {
+          "subject": "Sql",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "Sql",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0038",
+    "prompt_input": "the \"survey maker – best wordpress survey plugin\" plugin for wordpress is vulnerable to stored cross-site scripting via survey answers in versions up to, and including, 3.1.3 due to insufficient input sanitization and output escaping. this makes it possible for unauthenticated attackers to inject arbitrary web scripts when submitting quizzes that will execute whenever a user accesses the submissions page.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0039",
+    "prompt_input": "rejected reason: duplicate. please use cve-2022-4060 instead.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0040",
+    "prompt_input": "versions of async http client prior to 1.13.2 are vulnerable to a form of targeted request manipulation called crlf injection. this vulnerability was the result of insufficient validation of http header field values before sending them to the network. users are vulnerable if they pass untrusted data into http header field values without prior sanitisation. common use-cases here might be to place usernames from a database into http header fields. this vulnerability allows attackers to inject new http header fields, or entirely new requests, into the data stream. this can cause requests to be understood very differently by the remote server than was intended. in general, this is unlikely to result in data disclosure, but it can result in a number of logical errors and other misbehaviours.",
+    "llm_output": {
+      "classes": [
+        "Client",
+        "Crlfinjection",
+        "Database",
+        "Network",
+        "Server"
+      ],
+      "relations": [
+        {
+          "subject": "Crlfinjection",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Crlfinjection",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "Crlfinjection",
+          "predicate": "affects",
+          "object": "Database"
+        },
+        {
+          "subject": "Crlfinjection",
+          "predicate": "requires",
+          "object": "Network"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0041",
+    "prompt_input": "ibm security guardium 11.5 could allow a user to take over another user's session due to insufficient session expiration. ibm x-force id: 243657.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0042",
+    "prompt_input": "an issue has been discovered in gitlab ce/ee affecting all versions starting from 11.4 prior to 15.5.7, 15.6 prior to 15.6.4, and 15.7 prior to 15.7.2. gitlab pages allows redirection to arbitrary protocols.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0043",
+    "prompt_input": "the custom add user wordpress plugin through 2.0.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a reflected cross-site scripting which could be used against high privilege users such as admin",
+    "llm_output": {
+      "classes": [
+        "Admin",
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.0.2"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Admin"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0044",
+    "prompt_input": "if the quarkus form authentication session cookie path attribute is set to `/` then a cross-site attack may be initiated which might lead to the information disclosure. this attack can be prevented with the quarkus csrf prevention feature.",
+    "llm_output": {
+      "classes": [
+        "Csrf"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0045",
+    "prompt_input": "the current implementation of the prctl syscall does not issue an ibpb immediately during the syscall. the ib_prctl_set function updates the thread information flags (tifs) for the task and updates the spec_ctrl msr on the function __speculation_ctrl_update, but the ibpb is only issued on the next schedule, when the tif bits are checked. this leaves the victim vulnerable to values already injected on the btb, prior to the prctl syscall. the patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176. we recommend upgrading past commit a664ec9158eeddd75121d39c9a0758016097fa96",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0046",
+    "prompt_input": "improper restriction of names for files and other resources in github repository lirantal/daloradius prior to master-branch.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0047",
+    "prompt_input": "rejected reason: do not use this candidate number. consultids: none. reason: this candidate was in a cna pool that was not assigned to any issues during 2023. notes: none.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0048",
+    "prompt_input": "code injection in github repository lirantal/daloradius prior to master-branch.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0049",
+    "prompt_input": "out-of-bounds read in github repository vim/vim prior to 9.0.1143.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0050",
+    "prompt_input": "an issue has been discovered in gitlab affecting all versions starting from 13.7 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. a specially crafted kroki diagram could lead to a stored xss on the client side which allows attackers to perform arbitrary actions on behalf of victims.",
+    "llm_output": {
+      "classes": [
+        "Client",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "Xss",
+          "predicate": "affects",
+          "object": "Client"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0051",
+    "prompt_input": "heap-based buffer overflow in github repository vim/vim prior to 9.0.1144.",
+    "llm_output": {
+      "classes": [
+        "Bufferoverflow"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0052",
+    "prompt_input": "sauter controls nova 200–220 series with firmware version 3.3-006 and prior and bacnetstac version 4.2.1 and prior allows the execution of commands without credentials. as telnet and file transfer protocol (ftp) are the only protocols available for device management, an unauthorized user could access the system and modify the device configuration, which could result in the unauthorized user executing unrestricted malicious commands.",
+    "llm_output": {
+      "classes": [
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0053",
+    "prompt_input": "sauter controls nova 200–220 series with firmware version 3.3-006 and prior and bacnetstac version 4.2.1 and prior have only ftp and telnet available for device management. any sensitive information communicated through these protocols, such as credentials, is sent in cleartext. an attacker could obtain sensitive information such as user credentials to gain access to the system.",
+    "llm_output": {
+      "classes": [
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0054",
+    "prompt_input": "out-of-bounds write in github repository vim/vim prior to 9.0.1145.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0055",
+    "prompt_input": "sensitive cookie in https session without 'secure' attribute in github repository pyload/pyload prior to 0.5.0b3.dev32.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0056",
+    "prompt_input": "an uncontrolled resource consumption vulnerability was discovered in haproxy which could crash the service. this issue could allow an authenticated remote attacker to run a specially crafted malicious server in an openshift cluster. the biggest impact is to availability.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Openshift",
+        "Server"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0057",
+    "prompt_input": "improper restriction of rendered ui layers or frames in github repository pyload/pyload prior to 0.5.0b3.dev33.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0058",
+    "prompt_input": "the tiempo.com wordpress plugin through 0.1.2 does not have csrf check when creating and editing its shortcode, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add stored xss payloads via a csrf attack",
+    "llm_output": {
+      "classes": [
+        "Admin",
+        "Csrf",
+        "Wordpress",
+        "Wordpress_v0.1.2",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "Xss",
+          "predicate": "requires",
+          "object": "Admin"
+        },
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "Csrf",
+          "predicate": "requires",
+          "object": "Admin"
+        },
+        {
+          "subject": "Csrf",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "Csrf",
+          "predicate": "requires",
+          "object": "Admin"
+        },
+        {
+          "subject": "Csrf",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0059",
+    "prompt_input": "the youzify wordpress plugin before 1.2.2 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.2.2"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0060",
+    "prompt_input": "the responsive gallery grid wordpress plugin before 2.3.9 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.3.9"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0061",
+    "prompt_input": "the judge.me product reviews for woocommerce wordpress plugin before 1.3.21 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.3.21"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0062",
+    "prompt_input": "the ean for woocommerce wordpress plugin before 4.4.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v4.4.3"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0063",
+    "prompt_input": "the wordpress shortcodes wordpress plugin through 1.6.36 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.6.36"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0064",
+    "prompt_input": "the evision responsive column layout shortcodes wordpress plugin through 2.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.3"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0065",
+    "prompt_input": "the i2 pros & cons wordpress plugin through 1.3.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.3.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0066",
+    "prompt_input": "the companion sitemap generator wordpress plugin through 4.5.1.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v4.5.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0067",
+    "prompt_input": "the timed content wordpress plugin before 2.73 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.73"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0068",
+    "prompt_input": "the product gtin (ean, upc, isbn) for woocommerce wordpress plugin through 1.1.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.1.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0069",
+    "prompt_input": "the wpaudio mp3 player wordpress plugin through 4.0.2 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v4.0.2"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0070",
+    "prompt_input": "the responsivevoice text to speech wordpress plugin before 1.7.7 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.7.7"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0071",
+    "prompt_input": "the wp tabs wordpress plugin before 2.1.17 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.1.17"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0072",
+    "prompt_input": "the wc vendors marketplace wordpress plugin before 2.4.5 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.4.5"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0073",
+    "prompt_input": "the client logo carousel wordpress plugin through 3.0.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "Client",
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v3.0.0"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0074",
+    "prompt_input": "the wp social widget wordpress plugin before 2.2.4 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.2.4"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0075",
+    "prompt_input": "the amazon js wordpress plugin through 0.10 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v0.10"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0076",
+    "prompt_input": "the download attachments wordpress plugin before 1.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.3"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0077",
+    "prompt_input": "integer overflow or wraparound vulnerability in cgi component in synology router manager (srm) before 1.2.5-8227-6 and 1.3.1-9346-3 allows remote attackers to overflow buffers via unspecified vectors.",
+    "llm_output": {
+      "classes": [
+        "Router",
+        "Router_v1.2.5"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0078",
+    "prompt_input": "the resume builder wordpress plugin through 3.1.1 does not sanitize and escape some parameters related to resume, which could allow users with a role as low as subscriber to perform stored xss attacks against higher privilege users",
+    "llm_output": {
+      "classes": [
+        "Wordpress",
+        "Wordpress_v3.1.1",
+        "Xss"
+      ],
+      "relations": [
+        {
+          "subject": "Xss",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0079",
+    "prompt_input": "the customer reviews for woocommerce wordpress plugin before 5.17.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v5.17.0"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0080",
+    "prompt_input": "the customer reviews for woocommerce wordpress plugin before 5.16.0 does not validate one of its shortcode attribute, which could allow users with a contributor role and above to include arbitrary files via a traversal attack. this could also allow them to read non php files and retrieve their content. rce could also be achieved if the attacker manage to upload a malicious image containing php code, and then include it via the affected attribute, on a default wp install, authors could easily achieve that given that they have the upload_file capability.",
+    "llm_output": {
+      "classes": [
+        "Php",
+        "Wordpress",
+        "Wordpress_v5.16.0"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0081",
+    "prompt_input": "the monsterinsights wordpress plugin before 8.12.1 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v8.12.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0082",
+    "prompt_input": "the exactmetrics wordpress plugin before 7.12.1 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v7.12.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0083",
+    "prompt_input": "the arkui framework subsystem within openharmony-v3.1.5 and prior versions, openharmony-v3.0.7 and prior versions has an improper input validation vulnerability which local attackers can exploit this vulnerability to send malicious data, causing the current application to crash.",
+    "llm_output": {
+      "classes": [],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0084",
+    "prompt_input": "the metform elementor contact form builder plugin for wordpress is vulnerable to stored cross-site scripting via text areas on forms in versions up to, and including, 3.1.2 due to insufficient input sanitization and output escaping. this makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page, which is the submissions page.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0085",
+    "prompt_input": "the metform elementor contact form builder plugin for wordpress is vulnerable to recaptcha bypass in versions up to, and including, 3.2.1. this is due to insufficient server side checking on the captcha value submitted during a form submission. this makes it possible for unauthenticated attackers to bypass captcha restrictions and for attackers to utilize bots to submit forms.",
+    "llm_output": {
+      "classes": [
+        "Server",
+        "Wordpress"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0086",
+    "prompt_input": "the jetwidgets for elementor plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 1.0.12. this is due to missing nonce validation on the save() function. this makes it possible for unauthenticated attackers to to modify the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. this can be used to enable svg uploads that could make cross-site scripting possible.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "CrossSiterequestforgery",
+        "CrossSitescripting",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "CrossSiterequestforgery",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSiterequestforgery",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0087",
+    "prompt_input": "the swifty page manager plugin for wordpress is vulnerable to stored cross-site scripting via the ‘spm_plugin_options_page_tree_max_width’ parameter in versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping. this makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. this only affects multi-site installations and installations where unfiltered_html has been disabled.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "Authenticated",
+        "CrossSitescripting",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0088",
+    "prompt_input": "the swifty page manager plugin for wordpress is vulnerable to cross-site request forgery in versions up to, and including, 3.0.1. this is due to missing or incorrect nonce validation on several ajax actions handling page creation and deletion among other things. this makes it possible for unauthenticated attackers to invoke those functions, via forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "llm_output": {
+      "classes": [
+        "Administrator",
+        "CrossSiterequestforgery",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSiterequestforgery",
+          "predicate": "requires",
+          "object": "Administrator"
+        },
+        {
+          "subject": "CrossSiterequestforgery",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0089",
+    "prompt_input": "the webutils in proofpoint enterprise protection (pps/pod) contain a vulnerability that allows an authenticated user to execute remote code through 'eval injection'. this affects all versions 8.20.0 and below.",
+    "llm_output": {
+      "classes": [
+        "Authenticated"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0090",
+    "prompt_input": "the webservices in proofpoint enterprise protection (pps/pod) contain a vulnerability that allows for an anonymous user to execute remote code through 'eval injection'. exploitation requires network access to the webservices api, but such access is a non-standard configuration. this affects all versions 8.20.0 and below.",
+    "llm_output": {
+      "classes": [
+        "Anonymous",
+        "Api",
+        "Network"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0091",
+    "prompt_input": "a flaw was found in keycloak, where it did not properly check client tokens for possible revocation in its client credential flow. this flaw allows an attacker to access or modify potentially sensitive information.",
+    "llm_output": {
+      "classes": [
+        "Client"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0092",
+    "prompt_input": "an authenticated user who has read access to the juju controller model, may construct a remote request to download an arbitrary file from the controller's filesystem.",
+    "llm_output": {
+      "classes": [
+        "Authenticated"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0093",
+    "prompt_input": "okta advanced server access client versions 1.13.1 through 1.65.0 are vulnerable to command injection due to the third party library webbrowser. an outdated library, webbrowser, used by the asa client was found to be vulnerable to command injection. to exploit this issue, an attacker would need to phish the user to enter an attacker controlled server url during enrollment.",
+    "llm_output": {
+      "classes": [
+        "Asa",
+        "Client",
+        "Commandinjection",
+        "Server"
+      ],
+      "relations": [
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "inProduct",
+          "object": "Asa"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Server"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "affects",
+          "object": "Client"
+        },
+        {
+          "subject": "Commandinjection",
+          "predicate": "inProduct",
+          "object": "Asa"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0094",
+    "prompt_input": "the upqode google maps wordpress plugin through 1.0.5 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.0.5"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0095",
+    "prompt_input": "the page view count wordpress plugin before 2.6.1 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.6.1"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0096",
+    "prompt_input": "the happyforms wordpress plugin before 1.22.0 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v1.22.0"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0097",
+    "prompt_input": "the post grid, post carousel, & list category posts wordpress plugin before 2.4.19 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform stored cross-site scripting attacks.",
+    "llm_output": {
+      "classes": [
+        "CrossSitescripting",
+        "Wordpress",
+        "Wordpress_v2.4.19"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0098",
+    "prompt_input": "the simple urls wordpress plugin before 115 does not escape some parameters before using them in various sql statements used by ajax actions available by any authenticated users, leading to a sql injection exploitable by low privilege users such as subscriber.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Sql",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "Sql",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "Sql",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        },
+        {
+          "subject": "Sql",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "Sql",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0099",
+    "prompt_input": "the simple urls wordpress plugin before 115 does not sanitise and escape some parameters before outputting them back in some pages, leading to reflected cross-site scripting which could be used against high privilege users such as admin.",
+    "llm_output": {
+      "classes": [
+        "Admin",
+        "CrossSitescripting",
+        "Wordpress"
+      ],
+      "relations": [
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "requires",
+          "object": "Admin"
+        },
+        {
+          "subject": "CrossSitescripting",
+          "predicate": "inProduct",
+          "object": "Wordpress"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0100",
+    "prompt_input": "in eclipse birt, starting from version 2.6.2, the default configuration allowed to retrieve a report from the same host using an absolute http path for the report parameter (e.g. __report=http://xyz.com/report.rptdesign). if the host indicated in the __report parameter matched the http host header value, the report would be retrieved. however, the host header can be tampered with on some configurations where no virtual hosts are put in place (e.g. in the default configuration of apache tomcat) or when the default host points to the birt server. this vulnerability was patched on eclipse birt 4.13.",
+    "llm_output": {
+      "classes": [
+        "Apache",
+        "Server",
+        "Tomcat"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0101",
+    "prompt_input": "a privilege escalation vulnerability was identified in nessus versions 8.10.1 through 8.15.8 and 10.0.0 through 10.4.1. an authenticated attacker could potentially execute a specially crafted file to obtain root or nt authority / system privileges on the nessus host.",
+    "llm_output": {
+      "classes": [
+        "Authenticated",
+        "Privilegeescalation",
+        "Root",
+        "System"
+      ],
+      "relations": [
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "requires",
+          "object": "Authenticated"
+        },
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "requires",
+          "object": "Root"
+        },
+        {
+          "subject": "Privilegeescalation",
+          "predicate": "requires",
+          "object": "System"
+        }
+      ],
+      "axioms": []
+    }
+  },
+  {
+    "id": "CVE-2023-0102",
+    "prompt_input": "ls electric xbc-dn32u with operating system version 01.80 is missing authentication for its deletion command. this could allow an attacker to delete arbitrary files.",
+    "llm_output": {
+      "classes": [
+        "System"
+      ],
+      "relations": [],
+      "axioms": []
+    }
+  }
+]

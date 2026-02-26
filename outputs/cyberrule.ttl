@@ -1,0 +1,9239 @@
+@prefix cr: <http://cyberrule.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+cr:CVE-2023-0001 a cr:CVE ;
+    cr:hasClass cr:PaloAltoNetworks,
+        cr:Windows,
+        cr:admin,
+        cr:administrator,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-0002 a cr:CVE ;
+    cr:hasClass cr:PaloAltoNetworks,
+        cr:Windows,
+        cr:localuser,
+        cr:privileged .
+
+cr:CVE-2023-0003 a cr:CVE ;
+    cr:hasClass cr:PaloAltoNetworks,
+        cr:Server,
+        cr:WebInterface,
+        cr:authenticated .
+
+cr:CVE-2023-0004 a cr:CVE ;
+    cr:hasClass cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:administrator,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-0005 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0006 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:PaloAltoNetworks,
+        cr:Windows,
+        cr:system .
+
+cr:CVE-2023-0007 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cross-siteScripting,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:PanoramaAppliances,
+        cr:WebInterface,
+        cr:Xss,
+        cr:administrator,
+        cr:authenticated,
+        cr:read-write .
+
+cr:CVE-2023-0008 a cr:CVE ;
+    cr:hasClass cr:Firewall,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:WebInterface,
+        cr:administrator,
+        cr:authenticated,
+        cr:read-write .
+
+cr:CVE-2023-0009 a cr:CVE ;
+    cr:hasClass cr:PaloAltoNetworks,
+        cr:PrivilegeEscalation,
+        cr:Windows,
+        cr:localuser .
+
+cr:CVE-2023-0010 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cross-siteScripting,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:Xss,
+        cr:authenticated .
+
+cr:CVE-2023-0011 a cr:CVE ;
+    cr:hasClass cr:root,
+        cr:system .
+
+cr:CVE-2023-0012 a cr:CVE ;
+    cr:hasClass cr:Windows,
+        cr:Windows_v721,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-0013 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Server,
+        cr:Xss .
+
+cr:CVE-2023-0014 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:system .
+
+cr:CVE-2023-0015 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-0016 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql .
+
+cr:CVE-2023-0017 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Java,
+        cr:Java_v750,
+        cr:system .
+
+cr:CVE-2023-0018 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Xss .
+
+cr:CVE-2023-0019 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Database,
+        cr:authenticated .
+
+cr:CVE-2023-0020 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0021 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:network .
+
+cr:CVE-2023-0022 a cr:CVE ;
+    cr:hasClass cr:authenticated,
+        cr:network .
+
+cr:CVE-2023-0023 a cr:CVE .
+
+cr:CVE-2023-0024 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:authenticated .
+
+cr:CVE-2023-0025 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0026 a cr:CVE ;
+    cr:hasClass cr:Juniper,
+        cr:Juniper_v151,
+        cr:Junos,
+        cr:Junos_v151,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-0027 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0028 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0029 a cr:CVE .
+
+cr:CVE-2023-0030 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-0033 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v100 .
+
+cr:CVE-2023-0034 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1014 .
+
+cr:CVE-2023-0035 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-0036 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-0037 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v1073 .
+
+cr:CVE-2023-0038 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-0039 a cr:CVE .
+
+cr:CVE-2023-0040 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:CrlfInjection,
+        cr:Database,
+        cr:Server,
+        cr:network .
+
+cr:CVE-2023-0041 a cr:CVE .
+
+cr:CVE-2023-0042 a cr:CVE .
+
+cr:CVE-2023-0043 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v202,
+        cr:admin .
+
+cr:CVE-2023-0044 a cr:CVE ;
+    cr:hasClass cr:Csrf .
+
+cr:CVE-2023-0045 a cr:CVE .
+
+cr:CVE-2023-0046 a cr:CVE .
+
+cr:CVE-2023-0047 a cr:CVE .
+
+cr:CVE-2023-0048 a cr:CVE .
+
+cr:CVE-2023-0049 a cr:CVE .
+
+cr:CVE-2023-0050 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Xss .
+
+cr:CVE-2023-0051 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0052 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0053 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0054 a cr:CVE .
+
+cr:CVE-2023-0055 a cr:CVE .
+
+cr:CVE-2023-0056 a cr:CVE ;
+    cr:hasClass cr:Openshift,
+        cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0057 a cr:CVE .
+
+cr:CVE-2023-0058 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v012,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0059 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v122 .
+
+cr:CVE-2023-0060 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v239 .
+
+cr:CVE-2023-0061 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1321 .
+
+cr:CVE-2023-0062 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v443 .
+
+cr:CVE-2023-0063 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1636 .
+
+cr:CVE-2023-0064 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v23 .
+
+cr:CVE-2023-0065 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v131 .
+
+cr:CVE-2023-0066 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v451 .
+
+cr:CVE-2023-0067 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v273 .
+
+cr:CVE-2023-0068 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v111 .
+
+cr:CVE-2023-0069 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v402 .
+
+cr:CVE-2023-0070 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v177 .
+
+cr:CVE-2023-0071 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2117 .
+
+cr:CVE-2023-0072 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v245 .
+
+cr:CVE-2023-0073 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v300 .
+
+cr:CVE-2023-0074 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v224 .
+
+cr:CVE-2023-0075 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v010 .
+
+cr:CVE-2023-0076 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v13 .
+
+cr:CVE-2023-0077 a cr:CVE ;
+    cr:hasClass cr:Router,
+        cr:Router_v125 .
+
+cr:CVE-2023-0078 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v311,
+        cr:Xss .
+
+cr:CVE-2023-0079 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v5170 .
+
+cr:CVE-2023-0080 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v5160 .
+
+cr:CVE-2023-0081 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v8121 .
+
+cr:CVE-2023-0082 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v7121 .
+
+cr:CVE-2023-0083 a cr:CVE .
+
+cr:CVE-2023-0084 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-0085 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Wordpress .
+
+cr:CVE-2023-0086 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0087 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0088 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0089 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0090 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:anonymous,
+        cr:network .
+
+cr:CVE-2023-0091 a cr:CVE ;
+    cr:hasClass cr:Client .
+
+cr:CVE-2023-0092 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0093 a cr:CVE ;
+    cr:hasClass cr:Asa,
+        cr:Client,
+        cr:CommandInjection,
+        cr:Server .
+
+cr:CVE-2023-0094 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v105 .
+
+cr:CVE-2023-0095 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v261 .
+
+cr:CVE-2023-0096 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1220 .
+
+cr:CVE-2023-0097 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2419 .
+
+cr:CVE-2023-0098 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0099 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:admin .
+
+cr:CVE-2023-0100 a cr:CVE ;
+    cr:hasClass cr:Apache,
+        cr:Server,
+        cr:Tomcat .
+
+cr:CVE-2023-0101 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-0102 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0103 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0104 a cr:CVE .
+
+cr:CVE-2023-0105 a cr:CVE .
+
+cr:CVE-2023-0106 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0107 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0108 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0109 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0110 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0111 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0112 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0113 a cr:CVE ;
+    cr:hasClass cr:Router,
+        cr:Router_v226 .
+
+cr:CVE-2023-0114 a cr:CVE ;
+    cr:hasClass cr:Router .
+
+cr:CVE-2023-0115 a cr:CVE .
+
+cr:CVE-2023-0116 a cr:CVE .
+
+cr:CVE-2023-0117 a cr:CVE .
+
+cr:CVE-2023-0118 a cr:CVE ;
+    cr:hasClass cr:admin,
+        cr:system .
+
+cr:CVE-2023-0119 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:system .
+
+cr:CVE-2023-0120 a cr:CVE .
+
+cr:CVE-2023-0121 a cr:CVE .
+
+cr:CVE-2023-0122 a cr:CVE ;
+    cr:hasClass cr:Auth,
+        cr:LinuxKernel .
+
+cr:CVE-2023-0123 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0124 a cr:CVE .
+
+cr:CVE-2023-0125 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:WebInterface .
+
+cr:CVE-2023-0126 a cr:CVE ;
+    cr:hasClass cr:root .
+
+cr:CVE-2023-0127 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-0128 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905,
+        cr:Chrome_v10905414,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0129 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:network .
+
+cr:CVE-2023-0130 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v10905414,
+        cr:Api,
+        cr:Chrome,
+        cr:Chrome_v1090541 .
+
+cr:CVE-2023-0131 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414 .
+
+cr:CVE-2023-0132 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v1090541,
+        cr:Windows,
+        cr:Windows_v10905414 .
+
+cr:CVE-2023-0133 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v10905414,
+        cr:Chrome,
+        cr:Chrome_v1090541 .
+
+cr:CVE-2023-0134 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:Database,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0135 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:Database,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0136 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v10905414,
+        cr:Api,
+        cr:Chrome,
+        cr:Chrome_v1090541 .
+
+cr:CVE-2023-0137 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v10905,
+        cr:Chrome_v10905414 .
+
+cr:CVE-2023-0138 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v10905414 .
+
+cr:CVE-2023-0139 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v1090541,
+        cr:Windows,
+        cr:Windows_v10905414 .
+
+cr:CVE-2023-0140 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v1090541,
+        cr:Windows,
+        cr:Windows_v10905414,
+        cr:system .
+
+cr:CVE-2023-0141 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414 .
+
+cr:CVE-2023-0142 a cr:CVE ;
+    cr:hasClass cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0143 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v099 .
+
+cr:CVE-2023-0144 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v380 .
+
+cr:CVE-2023-0145 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v18 .
+
+cr:CVE-2023-0146 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v110 .
+
+cr:CVE-2023-0147 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v41 .
+
+cr:CVE-2023-0148 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v200 .
+
+cr:CVE-2023-0149 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v09 .
+
+cr:CVE-2023-0150 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v192 .
+
+cr:CVE-2023-0151 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v208 .
+
+cr:CVE-2023-0152 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v24 .
+
+cr:CVE-2023-0153 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v10 .
+
+cr:CVE-2023-0154 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v109 .
+
+cr:CVE-2023-0155 a cr:CVE .
+
+cr:CVE-2023-0156 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Wordpress,
+        cr:Wordpress_v515,
+        cr:admin .
+
+cr:CVE-2023-0157 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v515,
+        cr:admin,
+        cr:administrator .
+
+cr:CVE-2023-0158 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:Server .
+
+cr:CVE-2023-0159 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v191,
+        cr:system .
+
+cr:CVE-2023-0160 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-0161 a cr:CVE .
+
+cr:CVE-2023-0162 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0163 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:admin .
+
+cr:CVE-2023-0164 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-0165 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v18 .
+
+cr:CVE-2023-0166 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v11342 .
+
+cr:CVE-2023-0167 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v5531 .
+
+cr:CVE-2023-0168 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v119 .
+
+cr:CVE-2023-0169 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v301 .
+
+cr:CVE-2023-0170 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2112 .
+
+cr:CVE-2023-0171 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2324 .
+
+cr:CVE-2023-0172 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v111 .
+
+cr:CVE-2023-0173 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v269 .
+
+cr:CVE-2023-0174 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v827 .
+
+cr:CVE-2023-0175 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v119 .
+
+cr:CVE-2023-0176 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1113 .
+
+cr:CVE-2023-0177 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v0841 .
+
+cr:CVE-2023-0178 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v160 .
+
+cr:CVE-2023-0179 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:LinuxKernel,
+        cr:PrivilegeEscalation,
+        cr:root .
+
+cr:CVE-2023-0180 a cr:CVE .
+
+cr:CVE-2023-0181 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0182 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0183 a cr:CVE .
+
+cr:CVE-2023-0184 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0185 a cr:CVE .
+
+cr:CVE-2023-0186 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0187 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0188 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0189 a cr:CVE .
+
+cr:CVE-2023-0190 a cr:CVE .
+
+cr:CVE-2023-0191 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0192 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0193 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-0194 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0195 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0196 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-0197 a cr:CVE ;
+    cr:hasClass cr:Vm,
+        cr:guest .
+
+cr:CVE-2023-0198 a cr:CVE .
+
+cr:CVE-2023-0199 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0200 a cr:CVE .
+
+cr:CVE-2023-0201 a cr:CVE .
+
+cr:CVE-2023-0202 a cr:CVE .
+
+cr:CVE-2023-0203 a cr:CVE .
+
+cr:CVE-2023-0204 a cr:CVE .
+
+cr:CVE-2023-0205 a cr:CVE .
+
+cr:CVE-2023-0206 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-0207 a cr:CVE ;
+    cr:hasClass cr:privileged .
+
+cr:CVE-2023-0208 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Server .
+
+cr:CVE-2023-0209 a cr:CVE .
+
+cr:CVE-2023-0210 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-0212 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v0614 .
+
+cr:CVE-2023-0213 a cr:CVE ;
+    cr:hasClass cr:DllHijacking,
+        cr:Windows,
+        cr:system .
+
+cr:CVE-2023-0214 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0215 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Use-after-free .
+
+cr:CVE-2023-0216 a cr:CVE .
+
+cr:CVE-2023-0217 a cr:CVE .
+
+cr:CVE-2023-0219 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v223,
+        cr:Xss,
+        cr:administrator .
+
+cr:CVE-2023-0220 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v299,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-0221 a cr:CVE ;
+    cr:hasClass cr:administrator .
+
+cr:CVE-2023-0223 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-0224 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v2241 .
+
+cr:CVE-2023-0225 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0227 a cr:CVE .
+
+cr:CVE-2023-0228 a cr:CVE .
+
+cr:CVE-2023-0229 a cr:CVE ;
+    cr:hasClass cr:Openshift,
+        cr:Openshift_v412,
+        cr:privileged .
+
+cr:CVE-2023-0230 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v9860 .
+
+cr:CVE-2023-0231 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v254 .
+
+cr:CVE-2023-0232 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v254 .
+
+cr:CVE-2023-0233 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v8112 .
+
+cr:CVE-2023-0234 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v131,
+        cr:authenticated .
+
+cr:CVE-2023-0235 a cr:CVE .
+
+cr:CVE-2023-0236 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2010,
+        cr:admin .
+
+cr:CVE-2023-0237 a cr:CVE .
+
+cr:CVE-2023-0238 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Client .
+
+cr:CVE-2023-0240 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Use-after-free .
+
+cr:CVE-2023-0241 a cr:CVE ;
+    cr:hasClass cr:Database .
+
+cr:CVE-2023-0242 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0243 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0244 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0245 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0246 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0247 a cr:CVE .
+
+cr:CVE-2023-0248 a cr:CVE .
+
+cr:CVE-2023-0249 a cr:CVE .
+
+cr:CVE-2023-0250 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0251 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0252 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v331 .
+
+cr:CVE-2023-0253 a cr:CVE .
+
+cr:CVE-2023-0254 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0255 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v402 .
+
+cr:CVE-2023-0256 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0257 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0258 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-0259 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v118 .
+
+cr:CVE-2023-0260 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v122 .
+
+cr:CVE-2023-0261 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v108 .
+
+cr:CVE-2023-0262 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v33 .
+
+cr:CVE-2023-0263 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v71 .
+
+cr:CVE-2023-0264 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0265 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0266 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:UseAfterFree,
+        cr:readwrite,
+        cr:system .
+
+cr:CVE-2023-0267 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v26 .
+
+cr:CVE-2023-0268 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v430 .
+
+cr:CVE-2023-0269 a cr:CVE .
+
+cr:CVE-2023-0270 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v0626 .
+
+cr:CVE-2023-0271 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v179 .
+
+cr:CVE-2023-0272 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v833 .
+
+cr:CVE-2023-0273 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v402 .
+
+cr:CVE-2023-0274 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v25 .
+
+cr:CVE-2023-0275 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v4910 .
+
+cr:CVE-2023-0276 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v627 .
+
+cr:CVE-2023-0277 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v415,
+        cr:admin .
+
+cr:CVE-2023-0278 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v2224,
+        cr:admin .
+
+cr:CVE-2023-0279 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v306,
+        cr:admin .
+
+cr:CVE-2023-0280 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v217 .
+
+cr:CVE-2023-0281 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0282 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v122 .
+
+cr:CVE-2023-0283 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0284 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0285 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v41829 .
+
+cr:CVE-2023-0286 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0287 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0288 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0289 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0290 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Client,
+        cr:Server,
+        cr:administrator .
+
+cr:CVE-2023-0291 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-0292 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0293 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0294 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0295 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0296 a cr:CVE ;
+    cr:hasClass cr:Proxy .
+
+cr:CVE-2023-0297 a cr:CVE .
+
+cr:CVE-2023-0298 a cr:CVE .
+
+cr:CVE-2023-0299 a cr:CVE .
+
+cr:CVE-2023-0300 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0301 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0302 a cr:CVE .
+
+cr:CVE-2023-0303 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0304 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0305 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0306 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0307 a cr:CVE .
+
+cr:CVE-2023-0308 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0309 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0310 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0311 a cr:CVE .
+
+cr:CVE-2023-0312 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0313 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0314 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0315 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-0316 a cr:CVE .
+
+cr:CVE-2023-0317 a cr:CVE ;
+    cr:hasClass cr:administrator,
+        cr:system .
+
+cr:CVE-2023-0319 a cr:CVE .
+
+cr:CVE-2023-0320 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0321 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0322 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0323 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0324 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0325 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-0326 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-0327 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-0328 a cr:CVE ;
+    cr:hasClass cr:Auth,
+        cr:Wordpress,
+        cr:Wordpress_v207,
+        cr:authenticated .
+
+cr:CVE-2023-0329 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v3122,
+        cr:administrator .
+
+cr:CVE-2023-0330 a cr:CVE ;
+    cr:hasClass cr:StackOverflow,
+        cr:Use-after-free .
+
+cr:CVE-2023-0331 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Wordpress,
+        cr:Wordpress_v120 .
+
+cr:CVE-2023-0332 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0333 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v329 .
+
+cr:CVE-2023-0334 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v363,
+        cr:admin .
+
+cr:CVE-2023-0335 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v433 .
+
+cr:CVE-2023-0336 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v215 .
+
+cr:CVE-2023-0337 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0338 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0339 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-0340 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v402 .
+
+cr:CVE-2023-0341 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0342 a cr:CVE ;
+    cr:hasClass cr:Mongodb,
+        cr:Mongodb_v50,
+        cr:Mongodb_v60 .
+
+cr:CVE-2023-0343 a cr:CVE .
+
+cr:CVE-2023-0344 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0345 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:root .
+
+cr:CVE-2023-0346 a cr:CVE .
+
+cr:CVE-2023-0347 a cr:CVE .
+
+cr:CVE-2023-0348 a cr:CVE .
+
+cr:CVE-2023-0349 a cr:CVE ;
+    cr:hasClass cr:UnauthenticatedAccess .
+
+cr:CVE-2023-0350 a cr:CVE .
+
+cr:CVE-2023-0351 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:Server .
+
+cr:CVE-2023-0352 a cr:CVE .
+
+cr:CVE-2023-0353 a cr:CVE ;
+    cr:hasClass cr:WeakEncryption .
+
+cr:CVE-2023-0354 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0355 a cr:CVE .
+
+cr:CVE-2023-0356 a cr:CVE .
+
+cr:CVE-2023-0357 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-0358 a cr:CVE ;
+    cr:hasClass cr:UseAfterFree .
+
+cr:CVE-2023-0359 a cr:CVE .
+
+cr:CVE-2023-0360 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v134 .
+
+cr:CVE-2023-0361 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:network .
+
+cr:CVE-2023-0362 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v122 .
+
+cr:CVE-2023-0363 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v10 .
+
+cr:CVE-2023-0364 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v511 .
+
+cr:CVE-2023-0365 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v120 .
+
+cr:CVE-2023-0366 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v153 .
+
+cr:CVE-2023-0367 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v30 .
+
+cr:CVE-2023-0368 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v11 .
+
+cr:CVE-2023-0369 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v511 .
+
+cr:CVE-2023-0370 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v106 .
+
+cr:CVE-2023-0371 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1128 .
+
+cr:CVE-2023-0372 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v075 .
+
+cr:CVE-2023-0373 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1515 .
+
+cr:CVE-2023-0374 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v246 .
+
+cr:CVE-2023-0375 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v371 .
+
+cr:CVE-2023-0376 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v185 .
+
+cr:CVE-2023-0377 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v322 .
+
+cr:CVE-2023-0378 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v50 .
+
+cr:CVE-2023-0379 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v143 .
+
+cr:CVE-2023-0380 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v310 .
+
+cr:CVE-2023-0381 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v2328,
+        cr:authenticated .
+
+cr:CVE-2023-0382 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0383 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0384 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0385 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0386 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-0387 a cr:CVE .
+
+cr:CVE-2023-0388 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v030,
+        cr:authenticated .
+
+cr:CVE-2023-0389 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v11151,
+        cr:admin .
+
+cr:CVE-2023-0391 a cr:CVE .
+
+cr:CVE-2023-0392 a cr:CVE .
+
+cr:CVE-2023-0394 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-0395 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v10 .
+
+cr:CVE-2023-0396 a cr:CVE .
+
+cr:CVE-2023-0397 a cr:CVE .
+
+cr:CVE-2023-0398 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-0399 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v30 .
+
+cr:CVE-2023-0400 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Windows,
+        cr:Windows_v119,
+        cr:localuser .
+
+cr:CVE-2023-0401 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-0402 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated,
+        cr:network .
+
+cr:CVE-2023-0403 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator,
+        cr:network .
+
+cr:CVE-2023-0404 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0405 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v1438 .
+
+cr:CVE-2023-0406 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-0410 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0411 a cr:CVE .
+
+cr:CVE-2023-0412 a cr:CVE .
+
+cr:CVE-2023-0413 a cr:CVE .
+
+cr:CVE-2023-0414 a cr:CVE .
+
+cr:CVE-2023-0415 a cr:CVE .
+
+cr:CVE-2023-0416 a cr:CVE .
+
+cr:CVE-2023-0417 a cr:CVE ;
+    cr:hasClass cr:MemoryLeak .
+
+cr:CVE-2023-0418 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v130 .
+
+cr:CVE-2023-0419 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v141 .
+
+cr:CVE-2023-0420 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v11,
+        cr:admin .
+
+cr:CVE-2023-0421 a cr:CVE ;
+    cr:hasClass cr:AdminPanel,
+        cr:Wordpress,
+        cr:Wordpress_v10,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0422 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v13,
+        cr:Xss .
+
+cr:CVE-2023-0423 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v16,
+        cr:admin .
+
+cr:CVE-2023-0424 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v15,
+        cr:authenticated .
+
+cr:CVE-2023-0425 a cr:CVE .
+
+cr:CVE-2023-0426 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0428 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v338,
+        cr:admin .
+
+cr:CVE-2023-0429 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v338,
+        cr:admin .
+
+cr:CVE-2023-0430 a cr:CVE .
+
+cr:CVE-2023-0431 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v399 .
+
+cr:CVE-2023-0432 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-0433 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0434 a cr:CVE .
+
+cr:CVE-2023-0435 a cr:CVE .
+
+cr:CVE-2023-0436 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Gcp,
+        cr:Kubernetes,
+        cr:Kubernetes_v150,
+        cr:Mongodb,
+        cr:serviceaccount .
+
+cr:CVE-2023-0437 a cr:CVE ;
+    cr:hasClass cr:Mongodb .
+
+cr:CVE-2023-0438 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-0439 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v844 .
+
+cr:CVE-2023-0440 a cr:CVE .
+
+cr:CVE-2023-0441 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:Wordpress,
+        cr:Wordpress_v308,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0442 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v153 .
+
+cr:CVE-2023-0443 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v128 .
+
+cr:CVE-2023-0444 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:administrator,
+        cr:privileged .
+
+cr:CVE-2023-0446 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0447 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0448 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v43 .
+
+cr:CVE-2023-0449 a cr:CVE .
+
+cr:CVE-2023-0450 a cr:CVE .
+
+cr:CVE-2023-0451 a cr:CVE ;
+    cr:hasClass cr:Database .
+
+cr:CVE-2023-0452 a cr:CVE ;
+    cr:hasClass cr:privileged .
+
+cr:CVE-2023-0453 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0454 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0455 a cr:CVE .
+
+cr:CVE-2023-0456 a cr:CVE .
+
+cr:CVE-2023-0457 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0458 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-0459 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-0460 a cr:CVE ;
+    cr:hasClass cr:Client .
+
+cr:CVE-2023-0461 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:PrivilegeEscalation,
+        cr:Use-after-free .
+
+cr:CVE-2023-0462 a cr:CVE ;
+    cr:hasClass cr:admin,
+        cr:system .
+
+cr:CVE-2023-0463 a cr:CVE .
+
+cr:CVE-2023-0464 a cr:CVE .
+
+cr:CVE-2023-0465 a cr:CVE .
+
+cr:CVE-2023-0466 a cr:CVE ;
+    cr:hasClass cr:CertificateVerification .
+
+cr:CVE-2023-0467 a cr:CVE ;
+    cr:hasClass cr:LocalFileInclusion,
+        cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v408 .
+
+cr:CVE-2023-0468 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free .
+
+cr:CVE-2023-0469 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free .
+
+cr:CVE-2023-0470 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0471 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0472 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0473 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v10905414 .
+
+cr:CVE-2023-0474 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v10905414,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0475 a cr:CVE .
+
+cr:CVE-2023-0476 a cr:CVE ;
+    cr:hasClass cr:LdapInjection,
+        cr:authenticated .
+
+cr:CVE-2023-0477 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v3916 .
+
+cr:CVE-2023-0479 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v472,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0480 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:administrator .
+
+cr:CVE-2023-0481 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-0482 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-0483 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-0484 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v116 .
+
+cr:CVE-2023-0485 a cr:CVE .
+
+cr:CVE-2023-0486 a cr:CVE ;
+    cr:hasClass cr:Xss,
+        cr:administrator .
+
+cr:CVE-2023-0487 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v209,
+        cr:admin .
+
+cr:CVE-2023-0488 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0489 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v121 .
+
+cr:CVE-2023-0490 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v110 .
+
+cr:CVE-2023-0491 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v221 .
+
+cr:CVE-2023-0492 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v159 .
+
+cr:CVE-2023-0493 a cr:CVE .
+
+cr:CVE-2023-0494 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:privileged .
+
+cr:CVE-2023-0495 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v140 .
+
+cr:CVE-2023-0496 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v146 .
+
+cr:CVE-2023-0497 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v116 .
+
+cr:CVE-2023-0498 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v127 .
+
+cr:CVE-2023-0499 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v110 .
+
+cr:CVE-2023-0500 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v135 .
+
+cr:CVE-2023-0501 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v214 .
+
+cr:CVE-2023-0502 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v119 .
+
+cr:CVE-2023-0503 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v128 .
+
+cr:CVE-2023-0504 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v238 .
+
+cr:CVE-2023-0505 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v123 .
+
+cr:CVE-2023-0506 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:administrator,
+        cr:privileged .
+
+cr:CVE-2023-0507 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0508 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:HttpResponseSplitting .
+
+cr:CVE-2023-0509 a cr:CVE .
+
+cr:CVE-2023-0511 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:Java .
+
+cr:CVE-2023-0512 a cr:CVE .
+
+cr:CVE-2023-0513 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0514 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Database,
+        cr:Wordpress,
+        cr:Wordpress_v10,
+        cr:admin .
+
+cr:CVE-2023-0515 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0516 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0518 a cr:CVE .
+
+cr:CVE-2023-0519 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0520 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Csrf,
+        cr:Endpoint,
+        cr:Wordpress,
+        cr:Wordpress_v10,
+        cr:admin .
+
+cr:CVE-2023-0522 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v110,
+        cr:admin .
+
+cr:CVE-2023-0523 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-0524 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation .
+
+cr:CVE-2023-0525 a cr:CVE .
+
+cr:CVE-2023-0526 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v209 .
+
+cr:CVE-2023-0527 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0528 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0529 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0530 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0531 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0532 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0533 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0534 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0535 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v210 .
+
+cr:CVE-2023-0536 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v241 .
+
+cr:CVE-2023-0537 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v117 .
+
+cr:CVE-2023-0538 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v182 .
+
+cr:CVE-2023-0539 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v145 .
+
+cr:CVE-2023-0540 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v161 .
+
+cr:CVE-2023-0541 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v131 .
+
+cr:CVE-2023-0542 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v144 .
+
+cr:CVE-2023-0543 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v217,
+        cr:admin .
+
+cr:CVE-2023-0544 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v202,
+        cr:admin .
+
+cr:CVE-2023-0545 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v115,
+        cr:admin .
+
+cr:CVE-2023-0546 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v4325 .
+
+cr:CVE-2023-0547 a cr:CVE .
+
+cr:CVE-2023-0548 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v259,
+        cr:admin .
+
+cr:CVE-2023-0549 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0550 a cr:CVE ;
+    cr:hasClass cr:InsecureDirectObjectReference,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0551 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v461,
+        cr:authenticated .
+
+cr:CVE-2023-0552 a cr:CVE ;
+    cr:hasClass cr:OpenRedirect,
+        cr:Wordpress,
+        cr:Wordpress_v382 .
+
+cr:CVE-2023-0553 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0554 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0555 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0556 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-0557 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-0558 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Wordpress .
+
+cr:CVE-2023-0559 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v140 .
+
+cr:CVE-2023-0560 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0561 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0562 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0563 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0564 a cr:CVE .
+
+cr:CVE-2023-0565 a cr:CVE .
+
+cr:CVE-2023-0566 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0567 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Php,
+        cr:Php_v80 .
+
+cr:CVE-2023-0568 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Php_v80,
+        cr:system .
+
+cr:CVE-2023-0569 a cr:CVE .
+
+cr:CVE-2023-0570 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0571 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0572 a cr:CVE .
+
+cr:CVE-2023-0574 a cr:CVE ;
+    cr:hasClass cr:Server-sideRequestForgery,
+        cr:Ssrf .
+
+cr:CVE-2023-0575 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Ios,
+        cr:Java,
+        cr:Macos,
+        cr:Windows .
+
+cr:CVE-2023-0576 a cr:CVE .
+
+cr:CVE-2023-0577 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0578 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0579 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v5303,
+        cr:authenticated .
+
+cr:CVE-2023-0580 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0581 a cr:CVE ;
+    cr:hasClass cr:BruteForce,
+        cr:Client,
+        cr:Server,
+        cr:Wordpress .
+
+cr:CVE-2023-0582 a cr:CVE .
+
+cr:CVE-2023-0583 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0584 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0585 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0586 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0587 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:TrendMicro,
+        cr:system .
+
+cr:CVE-2023-0588 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v210,
+        cr:admin .
+
+cr:CVE-2023-0589 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v102 .
+
+cr:CVE-2023-0590 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free .
+
+cr:CVE-2023-0591 a cr:CVE .
+
+cr:CVE-2023-0592 a cr:CVE .
+
+cr:CVE-2023-0593 a cr:CVE .
+
+cr:CVE-2023-0594 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0595 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Server .
+
+cr:CVE-2023-0597 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:MemoryLeak,
+        cr:localuser .
+
+cr:CVE-2023-0598 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0599 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:CrossSiteScripting,
+        cr:JavaScriptInjection,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0600 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v69 .
+
+cr:CVE-2023-0602 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v108,
+        cr:Xss .
+
+cr:CVE-2023-0603 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v202,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0604 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v104,
+        cr:admin .
+
+cr:CVE-2023-0605 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v110,
+        cr:admin .
+
+cr:CVE-2023-0606 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0607 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0608 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0609 a cr:CVE .
+
+cr:CVE-2023-0610 a cr:CVE .
+
+cr:CVE-2023-0611 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-0612 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0613 a cr:CVE .
+
+cr:CVE-2023-0614 a cr:CVE .
+
+cr:CVE-2023-0615 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:MemoryLeak,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-0616 a cr:CVE .
+
+cr:CVE-2023-0617 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0618 a cr:CVE .
+
+cr:CVE-2023-0619 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0620 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql .
+
+cr:CVE-2023-0621 a cr:CVE .
+
+cr:CVE-2023-0622 a cr:CVE .
+
+cr:CVE-2023-0623 a cr:CVE .
+
+cr:CVE-2023-0624 a cr:CVE .
+
+cr:CVE-2023-0625 a cr:CVE ;
+    cr:hasClass cr:Docker,
+        cr:Docker_v4120 .
+
+cr:CVE-2023-0626 a cr:CVE ;
+    cr:hasClass cr:Docker,
+        cr:Docker_v4120 .
+
+cr:CVE-2023-0627 a cr:CVE ;
+    cr:hasClass cr:Docker,
+        cr:Docker_v411,
+        cr:PrivilegeEscalation,
+        cr:Windows .
+
+cr:CVE-2023-0628 a cr:CVE ;
+    cr:hasClass cr:Container,
+        cr:Docker,
+        cr:Docker_v4170 .
+
+cr:CVE-2023-0629 a cr:CVE ;
+    cr:hasClass cr:Container,
+        cr:Docker,
+        cr:Docker_v4130,
+        cr:Docker_v4170,
+        cr:Windows,
+        cr:administrator,
+        cr:root .
+
+cr:CVE-2023-0630 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v493 .
+
+cr:CVE-2023-0631 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v2912 .
+
+cr:CVE-2023-0632 a cr:CVE .
+
+cr:CVE-2023-0633 a cr:CVE ;
+    cr:hasClass cr:Docker,
+        cr:Docker_v41,
+        cr:Docker_v4120,
+        cr:PrivilegeEscalation,
+        cr:Windows,
+        cr:Windows_v4120 .
+
+cr:CVE-2023-0634 a cr:CVE .
+
+cr:CVE-2023-0635 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation .
+
+cr:CVE-2023-0636 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-0637 a cr:CVE .
+
+cr:CVE-2023-0638 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:WebInterface .
+
+cr:CVE-2023-0639 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0640 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:WebInterface .
+
+cr:CVE-2023-0641 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0642 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-0643 a cr:CVE .
+
+cr:CVE-2023-0644 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v308,
+        cr:admin .
+
+cr:CVE-2023-0645 a cr:CVE .
+
+cr:CVE-2023-0646 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:admin .
+
+cr:CVE-2023-0647 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:admin .
+
+cr:CVE-2023-0648 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:admin .
+
+cr:CVE-2023-0649 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:admin .
+
+cr:CVE-2023-0650 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-0651 a cr:CVE .
+
+cr:CVE-2023-0652 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Windows,
+        cr:Windows_v202212582,
+        cr:Windows_v20225309,
+        cr:system .
+
+cr:CVE-2023-0654 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Client,
+        cr:Misconfiguration .
+
+cr:CVE-2023-0655 a cr:CVE .
+
+cr:CVE-2023-0656 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Firewall .
+
+cr:CVE-2023-0657 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0658 a cr:CVE .
+
+cr:CVE-2023-0659 a cr:CVE .
+
+cr:CVE-2023-0660 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v351 .
+
+cr:CVE-2023-0661 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0662 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Php_v80,
+        cr:Server .
+
+cr:CVE-2023-0663 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0664 a cr:CVE ;
+    cr:hasClass cr:Windows,
+        cr:guest,
+        cr:system .
+
+cr:CVE-2023-0665 a cr:CVE .
+
+cr:CVE-2023-0666 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0667 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0668 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0669 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-0670 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:administrator .
+
+cr:CVE-2023-0671 a cr:CVE .
+
+cr:CVE-2023-0673 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0674 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery .
+
+cr:CVE-2023-0675 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0676 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0677 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0678 a cr:CVE .
+
+cr:CVE-2023-0679 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0680 a cr:CVE .
+
+cr:CVE-2023-0681 a cr:CVE ;
+    cr:hasClass cr:OpenRedirect .
+
+cr:CVE-2023-0683 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:authenticated .
+
+cr:CVE-2023-0684 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0685 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0686 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0687 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0688 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0689 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0690 a cr:CVE .
+
+cr:CVE-2023-0691 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0692 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0693 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0694 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0695 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Database,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0696 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0697 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11005481,
+        cr:Chrome,
+        cr:Chrome_v1100548 .
+
+cr:CVE-2023-0698 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0699 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0700 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0701 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0702 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0703 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0704 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:Proxy .
+
+cr:CVE-2023-0705 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0706 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0707 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0708 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Database,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0709 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Database,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0710 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Database,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0711 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0712 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0713 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0714 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-0715 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0716 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0717 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0718 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0719 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0720 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0721 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:system .
+
+cr:CVE-2023-0722 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0723 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0724 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0725 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0726 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0727 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0728 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0729 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0730 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0731 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0732 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-0733 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v12 .
+
+cr:CVE-2023-0734 a cr:CVE .
+
+cr:CVE-2023-0735 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-0736 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0737 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf,
+        cr:Endpoint .
+
+cr:CVE-2023-0738 a cr:CVE .
+
+cr:CVE-2023-0739 a cr:CVE .
+
+cr:CVE-2023-0740 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0741 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0742 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0743 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0744 a cr:CVE .
+
+cr:CVE-2023-0745 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:Java .
+
+cr:CVE-2023-0746 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:JavaScriptInjection,
+        cr:authenticated .
+
+cr:CVE-2023-0747 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0748 a cr:CVE ;
+    cr:hasClass cr:OpenRedirect .
+
+cr:CVE-2023-0749 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v213,
+        cr:authenticated .
+
+cr:CVE-2023-0750 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0751 a cr:CVE .
+
+cr:CVE-2023-0754 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0755 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0756 a cr:CVE .
+
+cr:CVE-2023-0757 a cr:CVE .
+
+cr:CVE-2023-0758 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:Sql .
+
+cr:CVE-2023-0759 a cr:CVE .
+
+cr:CVE-2023-0760 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0761 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v21 .
+
+cr:CVE-2023-0762 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v21 .
+
+cr:CVE-2023-0763 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v21 .
+
+cr:CVE-2023-0764 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v470 .
+
+cr:CVE-2023-0765 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v470 .
+
+cr:CVE-2023-0766 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v12 .
+
+cr:CVE-2023-0767 a cr:CVE ;
+    cr:hasClass cr:Firefox,
+        cr:Firefox_v1028 .
+
+cr:CVE-2023-0768 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v505,
+        cr:authenticated .
+
+cr:CVE-2023-0769 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v200 .
+
+cr:CVE-2023-0770 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0771 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-0772 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v2122,
+        cr:authenticated .
+
+cr:CVE-2023-0773 a cr:CVE ;
+    cr:hasClass cr:IpCamera .
+
+cr:CVE-2023-0774 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0775 a cr:CVE .
+
+cr:CVE-2023-0776 a cr:CVE ;
+    cr:hasClass cr:root .
+
+cr:CVE-2023-0777 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-0778 a cr:CVE ;
+    cr:hasClass cr:Toctou,
+        cr:system .
+
+cr:CVE-2023-0779 a cr:CVE .
+
+cr:CVE-2023-0780 a cr:CVE .
+
+cr:CVE-2023-0781 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0782 a cr:CVE .
+
+cr:CVE-2023-0783 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-0784 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-0785 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-0786 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0787 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0788 a cr:CVE .
+
+cr:CVE-2023-0789 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-0790 a cr:CVE .
+
+cr:CVE-2023-0791 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0792 a cr:CVE .
+
+cr:CVE-2023-0793 a cr:CVE .
+
+cr:CVE-2023-0794 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0795 a cr:CVE .
+
+cr:CVE-2023-0796 a cr:CVE .
+
+cr:CVE-2023-0797 a cr:CVE .
+
+cr:CVE-2023-0798 a cr:CVE .
+
+cr:CVE-2023-0799 a cr:CVE .
+
+cr:CVE-2023-0800 a cr:CVE .
+
+cr:CVE-2023-0801 a cr:CVE .
+
+cr:CVE-2023-0802 a cr:CVE .
+
+cr:CVE-2023-0803 a cr:CVE .
+
+cr:CVE-2023-0804 a cr:CVE .
+
+cr:CVE-2023-0805 a cr:CVE .
+
+cr:CVE-2023-0808 a cr:CVE .
+
+cr:CVE-2023-0809 a cr:CVE .
+
+cr:CVE-2023-0810 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0811 a cr:CVE .
+
+cr:CVE-2023-0812 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v411 .
+
+cr:CVE-2023-0813 a cr:CVE ;
+    cr:hasClass cr:Openshift,
+        cr:network .
+
+cr:CVE-2023-0814 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated,
+        cr:privileged .
+
+cr:CVE-2023-0815 a cr:CVE ;
+    cr:hasClass cr:Jetty .
+
+cr:CVE-2023-0816 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Wordpress,
+        cr:Wordpress_v61 .
+
+cr:CVE-2023-0817 a cr:CVE .
+
+cr:CVE-2023-0818 a cr:CVE .
+
+cr:CVE-2023-0819 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0820 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:PrivilegeEscalation,
+        cr:Wordpress,
+        cr:Wordpress_v167 .
+
+cr:CVE-2023-0821 a cr:CVE .
+
+cr:CVE-2023-0822 a cr:CVE ;
+    cr:hasClass cr:privileged .
+
+cr:CVE-2023-0823 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v247 .
+
+cr:CVE-2023-0824 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v20,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-0827 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0828 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Server,
+        cr:Xss .
+
+cr:CVE-2023-0829 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Server,
+        cr:administrator .
+
+cr:CVE-2023-0830 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:system .
+
+cr:CVE-2023-0831 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0832 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-0833 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0834 a cr:CVE ;
+    cr:hasClass cr:Macos,
+        cr:PrivilegeEscalation .
+
+cr:CVE-2023-0835 a cr:CVE .
+
+cr:CVE-2023-0836 a cr:CVE .
+
+cr:CVE-2023-0837 a cr:CVE ;
+    cr:hasClass cr:Macos,
+        cr:Windows .
+
+cr:CVE-2023-0838 a cr:CVE .
+
+cr:CVE-2023-0839 a cr:CVE .
+
+cr:CVE-2023-0840 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin .
+
+cr:CVE-2023-0841 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0842 a cr:CVE .
+
+cr:CVE-2023-0844 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v26,
+        cr:admin .
+
+cr:CVE-2023-0845 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0846 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0847 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0848 a cr:CVE .
+
+cr:CVE-2023-0849 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:WebInterface .
+
+cr:CVE-2023-0850 a cr:CVE ;
+    cr:hasClass cr:WebInterface .
+
+cr:CVE-2023-0851 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0852 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0853 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0854 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0855 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0856 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:network .
+
+cr:CVE-2023-0857 a cr:CVE ;
+    cr:hasClass cr:network,
+        cr:system .
+
+cr:CVE-2023-0858 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0859 a cr:CVE .
+
+cr:CVE-2023-0860 a cr:CVE .
+
+cr:CVE-2023-0861 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0862 a cr:CVE ;
+    cr:hasClass cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-0863 a cr:CVE .
+
+cr:CVE-2023-0864 a cr:CVE .
+
+cr:CVE-2023-0865 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v217,
+        cr:authenticated .
+
+cr:CVE-2023-0866 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0867 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0868 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0869 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-0870 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery .
+
+cr:CVE-2023-0871 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:XmlExternalEntity,
+        cr:Xxe .
+
+cr:CVE-2023-0872 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Endpoint .
+
+cr:CVE-2023-0873 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2521,
+        cr:admin .
+
+cr:CVE-2023-0874 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v3010,
+        cr:admin .
+
+cr:CVE-2023-0875 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v453 .
+
+cr:CVE-2023-0876 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v453 .
+
+cr:CVE-2023-0877 a cr:CVE .
+
+cr:CVE-2023-0878 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0879 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0880 a cr:CVE .
+
+cr:CVE-2023-0881 a cr:CVE .
+
+cr:CVE-2023-0882 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-0883 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0884 a cr:CVE .
+
+cr:CVE-2023-0885 a cr:CVE .
+
+cr:CVE-2023-0886 a cr:CVE .
+
+cr:CVE-2023-0887 a cr:CVE .
+
+cr:CVE-2023-0888 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated,
+        cr:network,
+        cr:root .
+
+cr:CVE-2023-0889 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v201,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0890 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v5128,
+        cr:authenticated .
+
+cr:CVE-2023-0891 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v237 .
+
+cr:CVE-2023-0892 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v11,
+        cr:admin .
+
+cr:CVE-2023-0893 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1293,
+        cr:admin .
+
+cr:CVE-2023-0894 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v109,
+        cr:admin .
+
+cr:CVE-2023-0895 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0896 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0897 a cr:CVE ;
+    cr:hasClass cr:BruteForce .
+
+cr:CVE-2023-0898 a cr:CVE .
+
+cr:CVE-2023-0899 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v142 .
+
+cr:CVE-2023-0900 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v116 .
+
+cr:CVE-2023-0901 a cr:CVE .
+
+cr:CVE-2023-0902 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0903 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0904 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0905 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0906 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0907 a cr:CVE .
+
+cr:CVE-2023-0908 a cr:CVE .
+
+cr:CVE-2023-0909 a cr:CVE .
+
+cr:CVE-2023-0910 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0911 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v5128,
+        cr:authenticated .
+
+cr:CVE-2023-0912 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0913 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0914 a cr:CVE .
+
+cr:CVE-2023-0915 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0916 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0917 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0918 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0919 a cr:CVE .
+
+cr:CVE-2023-0921 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0922 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0923 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Kubernetes .
+
+cr:CVE-2023-0924 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v10,
+        cr:administrator,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-0925 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:Java_v11015,
+        cr:Server,
+        cr:Windows,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-0926 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0927 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11005481,
+        cr:Api,
+        cr:Chrome,
+        cr:Chrome_v1100548,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0928 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0929 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0930 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0931 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0932 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v1100548,
+        cr:UseAfterFree,
+        cr:Windows,
+        cr:Windows_v11005481 .
+
+cr:CVE-2023-0933 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481 .
+
+cr:CVE-2023-0934 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0935 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:Php .
+
+cr:CVE-2023-0936 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-0937 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v9871 .
+
+cr:CVE-2023-0938 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0939 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-0940 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:Wordpress,
+        cr:Wordpress_v531,
+        cr:administrator .
+
+cr:CVE-2023-0941 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11005481,
+        cr:UseAfterFree .
+
+cr:CVE-2023-0942 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-0943 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0944 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-0945 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0946 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0947 a cr:CVE .
+
+cr:CVE-2023-0948 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v258 .
+
+cr:CVE-2023-0949 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0950 a cr:CVE .
+
+cr:CVE-2023-0951 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Server,
+        cr:privileged .
+
+cr:CVE-2023-0952 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-0953 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Sql,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-0954 a cr:CVE .
+
+cr:CVE-2023-0955 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v140,
+        cr:admin,
+        cr:authenticated .
+
+cr:CVE-2023-0956 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-0957 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-0958 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0959 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:administrator .
+
+cr:CVE-2023-0960 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-0961 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0962 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-0963 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-0964 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0965 a cr:CVE .
+
+cr:CVE-2023-0966 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:admin .
+
+cr:CVE-2023-0967 a cr:CVE ;
+    cr:hasClass cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-0968 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-0969 a cr:CVE ;
+    cr:hasClass cr:Gateway,
+        cr:authenticated .
+
+cr:CVE-2023-0970 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Gateway .
+
+cr:CVE-2023-0971 a cr:CVE ;
+    cr:hasClass cr:Gateway .
+
+cr:CVE-2023-0972 a cr:CVE ;
+    cr:hasClass cr:Gateway .
+
+cr:CVE-2023-0973 a cr:CVE .
+
+cr:CVE-2023-0975 a cr:CVE ;
+    cr:hasClass cr:Windows,
+        cr:Windows_v578 .
+
+cr:CVE-2023-0976 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:system .
+
+cr:CVE-2023-0977 a cr:CVE ;
+    cr:hasClass cr:Windows,
+        cr:Windows_v578,
+        cr:remoteuser .
+
+cr:CVE-2023-0978 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-0979 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-0980 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0981 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0982 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0983 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v790 .
+
+cr:CVE-2023-0985 a cr:CVE ;
+    cr:hasClass cr:admin,
+        cr:authenticated,
+        cr:remoteuser .
+
+cr:CVE-2023-0986 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0987 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-0988 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-0989 a cr:CVE .
+
+cr:CVE-2023-0992 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-0993 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-0994 a cr:CVE .
+
+cr:CVE-2023-0995 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-0996 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-0997 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-0998 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-0999 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1000 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1001 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1002 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1003 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-1004 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-1005 a cr:CVE .
+
+cr:CVE-2023-1006 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1007 a cr:CVE .
+
+cr:CVE-2023-1008 a cr:CVE .
+
+cr:CVE-2023-1009 a cr:CVE .
+
+cr:CVE-2023-1010 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1011 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v445,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-1013 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1014 a cr:CVE .
+
+cr:CVE-2023-1015 a cr:CVE .
+
+cr:CVE-2023-1016 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1017 a cr:CVE .
+
+cr:CVE-2023-1018 a cr:CVE .
+
+cr:CVE-2023-1019 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v120 .
+
+cr:CVE-2023-1020 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v142 .
+
+cr:CVE-2023-1021 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v66,
+        cr:admin .
+
+cr:CVE-2023-1022 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1023 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1024 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1025 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v6010,
+        cr:admin .
+
+cr:CVE-2023-1026 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1027 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1028 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1029 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1030 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1031 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:authenticated .
+
+cr:CVE-2023-1032 a cr:CVE ;
+    cr:hasClass cr:DoubleFree,
+        cr:LinuxKernel .
+
+cr:CVE-2023-1033 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf .
+
+cr:CVE-2023-1034 a cr:CVE .
+
+cr:CVE-2023-1035 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1036 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1037 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1038 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1039 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1040 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1041 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1042 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1043 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1044 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1045 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1046 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Server-sideRequestForgery,
+        cr:admin .
+
+cr:CVE-2023-1047 a cr:CVE .
+
+cr:CVE-2023-1048 a cr:CVE .
+
+cr:CVE-2023-1049 a cr:CVE .
+
+cr:CVE-2023-1050 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1051 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss,
+        cr:system .
+
+cr:CVE-2023-1053 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1054 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1055 a cr:CVE .
+
+cr:CVE-2023-1056 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1057 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1058 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1059 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1060 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1061 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1062 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1063 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1064 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1065 a cr:CVE ;
+    cr:hasClass cr:Kubernetes,
+        cr:authenticated .
+
+cr:CVE-2023-1067 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1068 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1069 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v642 .
+
+cr:CVE-2023-1070 a cr:CVE .
+
+cr:CVE-2023-1071 a cr:CVE .
+
+cr:CVE-2023-1072 a cr:CVE .
+
+cr:CVE-2023-1073 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1074 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:MemoryLeak,
+        cr:localuser .
+
+cr:CVE-2023-1075 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-1076 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:network,
+        cr:root .
+
+cr:CVE-2023-1077 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-1078 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:localuser .
+
+cr:CVE-2023-1079 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free .
+
+cr:CVE-2023-1080 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-1081 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1082 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:root .
+
+cr:CVE-2023-1083 a cr:CVE .
+
+cr:CVE-2023-1084 a cr:CVE .
+
+cr:CVE-2023-1086 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v104 .
+
+cr:CVE-2023-1087 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v123 .
+
+cr:CVE-2023-1088 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v118 .
+
+cr:CVE-2023-1089 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v106 .
+
+cr:CVE-2023-1090 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v201,
+        cr:admin .
+
+cr:CVE-2023-1091 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1092 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v2849,
+        cr:Wordpress_v3849,
+        cr:Wordpress_v4849,
+        cr:Wordpress_v6242 .
+
+cr:CVE-2023-1093 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v6242 .
+
+cr:CVE-2023-1094 a cr:CVE ;
+    cr:hasClass cr:Endpoint,
+        cr:authenticated .
+
+cr:CVE-2023-1095 a cr:CVE .
+
+cr:CVE-2023-1096 a cr:CVE ;
+    cr:hasClass cr:admin .
+
+cr:CVE-2023-1097 a cr:CVE ;
+    cr:hasClass cr:root .
+
+cr:CVE-2023-1098 a cr:CVE ;
+    cr:hasClass cr:admin .
+
+cr:CVE-2023-1099 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1100 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1101 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1103 a cr:CVE .
+
+cr:CVE-2023-1104 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1105 a cr:CVE .
+
+cr:CVE-2023-1106 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1107 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1108 a cr:CVE .
+
+cr:CVE-2023-1109 a cr:CVE ;
+    cr:hasClass cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-1110 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2812 .
+
+cr:CVE-2023-1111 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1112 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:admin .
+
+cr:CVE-2023-1113 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1114 a cr:CVE .
+
+cr:CVE-2023-1115 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1116 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1117 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1118 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:UseAfterFree,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1119 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v241,
+        cr:Wordpress_v3213 .
+
+cr:CVE-2023-1120 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2451,
+        cr:admin .
+
+cr:CVE-2023-1121 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2451,
+        cr:admin .
+
+cr:CVE-2023-1122 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2451,
+        cr:admin .
+
+cr:CVE-2023-1124 a cr:CVE ;
+    cr:hasClass cr:Lfi,
+        cr:Wordpress,
+        cr:Wordpress_v543,
+        cr:admin,
+        cr:authenticated .
+
+cr:CVE-2023-1125 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v134 .
+
+cr:CVE-2023-1126 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v046,
+        cr:authenticated .
+
+cr:CVE-2023-1127 a cr:CVE .
+
+cr:CVE-2023-1129 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v046,
+        cr:authenticated .
+
+cr:CVE-2023-1130 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1131 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1132 a cr:CVE .
+
+cr:CVE-2023-1133 a cr:CVE .
+
+cr:CVE-2023-1134 a cr:CVE .
+
+cr:CVE-2023-1135 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation .
+
+cr:CVE-2023-1136 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1137 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:administrator .
+
+cr:CVE-2023-1138 a cr:CVE ;
+    cr:hasClass cr:Gateway .
+
+cr:CVE-2023-1139 a cr:CVE ;
+    cr:hasClass cr:Gateway .
+
+cr:CVE-2023-1140 a cr:CVE ;
+    cr:hasClass cr:administrator .
+
+cr:CVE-2023-1141 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1142 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:system .
+
+cr:CVE-2023-1143 a cr:CVE .
+
+cr:CVE-2023-1144 a cr:CVE ;
+    cr:hasClass cr:Gateway,
+        cr:PrivilegeEscalation .
+
+cr:CVE-2023-1145 a cr:CVE .
+
+cr:CVE-2023-1146 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1147 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1148 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1149 a cr:CVE .
+
+cr:CVE-2023-1150 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1151 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:administrator,
+        cr:system .
+
+cr:CVE-2023-1152 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1153 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1154 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1155 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1156 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1157 a cr:CVE .
+
+cr:CVE-2023-1158 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1159 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1160 a cr:CVE .
+
+cr:CVE-2023-1161 a cr:CVE .
+
+cr:CVE-2023-1162 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1163 a cr:CVE .
+
+cr:CVE-2023-1164 a cr:CVE .
+
+cr:CVE-2023-1165 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Java,
+        cr:Java_v134,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1166 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v163,
+        cr:admin .
+
+cr:CVE-2023-1167 a cr:CVE .
+
+cr:CVE-2023-1168 a cr:CVE ;
+    cr:hasClass cr:authenticated,
+        cr:network,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-1169 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1170 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1171 a cr:CVE .
+
+cr:CVE-2023-1172 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-1173 a cr:CVE .
+
+cr:CVE-2023-1174 a cr:CVE ;
+    cr:hasClass cr:Container,
+        cr:Docker,
+        cr:Macos,
+        cr:network .
+
+cr:CVE-2023-1175 a cr:CVE .
+
+cr:CVE-2023-1176 a cr:CVE .
+
+cr:CVE-2023-1177 a cr:CVE .
+
+cr:CVE-2023-1178 a cr:CVE .
+
+cr:CVE-2023-1179 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-1180 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1181 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1183 a cr:CVE ;
+    cr:hasClass cr:Database .
+
+cr:CVE-2023-1184 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1185 a cr:CVE .
+
+cr:CVE-2023-1186 a cr:CVE .
+
+cr:CVE-2023-1187 a cr:CVE .
+
+cr:CVE-2023-1188 a cr:CVE .
+
+cr:CVE-2023-1189 a cr:CVE .
+
+cr:CVE-2023-1190 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1191 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:admin .
+
+cr:CVE-2023-1192 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1193 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Server,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1194 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Server .
+
+cr:CVE-2023-1195 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Server,
+        cr:Use-after-free .
+
+cr:CVE-2023-1196 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v610 .
+
+cr:CVE-2023-1197 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1198 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1200 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1201 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-1202 a cr:CVE .
+
+cr:CVE-2023-1203 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1204 a cr:CVE .
+
+cr:CVE-2023-1205 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Csrf,
+        cr:Router,
+        cr:Router_v1010 .
+
+cr:CVE-2023-1206 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Server,
+        cr:network .
+
+cr:CVE-2023-1207 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v1188 .
+
+cr:CVE-2023-1208 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v11811 .
+
+cr:CVE-2023-1209 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss,
+        cr:authenticated .
+
+cr:CVE-2023-1210 a cr:CVE .
+
+cr:CVE-2023-1211 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1212 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1213 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1214 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1215 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1216 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1217 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v1110556,
+        cr:Windows,
+        cr:Windows_v11105563 .
+
+cr:CVE-2023-1218 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1219 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1220 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1221 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1222 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1223 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11105563,
+        cr:Chrome,
+        cr:Chrome_v1110556 .
+
+cr:CVE-2023-1224 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1225 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:Ios,
+        cr:Ios_v11105563 .
+
+cr:CVE-2023-1226 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1227 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1228 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11105563,
+        cr:Chrome,
+        cr:Chrome_v1110556 .
+
+cr:CVE-2023-1229 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1230 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11105563,
+        cr:Chrome,
+        cr:Chrome_v1110556 .
+
+cr:CVE-2023-1231 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11105563,
+        cr:Chrome,
+        cr:Chrome_v1110556 .
+
+cr:CVE-2023-1232 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1233 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1234 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11105563,
+        cr:Chrome,
+        cr:Chrome_v1110556 .
+
+cr:CVE-2023-1235 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1236 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1237 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1238 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1239 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1240 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1241 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1242 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1243 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1244 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1245 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1246 a cr:CVE .
+
+cr:CVE-2023-1247 a cr:CVE .
+
+cr:CVE-2023-1248 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1249 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1250 a cr:CVE .
+
+cr:CVE-2023-1251 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1252 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:UseAfterFree,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1253 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1254 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1255 a cr:CVE .
+
+cr:CVE-2023-1256 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1257 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1258 a cr:CVE .
+
+cr:CVE-2023-1259 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1260 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:authenticated,
+        cr:privileged .
+
+cr:CVE-2023-1261 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-1262 a cr:CVE ;
+    cr:hasClass cr:Router,
+        cr:Router_v152,
+        cr:network .
+
+cr:CVE-2023-1263 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1264 a cr:CVE .
+
+cr:CVE-2023-1265 a cr:CVE ;
+    cr:hasClass cr:privileged .
+
+cr:CVE-2023-1266 a cr:CVE .
+
+cr:CVE-2023-1267 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1269 a cr:CVE .
+
+cr:CVE-2023-1270 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-1271 a cr:CVE .
+
+cr:CVE-2023-1273 a cr:CVE ;
+    cr:hasClass cr:Lfi,
+        cr:Wordpress,
+        cr:Wordpress_v70,
+        cr:authenticated .
+
+cr:CVE-2023-1274 a cr:CVE ;
+    cr:hasClass cr:Lfi,
+        cr:Wordpress,
+        cr:Wordpress_v30,
+        cr:authenticated .
+
+cr:CVE-2023-1275 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1276 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1277 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:system .
+
+cr:CVE-2023-1278 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1279 a cr:CVE .
+
+cr:CVE-2023-1281 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:LinuxKernel_v414,
+        cr:PrivilegeEscalation,
+        cr:Use-after-free,
+        cr:UseAfterFree,
+        cr:root .
+
+cr:CVE-2023-1282 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2111,
+        cr:Wordpress_v506 .
+
+cr:CVE-2023-1283 a cr:CVE .
+
+cr:CVE-2023-1285 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1286 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1287 a cr:CVE .
+
+cr:CVE-2023-1288 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:XmlExternalEntity,
+        cr:Xxe .
+
+cr:CVE-2023-1289 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1290 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1291 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1292 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1293 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1294 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1295 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:LinuxKernel_v56,
+        cr:localuser,
+        cr:root .
+
+cr:CVE-2023-1296 a cr:CVE .
+
+cr:CVE-2023-1297 a cr:CVE .
+
+cr:CVE-2023-1298 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss,
+        cr:authenticated .
+
+cr:CVE-2023-1299 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1300 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1301 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1302 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1303 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1304 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1305 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1306 a cr:CVE ;
+    cr:hasClass cr:Python,
+        cr:authenticated .
+
+cr:CVE-2023-1307 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1308 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1309 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1310 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1311 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1312 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1313 a cr:CVE .
+
+cr:CVE-2023-1314 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Windows,
+        cr:administrator,
+        cr:system .
+
+cr:CVE-2023-1315 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1316 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1317 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1318 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1319 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1320 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1321 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1322 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1323 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v689,
+        cr:admin .
+
+cr:CVE-2023-1324 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v688,
+        cr:admin .
+
+cr:CVE-2023-1325 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v687 .
+
+cr:CVE-2023-1326 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:administrator,
+        cr:system .
+
+cr:CVE-2023-1327 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:admin .
+
+cr:CVE-2023-1328 a cr:CVE ;
+    cr:hasClass cr:admin .
+
+cr:CVE-2023-1329 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1330 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v114 .
+
+cr:CVE-2023-1331 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v115 .
+
+cr:CVE-2023-1333 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1334 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1335 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1336 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1337 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1338 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1339 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1340 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1341 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1342 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1343 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1344 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1345 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1346 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1347 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v096,
+        cr:admin .
+
+cr:CVE-2023-1349 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1350 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1351 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1352 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1353 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1354 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1355 a cr:CVE .
+
+cr:CVE-2023-1356 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-1357 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1358 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1359 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1360 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1361 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1362 a cr:CVE .
+
+cr:CVE-2023-1363 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-1364 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1365 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1366 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1367 a cr:CVE .
+
+cr:CVE-2023-1368 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1369 a cr:CVE .
+
+cr:CVE-2023-1370 a cr:CVE ;
+    cr:hasClass cr:StackOverflow .
+
+cr:CVE-2023-1371 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v246,
+        cr:authenticated .
+
+cr:CVE-2023-1372 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-1373 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v246 .
+
+cr:CVE-2023-1374 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1375 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1377 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v094,
+        cr:admin .
+
+cr:CVE-2023-1378 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1379 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1380 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-1381 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v455 .
+
+cr:CVE-2023-1382 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-1383 a cr:CVE .
+
+cr:CVE-2023-1384 a cr:CVE .
+
+cr:CVE-2023-1385 a cr:CVE .
+
+cr:CVE-2023-1386 a cr:CVE ;
+    cr:hasClass cr:guest,
+        cr:localuser,
+        cr:privileged .
+
+cr:CVE-2023-1387 a cr:CVE .
+
+cr:CVE-2023-1388 a cr:CVE ;
+    cr:hasClass cr:remoteuser .
+
+cr:CVE-2023-1389 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:Endpoint,
+        cr:root .
+
+cr:CVE-2023-1390 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:system .
+
+cr:CVE-2023-1391 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1392 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1393 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:PrivilegeEscalation,
+        cr:Server,
+        cr:Use-after-free .
+
+cr:CVE-2023-1394 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1395 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1396 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1397 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1398 a cr:CVE ;
+    cr:hasClass cr:admin .
+
+cr:CVE-2023-1399 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1400 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v652,
+        cr:admin .
+
+cr:CVE-2023-1401 a cr:CVE .
+
+cr:CVE-2023-1402 a cr:CVE .
+
+cr:CVE-2023-1403 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1404 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1405 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v62,
+        cr:anonymous .
+
+cr:CVE-2023-1406 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v313 .
+
+cr:CVE-2023-1407 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1408 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v17,
+        cr:admin .
+
+cr:CVE-2023-1409 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Macos,
+        cr:Mongodb,
+        cr:Mongodb_v44,
+        cr:Mongodb_v50,
+        cr:Mongodb_v63,
+        cr:Server,
+        cr:Windows .
+
+cr:CVE-2023-1410 a cr:CVE ;
+    cr:hasClass cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-1412 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:PrivilegeEscalation,
+        cr:Windows,
+        cr:Windows_v202212582,
+        cr:admin,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-1413 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v829,
+        cr:admin .
+
+cr:CVE-2023-1414 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v830,
+        cr:authenticated .
+
+cr:CVE-2023-1415 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1416 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1417 a cr:CVE .
+
+cr:CVE-2023-1418 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1419 a cr:CVE ;
+    cr:hasClass cr:Database .
+
+cr:CVE-2023-1420 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v4111,
+        cr:Wordpress_v4262,
+        cr:admin .
+
+cr:CVE-2023-1421 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-1424 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:system .
+
+cr:CVE-2023-1425 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v279 .
+
+cr:CVE-2023-1426 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v112,
+        cr:authenticated .
+
+cr:CVE-2023-1427 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v1815 .
+
+cr:CVE-2023-1428 a cr:CVE .
+
+cr:CVE-2023-1429 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1430 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1431 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:admin .
+
+cr:CVE-2023-1432 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1433 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1435 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v4262,
+        cr:admin .
+
+cr:CVE-2023-1436 a cr:CVE .
+
+cr:CVE-2023-1437 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Server,
+        cr:system .
+
+cr:CVE-2023-1439 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1440 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1441 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1442 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Php .
+
+cr:CVE-2023-1443 a cr:CVE .
+
+cr:CVE-2023-1444 a cr:CVE .
+
+cr:CVE-2023-1445 a cr:CVE .
+
+cr:CVE-2023-1446 a cr:CVE .
+
+cr:CVE-2023-1447 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-1448 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1449 a cr:CVE ;
+    cr:hasClass cr:DoubleFree .
+
+cr:CVE-2023-1450 a cr:CVE .
+
+cr:CVE-2023-1451 a cr:CVE .
+
+cr:CVE-2023-1452 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1453 a cr:CVE .
+
+cr:CVE-2023-1454 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1455 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1456 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1457 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1458 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1459 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1460 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1461 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1462 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1463 a cr:CVE .
+
+cr:CVE-2023-1464 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1465 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v41,
+        cr:admin .
+
+cr:CVE-2023-1466 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1467 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1468 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1469 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:privileged .
+
+cr:CVE-2023-1470 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1471 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1472 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1473 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v3290,
+        cr:admin .
+
+cr:CVE-2023-1474 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1475 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1476 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1477 a cr:CVE .
+
+cr:CVE-2023-1478 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:Wordpress_v342 .
+
+cr:CVE-2023-1479 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1480 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1481 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1482 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1483 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1484 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1485 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1486 a cr:CVE .
+
+cr:CVE-2023-1487 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1488 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1489 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1490 a cr:CVE .
+
+cr:CVE-2023-1491 a cr:CVE .
+
+cr:CVE-2023-1492 a cr:CVE .
+
+cr:CVE-2023-1493 a cr:CVE .
+
+cr:CVE-2023-1494 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1495 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1496 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1497 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1498 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1499 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1500 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1501 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1502 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1503 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1504 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1505 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1506 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1507 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1508 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1509 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1513 a cr:CVE ;
+    cr:hasClass cr:Kvm .
+
+cr:CVE-2023-1514 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Server .
+
+cr:CVE-2023-1515 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1516 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-1517 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1518 a cr:CVE .
+
+cr:CVE-2023-1521 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Server,
+        cr:root .
+
+cr:CVE-2023-1522 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1523 a cr:CVE .
+
+cr:CVE-2023-1524 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:Wordpress,
+        cr:Wordpress_v3271 .
+
+cr:CVE-2023-1525 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v671,
+        cr:admin .
+
+cr:CVE-2023-1526 a cr:CVE .
+
+cr:CVE-2023-1527 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1528 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1529 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1530 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1531 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1532 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1533 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1534 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11105563 .
+
+cr:CVE-2023-1535 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1536 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1537 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1538 a cr:CVE .
+
+cr:CVE-2023-1539 a cr:CVE .
+
+cr:CVE-2023-1540 a cr:CVE .
+
+cr:CVE-2023-1541 a cr:CVE .
+
+cr:CVE-2023-1542 a cr:CVE .
+
+cr:CVE-2023-1543 a cr:CVE .
+
+cr:CVE-2023-1544 a cr:CVE ;
+    cr:hasClass cr:Vmware,
+        cr:guest .
+
+cr:CVE-2023-1545 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1546 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v2124 .
+
+cr:CVE-2023-1547 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1548 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:localuser .
+
+cr:CVE-2023-1549 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v2727,
+        cr:admin .
+
+cr:CVE-2023-1550 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Nginx,
+        cr:Nginx_v20,
+        cr:authenticated .
+
+cr:CVE-2023-1552 a cr:CVE .
+
+cr:CVE-2023-1554 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v5726,
+        cr:admin .
+
+cr:CVE-2023-1555 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1556 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1557 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1558 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1559 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1560 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1561 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1562 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1563 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1564 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1565 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-1566 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1567 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1568 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1569 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1570 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1571 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1572 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1573 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1574 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-1575 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1576 a cr:CVE .
+
+cr:CVE-2023-1577 a cr:CVE ;
+    cr:hasClass cr:localuser .
+
+cr:CVE-2023-1578 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1579 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1580 a cr:CVE ;
+    cr:hasClass cr:Gateway,
+        cr:system .
+
+cr:CVE-2023-1582 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-1583 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:system .
+
+cr:CVE-2023-1584 a cr:CVE .
+
+cr:CVE-2023-1585 a cr:CVE ;
+    cr:hasClass cr:Toctou,
+        cr:Windows .
+
+cr:CVE-2023-1586 a cr:CVE ;
+    cr:hasClass cr:Toctou,
+        cr:Windows .
+
+cr:CVE-2023-1587 a cr:CVE ;
+    cr:hasClass cr:Windows .
+
+cr:CVE-2023-1588 a cr:CVE .
+
+cr:CVE-2023-1589 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1590 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1591 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1592 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1593 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1594 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1595 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1596 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v40,
+        cr:admin .
+
+cr:CVE-2023-1597 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:PrivilegeEscalation,
+        cr:Wordpress,
+        cr:Wordpress_v27,
+        cr:admin,
+        cr:authenticated .
+
+cr:CVE-2023-1598 a cr:CVE .
+
+cr:CVE-2023-1601 a cr:CVE .
+
+cr:CVE-2023-1602 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1603 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1604 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1605 a cr:CVE .
+
+cr:CVE-2023-1606 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:Sql .
+
+cr:CVE-2023-1607 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1608 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Java,
+        cr:Java_v134,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1609 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:CrossSiteScripting,
+        cr:Java,
+        cr:Java_v134,
+        cr:admin .
+
+cr:CVE-2023-1610 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1611 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1612 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1613 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1614 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v105,
+        cr:admin .
+
+cr:CVE-2023-1615 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Sql,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1616 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1617 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:network .
+
+cr:CVE-2023-1618 a cr:CVE .
+
+cr:CVE-2023-1619 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1620 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1621 a cr:CVE .
+
+cr:CVE-2023-1622 a cr:CVE .
+
+cr:CVE-2023-1623 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v1135,
+        cr:admin .
+
+cr:CVE-2023-1624 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Server,
+        cr:Wordpress,
+        cr:Wordpress_v209 .
+
+cr:CVE-2023-1625 a cr:CVE ;
+    cr:hasClass cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-1626 a cr:CVE .
+
+cr:CVE-2023-1627 a cr:CVE .
+
+cr:CVE-2023-1628 a cr:CVE .
+
+cr:CVE-2023-1629 a cr:CVE .
+
+cr:CVE-2023-1630 a cr:CVE .
+
+cr:CVE-2023-1631 a cr:CVE .
+
+cr:CVE-2023-1632 a cr:CVE .
+
+cr:CVE-2023-1633 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1634 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Server-sideRequestForgery,
+        cr:admin .
+
+cr:CVE-2023-1635 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1636 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1637 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:localuser .
+
+cr:CVE-2023-1638 a cr:CVE .
+
+cr:CVE-2023-1639 a cr:CVE .
+
+cr:CVE-2023-1640 a cr:CVE .
+
+cr:CVE-2023-1641 a cr:CVE .
+
+cr:CVE-2023-1642 a cr:CVE .
+
+cr:CVE-2023-1643 a cr:CVE .
+
+cr:CVE-2023-1644 a cr:CVE .
+
+cr:CVE-2023-1645 a cr:CVE .
+
+cr:CVE-2023-1646 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1647 a cr:CVE .
+
+cr:CVE-2023-1648 a cr:CVE .
+
+cr:CVE-2023-1649 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v451,
+        cr:admin .
+
+cr:CVE-2023-1650 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v447 .
+
+cr:CVE-2023-1651 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v449,
+        cr:Xss,
+        cr:authenticated .
+
+cr:CVE-2023-1652 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1654 a cr:CVE .
+
+cr:CVE-2023-1655 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1656 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:Macos,
+        cr:Server,
+        cr:Windows .
+
+cr:CVE-2023-1659 a cr:CVE .
+
+cr:CVE-2023-1660 a cr:CVE ;
+    cr:hasClass cr:Csrf,
+        cr:Wordpress,
+        cr:Wordpress_v449,
+        cr:Xss,
+        cr:admin .
+
+cr:CVE-2023-1661 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1663 a cr:CVE ;
+    cr:hasClass cr:Apache,
+        cr:Server,
+        cr:Tomcat,
+        cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-1664 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Proxy,
+        cr:Server .
+
+cr:CVE-2023-1665 a cr:CVE .
+
+cr:CVE-2023-1666 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1667 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:authenticated .
+
+cr:CVE-2023-1668 a cr:CVE .
+
+cr:CVE-2023-1669 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:Wordpress_v650,
+        cr:admin .
+
+cr:CVE-2023-1670 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:UseAfterFree,
+        cr:localuser,
+        cr:system .
+
+cr:CVE-2023-1671 a cr:CVE ;
+    cr:hasClass cr:Auth,
+        cr:CommandInjection,
+        cr:Sophos .
+
+cr:CVE-2023-1672 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1673 a cr:CVE .
+
+cr:CVE-2023-1674 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1675 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1676 a cr:CVE .
+
+cr:CVE-2023-1677 a cr:CVE .
+
+cr:CVE-2023-1678 a cr:CVE .
+
+cr:CVE-2023-1679 a cr:CVE .
+
+cr:CVE-2023-1680 a cr:CVE .
+
+cr:CVE-2023-1681 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1682 a cr:CVE .
+
+cr:CVE-2023-1683 a cr:CVE .
+
+cr:CVE-2023-1684 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1685 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:Php .
+
+cr:CVE-2023-1686 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1687 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1688 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1689 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1690 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1691 a cr:CVE .
+
+cr:CVE-2023-1692 a cr:CVE .
+
+cr:CVE-2023-1693 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation .
+
+cr:CVE-2023-1694 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation .
+
+cr:CVE-2023-1695 a cr:CVE .
+
+cr:CVE-2023-1696 a cr:CVE .
+
+cr:CVE-2023-1697 a cr:CVE ;
+    cr:hasClass cr:Juniper,
+        cr:Junos .
+
+cr:CVE-2023-1698 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1699 a cr:CVE .
+
+cr:CVE-2023-1701 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1702 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1703 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1704 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1705 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Windows .
+
+cr:CVE-2023-1706 a cr:CVE .
+
+cr:CVE-2023-1707 a cr:CVE .
+
+cr:CVE-2023-1708 a cr:CVE .
+
+cr:CVE-2023-1709 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1710 a cr:CVE .
+
+cr:CVE-2023-1711 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-1712 a cr:CVE .
+
+cr:CVE-2023-1713 a cr:CVE ;
+    cr:hasClass cr:Apache,
+        cr:Php,
+        cr:Php_v220300,
+        cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-1714 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Php_v220300,
+        cr:authenticated .
+
+cr:CVE-2023-1715 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-1716 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cross-siteScripting,
+        cr:Php,
+        cr:Server,
+        cr:Xss,
+        cr:administrator .
+
+cr:CVE-2023-1717 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Php,
+        cr:Server,
+        cr:administrator .
+
+cr:CVE-2023-1718 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1719 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Php,
+        cr:Php_v220300,
+        cr:Server,
+        cr:administrator .
+
+cr:CVE-2023-1720 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Php,
+        cr:Server,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1721 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:administrator,
+        cr:system .
+
+cr:CVE-2023-1722 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:administrator,
+        cr:system .
+
+cr:CVE-2023-1723 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1724 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Xss .
+
+cr:CVE-2023-1725 a cr:CVE ;
+    cr:hasClass cr:Server-sideRequestForgery,
+        cr:ServerSideRequestForgery,
+        cr:Ssrf,
+        cr:system .
+
+cr:CVE-2023-1726 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss,
+        cr:authenticated .
+
+cr:CVE-2023-1728 a cr:CVE ;
+    cr:hasClass cr:CommandInjection,
+        cr:Server .
+
+cr:CVE-2023-1729 a cr:CVE .
+
+cr:CVE-2023-1730 a cr:CVE ;
+    cr:hasClass cr:Sql,
+        cr:Wordpress,
+        cr:Wordpress_v315 .
+
+cr:CVE-2023-1731 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1732 a cr:CVE .
+
+cr:CVE-2023-1733 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1734 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1735 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1736 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1737 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1738 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1739 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1740 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1741 a cr:CVE ;
+    cr:hasClass cr:Java,
+        cr:Sql .
+
+cr:CVE-2023-1742 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Sql .
+
+cr:CVE-2023-1743 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1744 a cr:CVE .
+
+cr:CVE-2023-1745 a cr:CVE .
+
+cr:CVE-2023-1746 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1747 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Sql .
+
+cr:CVE-2023-1748 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:UnauthenticatedAccess .
+
+cr:CVE-2023-1749 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1750 a cr:CVE .
+
+cr:CVE-2023-1751 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1752 a cr:CVE .
+
+cr:CVE-2023-1753 a cr:CVE .
+
+cr:CVE-2023-1754 a cr:CVE .
+
+cr:CVE-2023-1755 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1756 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1757 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1758 a cr:CVE .
+
+cr:CVE-2023-1759 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1760 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1761 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-1762 a cr:CVE .
+
+cr:CVE-2023-1763 a cr:CVE ;
+    cr:hasClass cr:Macos,
+        cr:Macos_v473,
+        cr:network .
+
+cr:CVE-2023-1764 a cr:CVE ;
+    cr:hasClass cr:Macos,
+        cr:Macos_v473,
+        cr:network .
+
+cr:CVE-2023-1765 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1766 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1767 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-1768 a cr:CVE .
+
+cr:CVE-2023-1769 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1770 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1771 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1772 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1773 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1774 a cr:CVE .
+
+cr:CVE-2023-1775 a cr:CVE .
+
+cr:CVE-2023-1776 a cr:CVE .
+
+cr:CVE-2023-1777 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1778 a cr:CVE ;
+    cr:hasClass cr:DefaultCredentials,
+        cr:Firewall,
+        cr:superuser .
+
+cr:CVE-2023-1779 a cr:CVE .
+
+cr:CVE-2023-1780 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v453,
+        cr:admin .
+
+cr:CVE-2023-1782 a cr:CVE .
+
+cr:CVE-2023-1783 a cr:CVE ;
+    cr:hasClass cr:Aws .
+
+cr:CVE-2023-1784 a cr:CVE ;
+    cr:hasClass cr:Api .
+
+cr:CVE-2023-1785 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1786 a cr:CVE .
+
+cr:CVE-2023-1787 a cr:CVE .
+
+cr:CVE-2023-1788 a cr:CVE .
+
+cr:CVE-2023-1789 a cr:CVE .
+
+cr:CVE-2023-1790 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:system .
+
+cr:CVE-2023-1791 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1792 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1793 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1794 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1795 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1796 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1797 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1798 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1799 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php .
+
+cr:CVE-2023-1800 a cr:CVE .
+
+cr:CVE-2023-1801 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-1802 a cr:CVE ;
+    cr:hasClass cr:Docker,
+        cr:Docker_v417,
+        cr:network .
+
+cr:CVE-2023-1803 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:Router,
+        cr:Router_v717 .
+
+cr:CVE-2023-1804 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v211 .
+
+cr:CVE-2023-1805 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v211,
+        cr:admin .
+
+cr:CVE-2023-1806 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v210 .
+
+cr:CVE-2023-1807 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1809 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v630 .
+
+cr:CVE-2023-1810 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1811 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1812 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1813 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1814 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1815 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1816 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1817 a cr:CVE ;
+    cr:hasClass cr:Android,
+        cr:Android_v11205615,
+        cr:Chrome,
+        cr:Chrome_v1120561 .
+
+cr:CVE-2023-1818 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615,
+        cr:UseAfterFree .
+
+cr:CVE-2023-1819 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1820 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:BufferOverflow,
+        cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1821 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1822 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1823 a cr:CVE ;
+    cr:hasClass cr:Chrome,
+        cr:Chrome_v11205615 .
+
+cr:CVE-2023-1825 a cr:CVE .
+
+cr:CVE-2023-1826 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1827 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1829 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:PrivilegeEscalation,
+        cr:Use-after-free,
+        cr:root .
+
+cr:CVE-2023-1831 a cr:CVE .
+
+cr:CVE-2023-1832 a cr:CVE .
+
+cr:CVE-2023-1833 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:Router,
+        cr:Router_v717 .
+
+cr:CVE-2023-1834 a cr:CVE .
+
+cr:CVE-2023-1835 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v3622,
+        cr:admin .
+
+cr:CVE-2023-1836 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting .
+
+cr:CVE-2023-1837 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass,
+        cr:Server .
+
+cr:CVE-2023-1838 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-1839 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v3206,
+        cr:admin .
+
+cr:CVE-2023-1840 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:admin,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1841 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Server,
+        cr:Xss .
+
+cr:CVE-2023-1842 a cr:CVE .
+
+cr:CVE-2023-1843 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1844 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1845 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1846 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1847 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1848 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1849 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1850 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1851 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1852 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1853 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1854 a cr:CVE ;
+    cr:hasClass cr:admin,
+        cr:system .
+
+cr:CVE-2023-1855 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1856 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1857 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:admin .
+
+cr:CVE-2023-1858 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1859 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:Xen,
+        cr:system .
+
+cr:CVE-2023-1860 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting .
+
+cr:CVE-2023-1861 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v172,
+        cr:authenticated .
+
+cr:CVE-2023-1862 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Windows,
+        cr:Windows_v20233381,
+        cr:network .
+
+cr:CVE-2023-1863 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1864 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1865 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1866 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1867 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1868 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress .
+
+cr:CVE-2023-1869 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:admin,
+        cr:authenticated .
+
+cr:CVE-2023-1870 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1871 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1872 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:PrivilegeEscalation,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1873 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1874 a cr:CVE ;
+    cr:hasClass cr:PrivilegeEscalation,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1875 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1876 a cr:CVE .
+
+cr:CVE-2023-1877 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1878 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1879 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1880 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1881 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1882 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1883 a cr:CVE .
+
+cr:CVE-2023-1884 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1885 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1886 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1887 a cr:CVE .
+
+cr:CVE-2023-1888 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1889 a cr:CVE ;
+    cr:hasClass cr:InsecureDirectObjectReference,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1890 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v109 .
+
+cr:CVE-2023-1891 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v199 .
+
+cr:CVE-2023-1892 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1893 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v21 .
+
+cr:CVE-2023-1894 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1895 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Endpoint,
+        cr:ServerSideRequestForgery,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1897 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Server,
+        cr:authenticated .
+
+cr:CVE-2023-1898 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1899 a cr:CVE ;
+    cr:hasClass cr:Server,
+        cr:network .
+
+cr:CVE-2023-1900 a cr:CVE ;
+    cr:hasClass cr:network .
+
+cr:CVE-2023-1901 a cr:CVE .
+
+cr:CVE-2023-1902 a cr:CVE .
+
+cr:CVE-2023-1903 a cr:CVE ;
+    cr:hasClass cr:authenticated .
+
+cr:CVE-2023-1904 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:Server .
+
+cr:CVE-2023-1905 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v215 .
+
+cr:CVE-2023-1906 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1907 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1908 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1909 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1910 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Endpoint,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1911 a cr:CVE ;
+    cr:hasClass cr:Wordpress,
+        cr:Wordpress_v1882,
+        cr:authenticated .
+
+cr:CVE-2023-1912 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1913 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:administrator,
+        cr:authenticated .
+
+cr:CVE-2023-1915 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v1110,
+        cr:admin .
+
+cr:CVE-2023-1916 a cr:CVE .
+
+cr:CVE-2023-1917 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1918 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1919 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1920 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1921 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cdn,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1922 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cdn,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1923 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cdn,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1924 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1925 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1926 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1927 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Cross-siteRequestForgery,
+        cr:Wordpress,
+        cr:administrator .
+
+cr:CVE-2023-1928 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1929 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1930 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1931 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Wordpress,
+        cr:authenticated .
+
+cr:CVE-2023-1932 a cr:CVE ;
+    cr:hasClass cr:Xss .
+
+cr:CVE-2023-1934 a cr:CVE ;
+    cr:hasClass cr:Database,
+        cr:Endpoint,
+        cr:Postgresql,
+        cr:system .
+
+cr:CVE-2023-1935 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1936 a cr:CVE .
+
+cr:CVE-2023-1937 a cr:CVE ;
+    cr:hasClass cr:Cross-siteRequestForgery,
+        cr:admin .
+
+cr:CVE-2023-1938 a cr:CVE ;
+    cr:hasClass cr:Cache,
+        cr:Csrf,
+        cr:Ssrf,
+        cr:Wordpress,
+        cr:Wordpress_v115 .
+
+cr:CVE-2023-1939 a cr:CVE ;
+    cr:hasClass cr:Windows,
+        cr:Windows_v2022333,
+        cr:admin .
+
+cr:CVE-2023-1940 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1941 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1942 a cr:CVE ;
+    cr:hasClass cr:admin .
+
+cr:CVE-2023-1943 a cr:CVE ;
+    cr:hasClass cr:Gcp,
+        cr:PrivilegeEscalation .
+
+cr:CVE-2023-1944 a cr:CVE ;
+    cr:hasClass cr:Container .
+
+cr:CVE-2023-1945 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Firefox,
+        cr:Firefox_v10210 .
+
+cr:CVE-2023-1946 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:system .
+
+cr:CVE-2023-1947 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1948 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:Php,
+        cr:system .
+
+cr:CVE-2023-1949 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1950 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1951 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1952 a cr:CVE ;
+    cr:hasClass cr:Sql .
+
+cr:CVE-2023-1953 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1954 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1955 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1956 a cr:CVE ;
+    cr:hasClass cr:Php .
+
+cr:CVE-2023-1957 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1958 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1959 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1960 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1961 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1962 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1963 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1964 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1965 a cr:CVE .
+
+cr:CVE-2023-1966 a cr:CVE ;
+    cr:hasClass cr:system .
+
+cr:CVE-2023-1967 a cr:CVE .
+
+cr:CVE-2023-1968 a cr:CVE .
+
+cr:CVE-2023-1969 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin .
+
+cr:CVE-2023-1970 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:admin .
+
+cr:CVE-2023-1971 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Server-sideRequestForgery,
+        cr:admin .
+
+cr:CVE-2023-1972 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow .
+
+cr:CVE-2023-1973 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1974 a cr:CVE .
+
+cr:CVE-2023-1975 a cr:CVE .
+
+cr:CVE-2023-1976 a cr:CVE .
+
+cr:CVE-2023-1977 a cr:CVE ;
+    cr:hasClass cr:AdminPanel,
+        cr:Ssrf,
+        cr:Wordpress,
+        cr:Wordpress_v2029,
+        cr:network .
+
+cr:CVE-2023-1978 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress .
+
+cr:CVE-2023-1979 a cr:CVE ;
+    cr:hasClass cr:Wordpress .
+
+cr:CVE-2023-1980 a cr:CVE ;
+    cr:hasClass cr:AuthenticationBypass .
+
+cr:CVE-2023-1981 a cr:CVE .
+
+cr:CVE-2023-1982 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Wordpress,
+        cr:Wordpress_v404 .
+
+cr:CVE-2023-1983 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:admin,
+        cr:system .
+
+cr:CVE-2023-1984 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql,
+        cr:system .
+
+cr:CVE-2023-1985 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1986 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1987 a cr:CVE ;
+    cr:hasClass cr:Php,
+        cr:Sql .
+
+cr:CVE-2023-1988 a cr:CVE ;
+    cr:hasClass cr:CrossSiteScripting,
+        cr:admin .
+
+cr:CVE-2023-1989 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free .
+
+cr:CVE-2023-1990 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Use-after-free,
+        cr:system .
+
+cr:CVE-2023-1992 a cr:CVE .
+
+cr:CVE-2023-1993 a cr:CVE .
+
+cr:CVE-2023-1994 a cr:CVE .
+
+cr:CVE-2023-1995 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-1996 a cr:CVE ;
+    cr:hasClass cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-1997 a cr:CVE ;
+    cr:hasClass cr:CommandInjection .
+
+cr:CVE-2023-1998 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:Spectre .
+
+cr:CVE-2023-1999 a cr:CVE ;
+    cr:hasClass cr:DoubleFree,
+        cr:UseAfterFree .
+
+cr:CVE-2023-2000 a cr:CVE ;
+    cr:hasClass cr:Server .
+
+cr:CVE-2023-20002 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ssrf,
+        cr:authenticated,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-20003 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:guest .
+
+cr:CVE-2023-20004 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20005 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20006 a cr:CVE ;
+    cr:hasClass cr:Asa,
+        cr:Cisco .
+
+cr:CVE-2023-20007 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Vpn,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20008 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20009 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Gateway,
+        cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-2001 a cr:CVE .
+
+cr:CVE-2023-20010 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Database,
+        cr:Sql,
+        cr:authenticated,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-20011 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Cross-siteRequestForgery,
+        cr:Csrf,
+        cr:network,
+        cr:privileged,
+        cr:system .
+
+cr:CVE-2023-20012 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20013 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20014 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20015 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20016 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Server,
+        cr:localuser,
+        cr:network .
+
+cr:CVE-2023-20017 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20018 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:WebInterface .
+
+cr:CVE-2023-20019 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Server,
+        cr:Xss .
+
+cr:CVE-2023-2002 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel .
+
+cr:CVE-2023-20020 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20021 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:CommandInjection,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20022 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:CommandInjection,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20023 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:CommandInjection,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20024 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:WebInterface,
+        cr:root .
+
+cr:CVE-2023-20025 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20026 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-20027 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios .
+
+cr:CVE-2023-20028 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Gateway,
+        cr:Xss .
+
+cr:CVE-2023-20029 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios,
+        cr:authenticated,
+        cr:root .
+
+cr:CVE-2023-2003 a cr:CVE ;
+    cr:hasClass cr:Client,
+        cr:system .
+
+cr:CVE-2023-20030 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Server-sideRequestForgery,
+        cr:Ssrf,
+        cr:XmlExternalEntity,
+        cr:Xxe,
+        cr:admin,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20031 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20032 a cr:CVE ;
+    cr:hasClass cr:BufferOverflow,
+        cr:Net .
+
+cr:CVE-2023-20033 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios .
+
+cr:CVE-2023-20034 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Database .
+
+cr:CVE-2023-20035 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20036 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20037 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss,
+        cr:authenticated,
+        cr:network,
+        cr:system .
+
+cr:CVE-2023-20038 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Server,
+        cr:authenticated,
+        cr:network .
+
+cr:CVE-2023-20039 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-2004 a cr:CVE .
+
+cr:CVE-2023-20040 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:admin,
+        cr:authenticated,
+        cr:network,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20041 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20042 a cr:CVE ;
+    cr:hasClass cr:Asa,
+        cr:Cisco,
+        cr:Vpn .
+
+cr:CVE-2023-20043 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20044 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20045 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Vpn,
+        cr:administrator,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20046 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:privileged .
+
+cr:CVE-2023-20047 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20048 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20049 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios .
+
+cr:CVE-2023-2005 a cr:CVE .
+
+cr:CVE-2023-20050 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Nx-Os,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20051 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Gateway,
+        cr:network .
+
+cr:CVE-2023-20052 a cr:CVE ;
+    cr:hasClass cr:XmlExternalEntity .
+
+cr:CVE-2023-20053 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20055 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20056 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20057 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20058 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20059 a cr:CVE ;
+    cr:hasClass cr:Api,
+        cr:Cisco,
+        cr:authenticated,
+        cr:network,
+        cr:privileged .
+
+cr:CVE-2023-2006 a cr:CVE ;
+    cr:hasClass cr:LinuxKernel,
+        cr:network .
+
+cr:CVE-2023-20060 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting .
+
+cr:CVE-2023-20061 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Server-sideRequestForgery,
+        cr:Ssrf,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20062 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Server-sideRequestForgery,
+        cr:Ssrf,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20063 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20064 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios .
+
+cr:CVE-2023-20065 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Container,
+        cr:Ios,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20066 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios,
+        cr:authenticated .
+
+cr:CVE-2023-20067 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Client,
+        cr:Ios,
+        cr:system .
+
+cr:CVE-2023-20068 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20069 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss,
+        cr:authenticated,
+        cr:network .
+
+cr:CVE-2023-2007 a cr:CVE .
+
+cr:CVE-2023-20070 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CVE-2023-20071 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:system .
+
+cr:CVE-2023-20072 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Ios,
+        cr:system .
+
+cr:CVE-2023-20073 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Vpn .
+
+cr:CVE-2023-20074 a cr:CVE ;
+    cr:hasClass cr:Browser,
+        cr:Cisco,
+        cr:Cross-siteScripting,
+        cr:Xss .
+
+cr:CVE-2023-20075 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:Gateway,
+        cr:administrator,
+        cr:authenticated,
+        cr:system .
+
+cr:CVE-2023-20076 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated,
+        cr:root,
+        cr:system .
+
+cr:CVE-2023-20077 a cr:CVE ;
+    cr:hasClass cr:Cisco,
+        cr:authenticated .
+
+cr:CVE-2023-20078 a cr:CVE ;
+    cr:hasClass cr:Cisco .
+
+cr:CyberRuleOntology a owl:Ontology ;
+    rdfs:label "CyberRule CVE Ontology" ;
+    rdfs:comment "Deterministic rule-based extraction from NVD" ;
+    rdfs:seeAlso <https://github.com/slimnithbt135/cyberonto-llm-enrichment> ;
+    owl:versionInfo "1.0.0" .
+
+cr:Android_v11205615 a cr:SecurityClass .
+
+cr:Aws a cr:SecurityClass .
+
+cr:CertificateVerification a cr:SecurityClass .
+
+cr:Chrome_v1120561 a cr:SecurityClass .
+
+cr:CrlfInjection a cr:SecurityClass ;
+    cr:affects cr:Client,
+        cr:Database,
+        cr:Server ;
+    cr:requires cr:network .
+
+cr:DefaultCredentials a cr:SecurityClass ;
+    cr:affects cr:Firewall ;
+    cr:requires cr:superuser .
+
+cr:DllHijacking a cr:SecurityClass ;
+    cr:inProduct cr:Windows ;
+    cr:requires cr:system .
+
+cr:Docker_v41 a cr:SecurityClass .
+
+cr:Docker_v411 a cr:SecurityClass .
+
+cr:Docker_v4130 a cr:SecurityClass .
+
+cr:Docker_v417 a cr:SecurityClass .
+
+cr:Firefox_v10210 a cr:SecurityClass .
+
+cr:Firefox_v1028 a cr:SecurityClass .
+
+cr:HttpResponseSplitting a cr:SecurityClass ;
+    cr:affects cr:Api .
+
+cr:Ios_v11105563 a cr:SecurityClass .
+
+cr:IpCamera a cr:SecurityClass .
+
+cr:Java_v11015 a cr:SecurityClass .
+
+cr:Java_v750 a cr:SecurityClass .
+
+cr:Jetty a cr:SecurityClass .
+
+cr:Juniper_v151 a cr:SecurityClass .
+
+cr:Junos_v151 a cr:SecurityClass .
+
+cr:Kubernetes_v150 a cr:SecurityClass .
+
+cr:Kvm a cr:SecurityClass .
+
+cr:LdapInjection a cr:SecurityClass ;
+    cr:requires cr:authenticated .
+
+cr:LinuxKernel_v414 a cr:SecurityClass .
+
+cr:LinuxKernel_v56 a cr:SecurityClass .
+
+cr:LocalFileInclusion a cr:SecurityClass ;
+    cr:inProduct cr:Php,
+        cr:Wordpress .
+
+cr:Misconfiguration a cr:SecurityClass ;
+    cr:affects cr:Client ;
+    cr:inProduct cr:Android .
+
+cr:Mongodb_v44 a cr:SecurityClass .
+
+cr:Mongodb_v60 a cr:SecurityClass .
+
+cr:Mongodb_v63 a cr:SecurityClass .
+
+cr:Nginx a cr:SecurityClass .
+
+cr:Nginx_v20 a cr:SecurityClass .
+
+cr:Nx-Os a cr:SecurityClass .
+
+cr:Openshift_v412 a cr:SecurityClass .
+
+cr:Postgresql a cr:SecurityClass .
+
+cr:Python a cr:SecurityClass .
+
+cr:Router_v1010 a cr:SecurityClass .
+
+cr:Router_v125 a cr:SecurityClass .
+
+cr:Router_v152 a cr:SecurityClass .
+
+cr:Router_v226 a cr:SecurityClass .
+
+cr:Spectre a cr:SecurityClass ;
+    cr:inProduct cr:LinuxKernel .
+
+cr:TrendMicro a cr:SecurityClass .
+
+cr:Vm a cr:SecurityClass .
+
+cr:Vmware a cr:SecurityClass .
+
+cr:WeakEncryption a cr:SecurityClass .
+
+cr:Windows_v11005481 a cr:SecurityClass .
+
+cr:Windows_v11105563 a cr:SecurityClass .
+
+cr:Windows_v119 a cr:SecurityClass .
+
+cr:Windows_v2022333 a cr:SecurityClass .
+
+cr:Windows_v20225309 a cr:SecurityClass .
+
+cr:Windows_v20233381 a cr:SecurityClass .
+
+cr:Windows_v4120 a cr:SecurityClass .
+
+cr:Windows_v721 a cr:SecurityClass .
+
+cr:Wordpress_v010 a cr:SecurityClass .
+
+cr:Wordpress_v012 a cr:SecurityClass .
+
+cr:Wordpress_v030 a cr:SecurityClass .
+
+cr:Wordpress_v0614 a cr:SecurityClass .
+
+cr:Wordpress_v0626 a cr:SecurityClass .
+
+cr:Wordpress_v075 a cr:SecurityClass .
+
+cr:Wordpress_v0841 a cr:SecurityClass .
+
+cr:Wordpress_v09 a cr:SecurityClass .
+
+cr:Wordpress_v094 a cr:SecurityClass .
+
+cr:Wordpress_v096 a cr:SecurityClass .
+
+cr:Wordpress_v099 a cr:SecurityClass .
+
+cr:Wordpress_v100 a cr:SecurityClass .
+
+cr:Wordpress_v1014 a cr:SecurityClass .
+
+cr:Wordpress_v102 a cr:SecurityClass .
+
+cr:Wordpress_v1073 a cr:SecurityClass .
+
+cr:Wordpress_v1110 a cr:SecurityClass .
+
+cr:Wordpress_v1113 a cr:SecurityClass .
+
+cr:Wordpress_v11151 a cr:SecurityClass .
+
+cr:Wordpress_v112 a cr:SecurityClass .
+
+cr:Wordpress_v1128 a cr:SecurityClass .
+
+cr:Wordpress_v11342 a cr:SecurityClass .
+
+cr:Wordpress_v1135 a cr:SecurityClass .
+
+cr:Wordpress_v114 a cr:SecurityClass .
+
+cr:Wordpress_v117 a cr:SecurityClass .
+
+cr:Wordpress_v11811 a cr:SecurityClass .
+
+cr:Wordpress_v1188 a cr:SecurityClass .
+
+cr:Wordpress_v121 a cr:SecurityClass .
+
+cr:Wordpress_v1220 a cr:SecurityClass .
+
+cr:Wordpress_v127 a cr:SecurityClass .
+
+cr:Wordpress_v1293 a cr:SecurityClass .
+
+cr:Wordpress_v130 a cr:SecurityClass .
+
+cr:Wordpress_v1321 a cr:SecurityClass .
+
+cr:Wordpress_v135 a cr:SecurityClass .
+
+cr:Wordpress_v141 a cr:SecurityClass .
+
+cr:Wordpress_v143 a cr:SecurityClass .
+
+cr:Wordpress_v1438 a cr:SecurityClass .
+
+cr:Wordpress_v144 a cr:SecurityClass .
+
+cr:Wordpress_v145 a cr:SecurityClass .
+
+cr:Wordpress_v146 a cr:SecurityClass .
+
+cr:Wordpress_v15 a cr:SecurityClass .
+
+cr:Wordpress_v1515 a cr:SecurityClass .
+
+cr:Wordpress_v159 a cr:SecurityClass .
+
+cr:Wordpress_v16 a cr:SecurityClass .
+
+cr:Wordpress_v160 a cr:SecurityClass .
+
+cr:Wordpress_v161 a cr:SecurityClass .
+
+cr:Wordpress_v163 a cr:SecurityClass .
+
+cr:Wordpress_v1636 a cr:SecurityClass .
+
+cr:Wordpress_v167 a cr:SecurityClass .
+
+cr:Wordpress_v17 a cr:SecurityClass .
+
+cr:Wordpress_v172 a cr:SecurityClass .
+
+cr:Wordpress_v177 a cr:SecurityClass .
+
+cr:Wordpress_v179 a cr:SecurityClass .
+
+cr:Wordpress_v1815 a cr:SecurityClass .
+
+cr:Wordpress_v182 a cr:SecurityClass .
+
+cr:Wordpress_v185 a cr:SecurityClass .
+
+cr:Wordpress_v1882 a cr:SecurityClass .
+
+cr:Wordpress_v191 a cr:SecurityClass .
+
+cr:Wordpress_v192 a cr:SecurityClass .
+
+cr:Wordpress_v199 a cr:SecurityClass .
+
+cr:Wordpress_v20 a cr:SecurityClass .
+
+cr:Wordpress_v2010 a cr:SecurityClass .
+
+cr:Wordpress_v2029 a cr:SecurityClass .
+
+cr:Wordpress_v207 a cr:SecurityClass .
+
+cr:Wordpress_v208 a cr:SecurityClass .
+
+cr:Wordpress_v2111 a cr:SecurityClass .
+
+cr:Wordpress_v2112 a cr:SecurityClass .
+
+cr:Wordpress_v2117 a cr:SecurityClass .
+
+cr:Wordpress_v2122 a cr:SecurityClass .
+
+cr:Wordpress_v2124 a cr:SecurityClass .
+
+cr:Wordpress_v213 a cr:SecurityClass .
+
+cr:Wordpress_v214 a cr:SecurityClass .
+
+cr:Wordpress_v221 a cr:SecurityClass .
+
+cr:Wordpress_v2224 a cr:SecurityClass .
+
+cr:Wordpress_v223 a cr:SecurityClass .
+
+cr:Wordpress_v224 a cr:SecurityClass .
+
+cr:Wordpress_v2241 a cr:SecurityClass .
+
+cr:Wordpress_v23 a cr:SecurityClass .
+
+cr:Wordpress_v2324 a cr:SecurityClass .
+
+cr:Wordpress_v2328 a cr:SecurityClass .
+
+cr:Wordpress_v237 a cr:SecurityClass .
+
+cr:Wordpress_v238 a cr:SecurityClass .
+
+cr:Wordpress_v239 a cr:SecurityClass .
+
+cr:Wordpress_v24 a cr:SecurityClass .
+
+cr:Wordpress_v2419 a cr:SecurityClass .
+
+cr:Wordpress_v245 a cr:SecurityClass .
+
+cr:Wordpress_v247 a cr:SecurityClass .
+
+cr:Wordpress_v25 a cr:SecurityClass .
+
+cr:Wordpress_v2521 a cr:SecurityClass .
+
+cr:Wordpress_v258 a cr:SecurityClass .
+
+cr:Wordpress_v259 a cr:SecurityClass .
+
+cr:Wordpress_v261 a cr:SecurityClass .
+
+cr:Wordpress_v269 a cr:SecurityClass .
+
+cr:Wordpress_v27 a cr:SecurityClass .
+
+cr:Wordpress_v2727 a cr:SecurityClass .
+
+cr:Wordpress_v273 a cr:SecurityClass .
+
+cr:Wordpress_v279 a cr:SecurityClass .
+
+cr:Wordpress_v2812 a cr:SecurityClass .
+
+cr:Wordpress_v2849 a cr:SecurityClass .
+
+cr:Wordpress_v2912 a cr:SecurityClass .
+
+cr:Wordpress_v299 a cr:SecurityClass .
+
+cr:Wordpress_v300 a cr:SecurityClass .
+
+cr:Wordpress_v301 a cr:SecurityClass .
+
+cr:Wordpress_v3010 a cr:SecurityClass .
+
+cr:Wordpress_v306 a cr:SecurityClass .
+
+cr:Wordpress_v310 a cr:SecurityClass .
+
+cr:Wordpress_v311 a cr:SecurityClass .
+
+cr:Wordpress_v3122 a cr:SecurityClass .
+
+cr:Wordpress_v313 a cr:SecurityClass .
+
+cr:Wordpress_v315 a cr:SecurityClass .
+
+cr:Wordpress_v3206 a cr:SecurityClass .
+
+cr:Wordpress_v3213 a cr:SecurityClass .
+
+cr:Wordpress_v322 a cr:SecurityClass .
+
+cr:Wordpress_v3271 a cr:SecurityClass .
+
+cr:Wordpress_v329 a cr:SecurityClass .
+
+cr:Wordpress_v3290 a cr:SecurityClass .
+
+cr:Wordpress_v33 a cr:SecurityClass .
+
+cr:Wordpress_v331 a cr:SecurityClass .
+
+cr:Wordpress_v342 a cr:SecurityClass .
+
+cr:Wordpress_v351 a cr:SecurityClass .
+
+cr:Wordpress_v3622 a cr:SecurityClass .
+
+cr:Wordpress_v363 a cr:SecurityClass .
+
+cr:Wordpress_v371 a cr:SecurityClass .
+
+cr:Wordpress_v380 a cr:SecurityClass .
+
+cr:Wordpress_v382 a cr:SecurityClass .
+
+cr:Wordpress_v3849 a cr:SecurityClass .
+
+cr:Wordpress_v3916 a cr:SecurityClass .
+
+cr:Wordpress_v399 a cr:SecurityClass .
+
+cr:Wordpress_v40 a cr:SecurityClass .
+
+cr:Wordpress_v404 a cr:SecurityClass .
+
+cr:Wordpress_v408 a cr:SecurityClass .
+
+cr:Wordpress_v411 a cr:SecurityClass .
+
+cr:Wordpress_v4111 a cr:SecurityClass .
+
+cr:Wordpress_v415 a cr:SecurityClass .
+
+cr:Wordpress_v41829 a cr:SecurityClass .
+
+cr:Wordpress_v43 a cr:SecurityClass .
+
+cr:Wordpress_v430 a cr:SecurityClass .
+
+cr:Wordpress_v4325 a cr:SecurityClass .
+
+cr:Wordpress_v433 a cr:SecurityClass .
+
+cr:Wordpress_v443 a cr:SecurityClass .
+
+cr:Wordpress_v445 a cr:SecurityClass .
+
+cr:Wordpress_v447 a cr:SecurityClass .
+
+cr:Wordpress_v455 a cr:SecurityClass .
+
+cr:Wordpress_v461 a cr:SecurityClass .
+
+cr:Wordpress_v472 a cr:SecurityClass .
+
+cr:Wordpress_v4849 a cr:SecurityClass .
+
+cr:Wordpress_v4910 a cr:SecurityClass .
+
+cr:Wordpress_v493 a cr:SecurityClass .
+
+cr:Wordpress_v50 a cr:SecurityClass .
+
+cr:Wordpress_v505 a cr:SecurityClass .
+
+cr:Wordpress_v506 a cr:SecurityClass .
+
+cr:Wordpress_v5160 a cr:SecurityClass .
+
+cr:Wordpress_v5170 a cr:SecurityClass .
+
+cr:Wordpress_v5303 a cr:SecurityClass .
+
+cr:Wordpress_v531 a cr:SecurityClass .
+
+cr:Wordpress_v543 a cr:SecurityClass .
+
+cr:Wordpress_v5531 a cr:SecurityClass .
+
+cr:Wordpress_v5726 a cr:SecurityClass .
+
+cr:Wordpress_v6010 a cr:SecurityClass .
+
+cr:Wordpress_v61 a cr:SecurityClass .
+
+cr:Wordpress_v610 a cr:SecurityClass .
+
+cr:Wordpress_v62 a cr:SecurityClass .
+
+cr:Wordpress_v627 a cr:SecurityClass .
+
+cr:Wordpress_v630 a cr:SecurityClass .
+
+cr:Wordpress_v642 a cr:SecurityClass .
+
+cr:Wordpress_v650 a cr:SecurityClass .
+
+cr:Wordpress_v652 a cr:SecurityClass .
+
+cr:Wordpress_v66 a cr:SecurityClass .
+
+cr:Wordpress_v671 a cr:SecurityClass .
+
+cr:Wordpress_v687 a cr:SecurityClass .
+
+cr:Wordpress_v688 a cr:SecurityClass .
+
+cr:Wordpress_v689 a cr:SecurityClass .
+
+cr:Wordpress_v69 a cr:SecurityClass .
+
+cr:Wordpress_v70 a cr:SecurityClass .
+
+cr:Wordpress_v71 a cr:SecurityClass .
+
+cr:Wordpress_v7121 a cr:SecurityClass .
+
+cr:Wordpress_v790 a cr:SecurityClass .
+
+cr:Wordpress_v8112 a cr:SecurityClass .
+
+cr:Wordpress_v8121 a cr:SecurityClass .
+
+cr:Wordpress_v827 a cr:SecurityClass .
+
+cr:Wordpress_v829 a cr:SecurityClass .
+
+cr:Wordpress_v830 a cr:SecurityClass .
+
+cr:Wordpress_v833 a cr:SecurityClass .
+
+cr:Wordpress_v844 a cr:SecurityClass .
+
+cr:Wordpress_v9860 a cr:SecurityClass .
+
+cr:Wordpress_v9871 a cr:SecurityClass .
+
+cr:serviceaccount a cr:SecurityClass .
+
+cr:Android_v11005481 a cr:SecurityClass .
+
+cr:BruteForce a cr:SecurityClass ;
+    cr:affects cr:Client,
+        cr:Server ;
+    cr:inProduct cr:Wordpress .
+
+cr:Chrome_v10905 a cr:SecurityClass .
+
+cr:Docker_v4170 a cr:SecurityClass .
+
+cr:Firefox a cr:SecurityClass .
+
+cr:InsecureDirectObjectReference a cr:SecurityClass ;
+    cr:inProduct cr:Wordpress ;
+    cr:requires cr:authenticated .
+
+cr:JavaScriptInjection a cr:SecurityClass ;
+    cr:leadsTo cr:CrossSiteScripting .
+
+cr:Juniper a cr:SecurityClass .
+
+cr:Junos a cr:SecurityClass .
+
+cr:Macos_v473 a cr:SecurityClass .
+
+cr:Mongodb_v50 a cr:SecurityClass .
+
+cr:Net a cr:SecurityClass .
+
+cr:Router_v717 a cr:SecurityClass .
+
+cr:ServerSideRequestForgery a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Endpoint ;
+    cr:inProduct cr:Wordpress ;
+    cr:requires cr:authenticated,
+        cr:system .
+
+cr:StackOverflow a cr:SecurityClass .
+
+cr:Tomcat a cr:SecurityClass .
+
+cr:UnauthenticatedAccess a cr:SecurityClass ;
+    cr:affects cr:Server .
+
+cr:Windows_v202212582 a cr:SecurityClass .
+
+cr:Windows_v578 a cr:SecurityClass .
+
+cr:Wordpress_v046 a cr:SecurityClass .
+
+cr:Wordpress_v104 a cr:SecurityClass .
+
+cr:Wordpress_v105 a cr:SecurityClass .
+
+cr:Wordpress_v106 a cr:SecurityClass .
+
+cr:Wordpress_v108 a cr:SecurityClass .
+
+cr:Wordpress_v111 a cr:SecurityClass .
+
+cr:Wordpress_v118 a cr:SecurityClass .
+
+cr:Wordpress_v12 a cr:SecurityClass .
+
+cr:Wordpress_v123 a cr:SecurityClass .
+
+cr:Wordpress_v128 a cr:SecurityClass .
+
+cr:Wordpress_v13 a cr:SecurityClass .
+
+cr:Wordpress_v134 a cr:SecurityClass .
+
+cr:Wordpress_v142 a cr:SecurityClass .
+
+cr:Wordpress_v153 a cr:SecurityClass .
+
+cr:Wordpress_v18 a cr:SecurityClass .
+
+cr:Wordpress_v200 a cr:SecurityClass .
+
+cr:Wordpress_v201 a cr:SecurityClass .
+
+cr:Wordpress_v211 a cr:SecurityClass .
+
+cr:Wordpress_v215 a cr:SecurityClass .
+
+cr:Wordpress_v241 a cr:SecurityClass .
+
+cr:Wordpress_v254 a cr:SecurityClass .
+
+cr:Wordpress_v26 a cr:SecurityClass .
+
+cr:Wordpress_v308 a cr:SecurityClass .
+
+cr:Wordpress_v338 a cr:SecurityClass .
+
+cr:Wordpress_v41 a cr:SecurityClass .
+
+cr:Wordpress_v4262 a cr:SecurityClass .
+
+cr:Wordpress_v449 a cr:SecurityClass .
+
+cr:Wordpress_v451 a cr:SecurityClass .
+
+cr:Wordpress_v470 a cr:SecurityClass .
+
+cr:Wordpress_v511 a cr:SecurityClass .
+
+cr:Wordpress_v5128 a cr:SecurityClass .
+
+cr:Wordpress_v515 a cr:SecurityClass .
+
+cr:Wordpress_v6242 a cr:SecurityClass .
+
+cr:Xen a cr:SecurityClass .
+
+cr:anonymous a cr:SecurityClass .
+
+cr:superuser a cr:SecurityClass .
+
+cr:Android_v10905414 a cr:SecurityClass .
+
+cr:Apache a cr:SecurityClass .
+
+cr:Auth a cr:SecurityClass ;
+    cr:inProduct cr:LinuxKernel,
+        cr:Sophos,
+        cr:Wordpress ;
+    cr:requires cr:authenticated .
+
+cr:Chrome_v1100548 a cr:SecurityClass .
+
+cr:Docker_v4120 a cr:SecurityClass .
+
+cr:DoubleFree a cr:SecurityClass ;
+    cr:inProduct cr:LinuxKernel .
+
+cr:Gcp a cr:SecurityClass .
+
+cr:Java_v134 a cr:SecurityClass .
+
+cr:Kubernetes a cr:SecurityClass .
+
+cr:Lfi a cr:SecurityClass ;
+    cr:inProduct cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:authenticated .
+
+cr:OpenRedirect a cr:SecurityClass ;
+    cr:inProduct cr:Wordpress .
+
+cr:Openshift a cr:SecurityClass .
+
+cr:PanoramaAppliances a cr:SecurityClass .
+
+cr:Php_v220300 a cr:SecurityClass .
+
+cr:Php_v80 a cr:SecurityClass .
+
+cr:Proxy a cr:SecurityClass .
+
+cr:Sophos a cr:SecurityClass .
+
+cr:Toctou a cr:SecurityClass ;
+    cr:inProduct cr:Windows ;
+    cr:requires cr:system .
+
+cr:Windows_v10905414 a cr:SecurityClass .
+
+cr:Wordpress_v109 a cr:SecurityClass .
+
+cr:Wordpress_v11 a cr:SecurityClass .
+
+cr:Wordpress_v115 a cr:SecurityClass .
+
+cr:Wordpress_v116 a cr:SecurityClass .
+
+cr:Wordpress_v119 a cr:SecurityClass .
+
+cr:Wordpress_v120 a cr:SecurityClass .
+
+cr:Wordpress_v131 a cr:SecurityClass .
+
+cr:Wordpress_v140 a cr:SecurityClass .
+
+cr:Wordpress_v202 a cr:SecurityClass .
+
+cr:Wordpress_v209 a cr:SecurityClass .
+
+cr:Wordpress_v210 a cr:SecurityClass .
+
+cr:Wordpress_v217 a cr:SecurityClass .
+
+cr:Wordpress_v2451 a cr:SecurityClass .
+
+cr:Wordpress_v246 a cr:SecurityClass .
+
+cr:Wordpress_v30 a cr:SecurityClass .
+
+cr:Wordpress_v453 a cr:SecurityClass .
+
+cr:Xxe a cr:SecurityClass ;
+    cr:affects cr:Endpoint,
+        cr:Server ;
+    cr:inProduct cr:Cisco ;
+    cr:requires cr:admin,
+        cr:authenticated,
+        cr:system .
+
+cr:readwrite a cr:SecurityClass .
+
+cr:remoteuser a cr:SecurityClass .
+
+cr:AdminPanel a cr:SecurityClass .
+
+cr:Asa a cr:SecurityClass .
+
+cr:Cdn a cr:SecurityClass .
+
+cr:MemoryLeak a cr:SecurityClass ;
+    cr:inProduct cr:LinuxKernel ;
+    cr:requires cr:localuser,
+        cr:system .
+
+cr:Mongodb a cr:SecurityClass .
+
+cr:Vpn a cr:SecurityClass .
+
+cr:Wordpress_v122 a cr:SecurityClass .
+
+cr:Wordpress_v21 a cr:SecurityClass .
+
+cr:Wordpress_v402 a cr:SecurityClass .
+
+cr:XmlExternalEntity a cr:SecurityClass ;
+    cr:affects cr:Endpoint,
+        cr:Server ;
+    cr:inProduct cr:Cisco ;
+    cr:requires cr:admin,
+        cr:authenticated,
+        cr:system .
+
+cr:read-write a cr:SecurityClass .
+
+cr:Android_v11105563 a cr:SecurityClass .
+
+cr:Container a cr:SecurityClass .
+
+cr:Firewall a cr:SecurityClass .
+
+cr:Wordpress_v110 a cr:SecurityClass .
+
+cr:guest a cr:SecurityClass .
+
+cr:Chrome_v1090541 a cr:SecurityClass .
+
+cr:Chrome_v1110556 a cr:SecurityClass .
+
+cr:Pan-Os a cr:SecurityClass .
+
+cr:Wordpress_v10 a cr:SecurityClass .
+
+cr:Server-sideRequestForgery a cr:SecurityClass ;
+    cr:inProduct cr:Cisco,
+        cr:Php ;
+    cr:requires cr:admin,
+        cr:authenticated,
+        cr:system .
+
+cr:Ssrf a cr:SecurityClass ;
+    cr:affects cr:AdminPanel,
+        cr:Cache ;
+    cr:inProduct cr:Cisco,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:authenticated,
+        cr:network,
+        cr:system .
+
+cr:Docker a cr:SecurityClass .
+
+cr:Macos a cr:SecurityClass .
+
+cr:Router a cr:SecurityClass .
+
+cr:Chrome_v10905414 a cr:SecurityClass .
+
+cr:Ios a cr:SecurityClass .
+
+cr:Chrome_v11205615 a cr:SecurityClass .
+
+cr:PaloAltoNetworks a cr:SecurityClass .
+
+cr:WebInterface a cr:SecurityClass .
+
+cr:Android a cr:SecurityClass .
+
+cr:Chrome_v11005481 a cr:SecurityClass .
+
+cr:Gateway a cr:SecurityClass .
+
+cr:Java a cr:SecurityClass .
+
+cr:AuthenticationBypass a cr:SecurityClass ;
+    cr:affects cr:Server ;
+    cr:inProduct cr:Java,
+        cr:Router ;
+    cr:requires cr:admin,
+        cr:authenticated,
+        cr:privileged .
+
+cr:Endpoint a cr:SecurityClass .
+
+cr:Chrome_v11105563 a cr:SecurityClass .
+
+cr:Browser a cr:SecurityClass .
+
+cr:Use-after-free a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Client,
+        cr:Server ;
+    cr:inProduct cr:LinuxKernel,
+        cr:Xen ;
+    cr:requires cr:localuser,
+        cr:network,
+        cr:readwrite,
+        cr:root,
+        cr:system .
+
+cr:privileged a cr:SecurityClass .
+
+cr:Database a cr:SecurityClass .
+
+cr:Cache a cr:SecurityClass .
+
+cr:UseAfterFree a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Browser,
+        cr:Database ;
+    cr:inProduct cr:Android,
+        cr:Chrome,
+        cr:LinuxKernel,
+        cr:Windows ;
+    cr:requires cr:localuser,
+        cr:readwrite,
+        cr:root,
+        cr:system .
+
+cr:PrivilegeEscalation a cr:SecurityClass ;
+    cr:affects cr:Client,
+        cr:Gateway,
+        cr:Server ;
+    cr:inProduct cr:Docker,
+        cr:Gcp,
+        cr:LinuxKernel,
+        cr:Macos,
+        cr:PaloAltoNetworks,
+        cr:Windows,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:localuser,
+        cr:privileged,
+        cr:root,
+        cr:system .
+
+cr:localuser a cr:SecurityClass .
+
+cr:Client a cr:SecurityClass .
+
+cr:CommandInjection a cr:SecurityClass ;
+    cr:affects cr:Client,
+        cr:Endpoint,
+        cr:Server,
+        cr:WebInterface ;
+    cr:inProduct cr:Asa,
+        cr:Cisco,
+        cr:Php,
+        cr:Sophos ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:localuser,
+        cr:root,
+        cr:system .
+
+cr:root a cr:SecurityClass .
+
+cr:Windows a cr:SecurityClass .
+
+cr:Csrf a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Cache,
+        cr:Endpoint,
+        cr:Server ;
+    cr:inProduct cr:Cisco,
+        cr:Router,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:network,
+        cr:privileged,
+        cr:system .
+
+cr:BufferOverflow a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Browser,
+        cr:Firewall,
+        cr:Gateway,
+        cr:Server ;
+    cr:inProduct cr:Chrome,
+        cr:LinuxKernel,
+        cr:Net,
+        cr:Windows ;
+    cr:requires cr:network,
+        cr:root,
+        cr:system ;
+    rdfs:subClassOf cr:MemoryCorruption .
+
+cr:Api a cr:SecurityClass .
+
+cr:Cross-siteRequestForgery a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Cache,
+        cr:Cdn,
+        cr:Endpoint ;
+    cr:inProduct cr:Cisco,
+        cr:Php,
+        cr:Router,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:network,
+        cr:privileged,
+        cr:system .
+
+cr:network a cr:SecurityClass .
+
+cr:LinuxKernel a cr:SecurityClass .
+
+cr:Chrome a cr:SecurityClass .
+
+cr:Cisco a cr:SecurityClass .
+
+cr:CrossSiteScripting a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Browser,
+        cr:WebInterface ;
+    cr:inProduct cr:Java,
+        cr:Php ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:system ;
+    rdfs:subClassOf cr:ClientSideAttack .
+
+cr:Server a cr:SecurityClass .
+
+cr:administrator a cr:SecurityClass .
+
+cr:Xss a cr:SecurityClass ;
+    cr:affects cr:AdminPanel,
+        cr:Browser,
+        cr:Client,
+        cr:Gateway,
+        cr:PanoramaAppliances,
+        cr:Server,
+        cr:WebInterface ;
+    cr:inProduct cr:Cisco,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:Php,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:network,
+        cr:read-write,
+        cr:system .
+
+cr:admin a cr:SecurityClass .
+
+cr:authenticated a cr:SecurityClass .
+
+cr:Sql a cr:SecurityClass ;
+    cr:affects cr:Api,
+        cr:Database,
+        cr:Server ;
+    cr:inProduct cr:Cisco,
+        cr:Java,
+        cr:Php,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:privileged,
+        cr:system .
+
+cr:Php a cr:SecurityClass .
+
+cr:system a cr:SecurityClass .
+
+cr:Cross-siteScripting a cr:SecurityClass ;
+    cr:affects cr:Browser,
+        cr:Client,
+        cr:Database,
+        cr:Endpoint,
+        cr:Gateway,
+        cr:PanoramaAppliances,
+        cr:Server,
+        cr:WebInterface ;
+    cr:inProduct cr:Cisco,
+        cr:PaloAltoNetworks,
+        cr:Pan-Os,
+        cr:Php,
+        cr:Wordpress ;
+    cr:requires cr:admin,
+        cr:administrator,
+        cr:authenticated,
+        cr:network,
+        cr:privileged,
+        cr:read-write,
+        cr:system .
+
+cr:Wordpress a cr:SecurityClass .
+

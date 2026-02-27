@@ -1,7 +1,4 @@
-Markdown
-Copy
-Code
-Preview
+
 # CyberRule: Deterministic CVE Ontology Enrichment
 
 A rule-based extraction engine that turns CVE descriptions into structured OWL classes and relations. Built after I spent three weeks debugging why GPT-4 results wouldn't replicate—same code, same prompts, different outputs. CyberRule does the opposite: same input, same output, every time.

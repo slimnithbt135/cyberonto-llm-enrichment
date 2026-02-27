@@ -26,13 +26,14 @@ make convert  # Generate OWL/TTL
 Input (from data/cve_2023_preprocessed.json):     
 "SQL injection vulnerability in Apache Struts 2.3 allows authentication bypass..."      
 Output (to output/results.json):
-
+```bash
 {
   "cve_id": "CVE-2023-XXXX",
   "classes": ["SQLInjection", "ApacheStruts", "AuthenticationBypass"],
   "relations": [{"subject": "SQLInjection", "predicate": "affects", "object": "ApacheStruts"}],
   "axioms": ["SQLInjection ⊑ InjectionAttack"]
 }
+```
 
 ## **Repository Layout**
 
@@ -42,7 +43,34 @@ Output (to output/results.json):
 | `scripts/`    | Legacy processors and converters                           |
 | `evaluation/` | Benchmarking scripts vs. LLMs                              |
 | `data/`       | Input CVEs and ground truth annotations                    |
-| `output/`     | Generated JSON, TTL, OWL files                             |
+| `outputs/`     | Generated JSON, TTL, OWL files                             |
 | `queries/`    | SPARQL queries for ontology validation                     |
 | `patterns/`   | Rule definitions (editable)                                |
 
+## **Key Files**
+
+run_extractor.py — Main entry point
+convert_to_owl.py — RDF/OWL serialization
+Makefile — Automates the workflow
+requirements.txt — Dependencies (rdflib, pandas, no PyTorch)
+
+## **Why Patterns Beat LLMs (For This)**
+Tested on 151 CVEs with official NVD mappings:
+| Metric         | CyberRule | Llama 3.3 70B      |
+| -------------- | --------- | ------------------ |
+| Precision      | 42.3%     | 4.2%               |
+| F1-Score       | 0.387     | 0.067              |
+| Entities/CVE   | 2.1       | 20+ (hallucinated) |
+| Deterministic? | Yes       | No                 |
+
+The LLM generated plausible-sounding vulnerabilities that weren't in the descriptions. CyberRule extracts only what's there—traceable to specific regex patterns.
+
+## **Configuration**
+Edit src/cyberrule/patterns_data.py to add rules:
+```bash
+VULN_PATTERNS = {
+    r'\bSQL\s+injection\b': 'SQLInjection',
+    r'\bbuffer\s+overflow\b': 'BufferOverflow',
+    # Add your own...
+}
+```

@@ -23,7 +23,6 @@ make convert  # Generate OWL/TTL
 ```
 
 ## **What It Does**
-What It Does
-Input (from data/cve_2023_preprocessed.json):
+Input (from data/cve_2023_preprocessed.json):     
 "SQL injection vulnerability in Apache Struts 2.3 allows authentication bypass..."
 Output (to output/results.json):

@@ -74,3 +74,39 @@ VULN_PATTERNS = {
     # Add your own...
 }
 ```
+Or adjust MAX_CVES in run_extractor.py (default: 2000).
+## **Requirements**
+Python 3.8+
+No GPU needed
+No API keys
+Runs offline
+
+## **Testing**
+```bash
+make test
+```
+Runs unit tests on load_data.py and run_extractor.py to verify basic functionality before full execution.
+## **Output Formats**
+The pipeline generates three file types in output/:
+| Extension | Description                        | Tool                |
+| --------- | ---------------------------------- | ------------------- |
+| `.json`   | Structured extraction results      | CyberRule engine    |
+| `.ttl`    | Turtle format RDF triples          | `convert_to_owl.py` |
+| `.owl`    | OWL-DL ontology (HermiT-validated) | `convert_to_owl.py` |
+## **Cleaning Up**
+```bash
+make clean
+```
+## **Troubleshooting**
+Issue: ModuleNotFoundError: No module named 'cyberrule'
+Fix: Run make install or pip install -e . first
+Issue: Missing input file
+Fix: Ensure data/cve_2023_preprocessed.json exists (generate via scripts/legacy/preprocess_cve_data.py if needed)
+Issue: Permission denied on make
+Fix: Use python run_extractor.py directly; Makefile is optional convenience
+## **Development Notes**
+Patterns are prioritized by tier: VulnerabilityType (100) > Product (90) > Component (80)
+Longer regex matches win ties within same tier
+All extractions include provenance tracking (which pattern matched)
+## **License**
+MIT. See paper for limitations (18% CWE coverage, no syntactic parsing).

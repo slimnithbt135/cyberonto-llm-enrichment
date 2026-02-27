@@ -100,6 +100,7 @@ SELECT ?vuln ?component
 WHERE {
   ?vuln :affects ?component .
 }
+```
 ## **Key Files**
 
 run_extractor.py — Main entry point

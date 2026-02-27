@@ -51,7 +51,7 @@ Output (to output/results.json):
 
 ## **Legacy Scripts (`scripts/legacy/`)**
 
-These scripts were developed during the initial research phase (late 2023). Some are one-off utilities, others are superseded by the refactored `src/` package. Kept for reproducibility—the paper's Table 1 used `CyberRule-Enricher.py` v1.2, not the current extractor.
+These scripts were developed during the initial research phase (late 2025). Some are one-off utilities, others are superseded by the refactored `src/` package. Kept for reproducibility—the paper's Table 1 used `CyberRule-Enricher.py` v1.2, not the current extractor.
 
 | Script | What It Actually Does | Status |
 |--------|----------------------|--------|

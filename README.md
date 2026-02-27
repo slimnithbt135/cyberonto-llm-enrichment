@@ -24,5 +24,25 @@ make convert  # Generate OWL/TTL
 
 ## **What It Does**
 Input (from data/cve_2023_preprocessed.json):     
-"SQL injection vulnerability in Apache Struts 2.3 allows authentication bypass..."
+"SQL injection vulnerability in Apache Struts 2.3 allows authentication bypass..."      
 Output (to output/results.json):
+
+{
+  "cve_id": "CVE-2023-XXXX",
+  "classes": ["SQLInjection", "ApacheStruts", "AuthenticationBypass"],
+  "relations": [{"subject": "SQLInjection", "predicate": "affects", "object": "ApacheStruts"}],
+  "axioms": ["SQLInjection ⊑ InjectionAttack"]
+}
+
+## **Repository Layout**
+
+| Directory     | Contents                                                   |
+| ------------- | ---------------------------------------------------------- |
+| `src/`        | Core extraction logic (`extractor.py`, `patterns_data.py`) |
+| `scripts/`    | Legacy processors and converters                           |
+| `evaluation/` | Benchmarking scripts vs. LLMs                              |
+| `data/`       | Input CVEs and ground truth annotations                    |
+| `output/`     | Generated JSON, TTL, OWL files                             |
+| `queries/`    | SPARQL queries for ontology validation                     |
+| `patterns/`   | Rule definitions (editable)                                |
+

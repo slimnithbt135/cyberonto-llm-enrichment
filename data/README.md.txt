@@ -7,7 +7,7 @@ This repository supports a research project on enriching cybersecurity ontologie
 We use NVD's official feed to fetch 2023 CVE reports.
 
 ### Script
-- `data/fetch_cve_data_from_feed.py`
+- `src/cyberrule/load_data.py`
 
 ### Output
 - `data/cve_2023_sample.json` — 2,000 cleaned CVE descriptions

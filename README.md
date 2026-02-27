@@ -20,7 +20,7 @@ make full
 make run      # Extract from CVEs
 make analyze  # Evaluate results  
 make convert  # Generate OWL/TTL
-
+```
 
 ## **What It Does**
 What It Does

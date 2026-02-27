@@ -18,9 +18,8 @@ make run      # Extract from CVEs
 make analyze  # Evaluate results  
 make convert  # Generate OWL/TTL
 
+## **What It Doe**
 
-
-# **What It Does**
 Input (from data/cve_2023_preprocessed.json):
 "SQL injection vulnerability in Apache Struts 2.3 allows authentication bypass..."
 Output (to output/results.json):

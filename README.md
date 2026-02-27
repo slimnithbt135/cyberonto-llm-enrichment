@@ -47,6 +47,59 @@ Output (to output/results.json):
 | `queries/`    | SPARQL queries for ontology validation                     |
 | `patterns/`   | Rule definitions (editable)                                |
 
+---
+
+## **Legacy Scripts (`scripts/legacy/`)**
+
+These scripts were developed during the initial research phase (late 2023). Some are one-off utilities, others are superseded by the refactored `src/` package. Kept for reproducibility—the paper's Table 1 used `CyberRule-Enricher.py` v1.2, not the current extractor.
+
+| Script | What It Actually Does | Status |
+|--------|----------------------|--------|
+| `CyberRule-Enricher.py` | Original monolithic extractor with 60+ regex patterns hardcoded across 4 dictionaries (VULN_PATTERNS, PRODUCT_PATTERNS, COMPONENT_TYPES, PRIVILEGE_PATTERNS). Version-aware product extraction (e.g., "Apache_v2.4"). | **Superseded** by `src/cyberrule/extractor.py` |
+| `generate_rdf_from_cyberrule.py` | Converts JSON enrichment output to Turtle RDF. Uses hardcoded namespace `http://example.org/ontology#`. Serializes classes, relations, and axioms as triples. | **Active** — used by `make convert` |
+| `convert_ttl_to_owl.py` | Simple rdflib wrapper: parses Turtle, serializes to OWL/XML. No reasoning, no validation. One-way format conversion. | **Deprecated** — use `convert_to_owl.py` (HermiT-validated) |
+| `sparql_query_example.py` | Demo script. Runs hardcoded query: `?vuln :affects ?component` with LIMIT 10. Shows basic rdflib SPARQL usage. | Documentation only |
+| `sparql_admin_privileges.py` | Slightly modified demo. Queries for `?vuln :requires :Administrator`. Used to verify privilege extraction worked. | Documentation only |
+
+---
+
+### **Why These Are "Legacy"**
+
+The refactored `src/cyberrule/` package separates concerns: `extractor.py` for patterns, `owl_export.py` for reasoning, `load_data.py` for I/O. These monolithic scripts do everything in one file. They work, but they're harder to test and extend.
+
+That said, `generate_rdf_from_cyberrule.py` is still used in the current pipeline—it reliably converts the JSON structure to valid Turtle without the overhead of HermiT reasoning.
+
+---
+
+### **Pattern Coverage in `CyberRule-Enricher.py`**
+
+The original extractor contains 60+ hand-crafted regex patterns across four categories:
+
+| Dictionary | Count | Example Pattern | Example Output |
+|------------|-------|-----------------|--------------|
+| `VULN_PATTERNS` | ~30 | `r'\bSQLi?\b\|\bSQL injection\b'` | `SQLInjection` |
+| `PRODUCT_PATTERNS` | ~25 | `r'\bPalo Alto Networks\b\|\bPAN-OS\b'` | `PaloAlto_PAN-OS` |
+| `COMPONENT_TYPES` | ~20 | `r'\bweb interface\b'` | `WebInterface` |
+| `PRIVILEGE_PATTERNS` | ~15 | `r'\badmin\b\|\badministrator\b'` | `Administrator` |
+
+Special handling:
+- **Version extraction**: Products get version suffixes (`Apache_v2.4`) via regex `(\d+\.\d+(\.\d+)?(\w+)?)`
+- **Axiom generation**: Hardcoded subclass axioms like `SQLInjection ⊑ DatabaseAttack`
+- **Relation building**: Auto-generates `(vuln, affects, component)` and `(vuln, requires, privilege)` triples
+
+---
+
+### **SPARQL Query Examples**
+
+The `queries/` directory (if populated) would contain `.sparql` files. These scripts show the query patterns used:
+
+**Find vulnerabilities affecting web interfaces:**
+```sparql
+PREFIX : &lt;http://example.org/ontology#&gt;
+SELECT ?vuln ?component
+WHERE {
+  ?vuln :affects ?component .
+}
 ## **Key Files**
 
 run_extractor.py — Main entry point

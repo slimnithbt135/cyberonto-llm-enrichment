@@ -159,5 +159,41 @@ Fix: Use python run_extractor.py directly; Makefile is optional convenience
 Patterns are prioritized by tier: VulnerabilityType (100) > Product (90) > Component (80)
 Longer regex matches win ties within same tier
 All extractions include provenance tracking (which pattern matched)
+---
+
+## **Evaluation Scripts (`evaluation/`)**
+
+These scripts benchmark CyberRule against ground truth and compare with LLM baselines. They generated the numbers in our paper (Table 1, Table 2).
+
+| Script | Purpose | Key Output |
+|--------|---------|------------|
+| `evaluate_cyberrule.py` | Main evaluation against NVD reference standard. Calculates precision/recall/F1 with fuzzy matching for normalization variants (e.g., "SQLInjection" vs "SqlInjection"). | `cyberrule_evaluation_fixed.json` |
+| `evaluate_baseline.py` | Simple keyword baseline for comparison. No regex, no context—just string membership. Shows what "dumb" matching achieves. | `baseline_evaluation.json` |
+| `evaluate_groq.py` | Llama 3.3 70B evaluation via Groq API. Runs 3 times per CVE to measure variance. Requires `GROQ_API_KEY` env var. | `llama3_evaluation.json` |
+| `evaluate_groq_standalone.py` | Same as above but fully self-contained. No imports from CyberRule. Use this if you only want to test the LLM without installing our package. | Same |
+| `create_reference_standard.py` | Builds ground truth from official NVD CWE mappings. Stratified sampling by severity. Hits NVD API with rate limiting (0.6s delay). | `reference_standard_200.json` |
+| `calculate_agreement.py` | Inter-annotator agreement (Cohen's Kappa). Used when multiple humans annotated the same CVEs to measure label quality. | Agreement report |
+| `cross_validate.py` | 5-fold stratified cross-validation. Tests extractor stability across different CVE subsets. Reports confidence intervals. | CV metrics with 95% CI |
+| `analyze_output.py` | Descriptive statistics on extraction results. Class frequency, relation distribution, empty entry count. | Console report |
+| `generate_paper_tables.py` | Converts JSON results to LaTeX tables and suggested paper text. Includes per-category breakdowns. | `paper_text_snippets.txt` |
+
+
+### **Typical Evaluation Workflow**
+
+```bash
+# 1. Create reference standard (run once, slow due to API calls)
+python evaluation/create_reference_standard.py
+
+# 2. Evaluate CyberRule
+python evaluation/evaluate_cyberrule.py
+
+# 3. Evaluate baseline for comparison
+python evaluation/evaluate_baseline.py
+
+# 4. Evaluate Llama 3.3 (requires API key)
+export GROQ_API_KEY="gsk_..."
+python evaluation/evaluate_groq.py --max 100
+
 ## **License**
 MIT. See paper for limitations (18% CWE coverage, no syntactic parsing).
+

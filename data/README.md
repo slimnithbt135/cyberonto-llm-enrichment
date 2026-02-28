@@ -12,6 +12,6 @@ We use NVD's official feed to fetch 2023 CVE reports.
 ### Output
 - `data/cve_2023_sample.json` — 2,000 cleaned CVE descriptions
 
----
+
 
 Future steps will include preprocessing, LLM prompting, and ontology integration.

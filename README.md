@@ -156,10 +156,11 @@ Fix: Ensure data/cve_2023_preprocessed.json exists (generate via scripts/legacy/
 Issue: Permission denied on make
 Fix: Use python run_extractor.py directly; Makefile is optional convenience
 ## **Development Notes**
+
 Patterns are prioritized by tier: VulnerabilityType (100) > Product (90) > Component (80)
 Longer regex matches win ties within same tier
 All extractions include provenance tracking (which pattern matched)
----
+
 
 ## **Evaluation Scripts (`evaluation/`)**
 

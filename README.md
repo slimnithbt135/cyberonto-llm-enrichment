@@ -194,7 +194,7 @@ python evaluation/evaluate_baseline.py
 # 4. Evaluate Llama 3.3 (requires API key)
 export GROQ_API_KEY="gsk_..."
 python evaluation/evaluate_groq.py --max 100
-
+```
 ## **License**
 MIT. See paper for limitations (18% CWE coverage, no syntactic parsing).
 

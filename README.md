@@ -1,7 +1,7 @@
 
 # CyberRule: Deterministic CVE Ontology Enrichment
 
-A rule-based extraction engine that turns CVE descriptions into structured OWL classes and relations. Built after I spent three weeks debugging why GPT-4 results wouldn't replicate—same code, same prompts, different outputs. CyberRule does the opposite: same input, same output, every time.
+An extraction engine, which converts CVE descriptions into structured classes and relations of OWL. Constructed following three weeks of debugging why GPT-4 output was not reproducible, i.e. same code, same prompts, different output. CyberRule does not: same input, same output, all the time.
 
 
 ## **Quick Start**
@@ -48,7 +48,7 @@ Output (to output/results.json):
 
 ## **Legacy Scripts (`scripts/legacy/`)**
 
-These scripts were developed during the initial research phase (late 2025). Some are one-off utilities, others are superseded by the refactored `src/` package. Kept for reproducibility—the paper's Table 1 used `CyberRule-Enricher.py` v1.2, not the current extractor.
+they were written in the earlier research stages (late 2025). A few are one time utilities and some are replaced by the refactored src/ package. Stored to be reproduced- Table 1 of the paper contained CyberRule-Enricher.py v1.2 rather than the extractor itself.
 
 | Script | What It Actually Does | Status |
 |--------|----------------------|--------|
@@ -62,11 +62,11 @@ These scripts were developed during the initial research phase (late 2025). Some
 
 ### **Why These Are "Legacy"**
 
-The refactored `src/cyberrule/` package separates concerns: `extractor.py` for patterns, `owl_export.py` for reasoning, `load_data.py` for I/O. These monolithic scripts do everything in one file. They work, but they're harder to test and extend.
+The refactored package, cybersrule/ is based on the separation of concerns: extractor.py: patterns, owl_export.py: reasoning, load_data.py: I/O. Everything is done in a single file with these monolithic scripts. They are tested, but more difficult to test and expand.
 
-That said, `generate_rdf_from_cyberrule.py` is still used in the current pipeline—it reliably converts the JSON structure to valid Turtle without the overhead of HermiT reasoning.
+Nonetheless, the current pipeline still uses generate_rdf_from_cyberrule.py to provide a reliable conversion of the JSON format to readable Turtle without the unneeded HermiT reasoning.
 
----
+
 
 ### **Pattern Coverage in `CyberRule-Enricher.py`**
 
@@ -114,7 +114,7 @@ Tested on 151 CVEs with official NVD mappings:
 | Entities/CVE   | 2.1       | 20+ (hallucinated) |
 | Deterministic? | Yes       | No                 |
 
-The LLM generated plausible-sounding vulnerabilities that weren't in the descriptions. CyberRule extracts only what's there—traceable to specific regex patterns.
+The LLM produced realistic-sounding vulnerabilities which were not in the descriptions. CyberRule just copies what is present: it can be traced to certain regex patterns.
 
 ## **Configuration**
 Edit src/cyberrule/patterns_data.py to add rules:

@@ -209,6 +209,23 @@ Regex match against 4 pattern dictionaries
 Extract version numbers when products match
 Build (vulnerability, affects, component) relations
 Serialize to JSON → Turtle → OWL
+## **Tools Directory (tools/)**
+The tools/ directory contains utility scripts for data preparation, sampling, and maintenance tasks that support the evaluation pipeline but aren't part of the core extraction or evaluation workflow.
+| Script                        | Purpose                                                                                                                                                             | Typical Usage                                                                                                                        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `sample_ground_truth.py`      | Stratified sampling of CVEs by severity (Critical/High/Medium/Low) for annotation. Used by `create_reference_standard.py` to ensure representative evaluation sets. | `python tools/sample_ground_truth.py --input data/cve_2023_preprocessed.json --output annotations/samples.json --size 200`           |
+| `normalize_cwe_names.py`      | Maps CWE IDs to normalized CamelCase class names. Handles edge cases like "CWE-79" → "CrossSiteScripting" vs "XSS".                                                 | Imported by evaluation scripts for ground truth alignment                                                                            |
+| `check_pattern_coverage.py`   | Analyzes which CWE categories lack regex patterns. Generates reports for prioritizing future pattern development.                                                   | `python tools/check_pattern_coverage.py --patterns src/cyberrule/patterns_data.py --cwe-list data/cwe_taxonomy.json`                 |
+| `validate_ontology_syntax.py` | Checks Turtle/OWL files for syntax errors before reasoner validation. Faster than full HermiT consistency check.                                                    | `python tools/validate_ontology_syntax.py --input outputs/cyberonto_enriched.ttl`                                                    |
+| `merge_annotations.py`        | Combines annotations from multiple human annotators, resolving conflicts by majority vote or priority rules.                                                        | `python tools/merge_annotations.py --dirs annotations/annotator_001/ annotations/annotator_002/ --output annotations/consensus.json` |
+```bash
+tools/          ← Development & maintenance utilities
+├── Used by: create_reference_standard.py, calculate_agreement.py
+├── Not called by: Makefile (not part of standard workflow)
+└── Run manually: as needed for data preparation
+```
+These scripts were developed ad-hoc during the research process. Some (like sample_ground_truth.py) are critical for reproducibility; others (like check_pattern_coverage.py) are diagnostic tools used once and kept for transparency.
+
 ## **License**
 MIT. See paper for limitations (18% CWE coverage, no syntactic parsing).
 

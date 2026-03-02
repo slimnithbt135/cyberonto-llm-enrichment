@@ -199,14 +199,13 @@ python evaluation/evaluate_groq.py --max 100
 CyberRule extracts cybersecurity entities from CVE descriptions using hand-crafted regular expressions.
 Component	Script	What It Does
 
-| Claim in That Text                                                                   | What's Actually in Your Code                                                                                   |
-| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| "Subject matter experts and linguistic analysts collaborate"                         | You built it alone (40 hours of iteration, per your paper)                                                     |
-| "Syntactic Rules: part-of-speech tagging and dependency parsing"                     | **Not present.** Your `CyberRule-Enricher.py` uses only regex—no POS, no parsing                               |
-| "Semantic Rules: ontological constraints, validating against established ontologies" | **Not present.** No runtime ontology validation; axioms are hardcoded strings                                  |
-| "Community contributions and semi-automated pattern induction"                       | **Not implemented.** You mention this as *future work* in Section 6                                            |
-| "Modular design facilitates incremental updates"                                     | The legacy script is a 400-line monolith. The refactored `src/` is better, but not "modular" at the rule level |
-
+# Four dictionaries of regex patterns (From CyberRule-Enricher.py lines 12-220:)
+```bash
+VULN_PATTERNS = {r'\bSQLi?\b|\bSQL injection\b': 'SQLInjection', ...}  # ~30 patterns
+PRODUCT_PATTERNS = {r'\bPalo Alto Networks\b|\bPAN-OS\b': 'PaloAlto_PAN-OS', ...}  # ~25 patterns
+COMPONENT_TYPES = {r'\bweb interface\b': 'WebInterface', ...}  # ~20 patterns
+PRIVILEGE_PATTERNS = {r'\badmin\b|\badministrator\b': 'Administrator', ...}  # ~15 patterns
+```
 ## **The Process:**
 Lowercase CVE description
 Regex match against 4 pattern dictionaries

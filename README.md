@@ -199,7 +199,7 @@ python evaluation/evaluate_groq.py --max 100
 CyberRule extracts cybersecurity entities from CVE descriptions using hand-crafted regular expressions.
 Component	Script	What It Does
 
-# Four dictionaries of regex patterns (From CyberRule-Enricher.py lines 12-220:)
+## **Four dictionaries of regex patterns (From CyberRule-Enricher.py lines 12-220:)**
 ```bash
 VULN_PATTERNS = {r'\bSQLi?\b|\bSQL injection\b': 'SQLInjection', ...}  # ~30 patterns
 PRODUCT_PATTERNS = {r'\bPalo Alto Networks\b|\bPAN-OS\b': 'PaloAlto_PAN-OS', ...}  # ~25 patterns

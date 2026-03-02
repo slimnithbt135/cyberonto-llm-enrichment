@@ -175,9 +175,6 @@ These scripts benchmark CyberRule against ground truth and compare with LLM base
 | `create_reference_standard.py` | Builds ground truth from official NVD CWE mappings. Stratified sampling by severity. Hits NVD API with rate limiting (0.6s delay). | `reference_standard_200.json` |
 | `calculate_agreement.py` | Inter-annotator agreement (Cohen's Kappa). Used when multiple humans annotated the same CVEs to measure label quality. | Agreement report |
 | `cross_validate.py` | 5-fold stratified cross-validation. Tests extractor stability across different CVE subsets. Reports confidence intervals. | CV metrics with 95% CI |
-| `analyze_output.py` | Descriptive statistics on extraction results. Class frequency, relation distribution, empty entry count. | Console report |
-| `generate_paper_tables.py` | Converts JSON results to LaTeX tables and suggested paper text. Includes per-category breakdowns. | `paper_text_snippets.txt` |
-
 
 ### **Typical Evaluation Workflow**
 

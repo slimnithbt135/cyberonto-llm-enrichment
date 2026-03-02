@@ -197,14 +197,16 @@ python evaluation/evaluate_groq.py --max 100
 ```
 ## **Rule-Based Extraction -How it Work**
 CyberRule extracts cybersecurity entities from CVE descriptions using hand-crafted regular expressions.
-
 Component	Script	What It Does
-Patterns	src/cyberrule/patterns_data.py	~90 regex rules across 4 dictionaries: vulnerabilities, products, components, privileges
-Extraction	src/cyberrule/extractor.py	Applies patterns, builds relations, outputs JSON
-Legacy Engine	scripts/legacy/CyberRule-Enricher.py	Original monolithic implementation with hardcoded rules
-RDF Conversion	generate_rdf_from_cyberrule.py	Converts JSON to Turtle triples
-OWL Export	convert_ttl_to_owl.py	Serializes Turtle to OWL/XML
-Validation	evaluation/evaluate_cyberrule.py	Benchmarks against NVD ground truth
+
+| Claim in That Text                                                                   | What's Actually in Your Code                                                                                   |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| "Subject matter experts and linguistic analysts collaborate"                         | You built it alone (40 hours of iteration, per your paper)                                                     |
+| "Syntactic Rules: part-of-speech tagging and dependency parsing"                     | **Not present.** Your `CyberRule-Enricher.py` uses only regex—no POS, no parsing                               |
+| "Semantic Rules: ontological constraints, validating against established ontologies" | **Not present.** No runtime ontology validation; axioms are hardcoded strings                                  |
+| "Community contributions and semi-automated pattern induction"                       | **Not implemented.** You mention this as *future work* in Section 6                                            |
+| "Modular design facilitates incremental updates"                                     | The legacy script is a 400-line monolith. The refactored `src/` is better, but not "modular" at the rule level |
+
 ## **The Process:**
 Lowercase CVE description
 Regex match against 4 pattern dictionaries
